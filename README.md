@@ -13,7 +13,7 @@ https://impfen.m-vf.de/
 Ein Suchbegriff, eingegeben an einer Stelle, stellt sämtliche Datenbankkacheln darauf ein;
 ein Klick führt direkt in die Trefferliste der jeweiligen Datenbank. Deutsche Fachbegriffe
 werden für internationale Datenbanken automatisch in den Ausdruck übersetzt, unter dem sie
-dort indexiert sind (151 Begriffe).
+dort indexiert sind (163 Begriffe).
 
 | | |
 |---|---|
@@ -21,7 +21,7 @@ dort indexiert sind (151 Begriffe).
 | Live-Suche | 50 |
 | Portal (feste URL) | 41 |
 | Lizenz nötig | 5 |
-| Suchglossar | 151 Begriffe |
+| Suchglossar | 163 Begriffe |
 | Studienauswahl | täglich 6 Uhr aus PubMed, KI-kuratiert |
 
 ## Aufbau

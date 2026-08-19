@@ -149,6 +149,13 @@ HARTE REGELN ZUR ZUSAMMENSETZUNG (sie gehen der thematischen Rangfolge vor):
          wenn die Impffrage im Vordergrund steht, nicht die Technik.
       4. HOECHSTENS EINE darf ausschliesslich eine Impfquote beschreiben, ohne
          eine Massnahme, eine Ursache oder eine Folge zu untersuchen.
+      5. HOECHSTENS ZWEI der sechs duerfen COVID-19 betreffen. Der Anteil am
+         Kandidatenpool lag am 19.08.2026 bei 28,2 Prozent und im Jahr davor
+         bei 37,5 Prozent - er sinkt, ist aber gross genug, dass an einem
+         Spitzentag die halbe Ausgabe aus Corona-Arbeiten bestuende. Zwei ist
+         bewusst nicht eins: Bei rund einem Viertel des Materials waere eine
+         schaerfere Grenze keine Ausgewogenheit mehr, sondern Unterdrueckung
+         eines Themas, das die Leserschaft weiterhin betrifft.
 
 ZWEITES AUSWAHLKRITERIUM - Übertragbarkeit auf Deutschland:
 Bei sonst gleicher Qualität hat die übertragbare Studie IMMER Vorrang vor der
