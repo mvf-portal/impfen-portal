@@ -1,1 +1,80 @@
-[]
+[
+ {
+  "pmid": "42610257",
+  "journal": "Hum Vaccin Immunother",
+  "year": "2026",
+  "author": "Gao Y et al.",
+  "pubdate": "18.08.2026",
+  "added": "18.08.2026",
+  "transfer": "27 europäische Länder, generalisierbar auf deutschsprachigen Raum",
+  "title": "Psychisches Wohlbefinden und COVID-19-Impfquote: 2,68-fach höherer Impfanteil bei hohem CASP-Wohlbefind",
+  "sum": "Prospektive Analyse von 29.597 europäischen Erwachsenen ≥50 Jahren (SHARE-Studie, 27 Länder + Israel) zur Assoziation zwischen psychischem Wohlbefinden (CASP-12-Skala) und COVID-19-Impfung, Infektion und Long COVID.",
+  "result": "Personen mit höchster CASP-12-Punktzahl vs. niedrigster: OR für COVID-19-Impfung 2,68 (95%-KI 2,44–2,96). Reduktion von Long COVID um 23% (OR 0,77, 95%-KI 0,64–0,93). Kein signifikanter Effekt auf Infektionsrisiko (OR 0,87, 95%-KI 0,74–1,02). Höheres psychisches Wohlbefinden mit verbessertem Impfstatus und reduziertem Long-COVID-Risiko assoziiert.",
+  "aufgenommen": "2026-08-19"
+ },
+ {
+  "pmid": "42607062",
+  "journal": "PLoS One",
+  "year": "2026",
+  "author": "Di Chiara C et al.",
+  "pubdate": "17.08.2026",
+  "added": "17.08.2026",
+  "transfer": "Südeuropa, aber spanische Erfahrung mit Nirsevimab bereits verfügbar",
+  "title": "Pädiater-Wissenlücken zur RSV-Immunisierung: 55,9% mit durchschnittlichem bis niedrigem Nirsevimab-Wissen",
+  "sum": "Befragung von 578 Pädiatern (Rücklaufquote 19,3%) in Spanien, Italien und Zypern/Griechenland zu Wissen, Einstellungen und Barrieren bezüglich neuer RSV-Impfstrategen.",
+  "result": "50% Spanien, 40% Italien, 10% Zypern/Griechenland. Nur 245 Befragte (55,9%) berichteten durchschnittliches bis niedriges Nirsevimab-Wissen, 375 (86,0%) zeigten gleiches für Mutterimpfstoff (p=0,002). Trotz Wissenslücken: 311 (85,9%) bereit, Nirsevimab zu verabreichen, 319 (92,2%) unterstützten es für alle Neugeborenen. Barrieren (20,0% genannt): Unbekannt und logistische Herausforderungen. 165 (47,4%) bevorzugten die Mutterimpfung gegenüber Nirsevimab.",
+  "aufgenommen": "2026-08-19"
+ },
+ {
+  "pmid": "42586610",
+  "journal": "Eur J Public Health",
+  "year": "2026",
+  "author": "Koivisto T et al.",
+  "pubdate": "04.08.2026",
+  "added": "12.08.2026",
+  "transfer": "Finnland, Register mit hoher Datenqualität",
+  "title": "HPV-Impfung und Schwangerschaftsergebnisse: Registerstudie zeigt keine erhöhten Fehlgeburtsrisiken",
+  "sum": "Register-Follow-up von 20.426 HPV-geimpften und 19.473 ungeimpften Frauen (Finland, Geburtskohorte 1990-1995) über 11 Jahre zu frühen Schwangerschaftskomplikationen.",
+  "result": "Fehlgeburtsquote in der geimpften Gruppe 1,6% versus 5,3% in der ungeimpften Kontrollgruppe (p<0,0001). Keine zeitliche Assoziation zwischen Impfung und Fehlgeburten. Eileiterschwangerschaften waren selten und vergleichbar (0,6–1,0%). Bei Frauen mit Vorgeschichte von Komplikationen hatten 55,6% der Geimpften mindestens eine Lebendgeburt versus 70,3% der Ungeimpften. Die Impfung war nicht mit erhöhtem Fehlgeburts- oder anderem Schwangerschaftsrisiko verbunden.",
+  "aufgenommen": "2026-08-19"
+ },
+ {
+  "pmid": "42560010",
+  "journal": "Influenza Other Respir Viruses",
+  "year": "2026",
+  "author": "Bucholc M et al.",
+  "pubdate": "Aug. 2026",
+  "added": "06.08.2026",
+  "transfer": "UK-Daten, vergleichbar mit deutschem Gesundheitssystem",
+  "title": "Influenza-Impfeffektivität gegen Krankenhausaufnahmen: 46% Gesamtschutz in Nordirland 2024/25",
+  "sum": "Test-Negativ-Design mit 2.024 influenzapositiven Fällen und 13.109 Kontrollen in 15.133 hospitalisierten Patienten zur Schätzung der Impfeffektivität gegen laborbestätigte Influenza.",
+  "result": "Impfeffektivität gegen Influenza insgesamt 46,0% (95%-KI 39,7–51,8%), höher bei Kindern 2-17 Jahren (60,8%, 48,3–70,5%) als Erwachsenen 18-64 Jahren (40,5%, 24,9–53,2%) oder ≥65 Jahren (42,3%, 33,2–50,1%). Gegen Influenza-B: 76,4% (64,9–84,7%). Effektivität gegen A(H1) 44,3%, gegen A(H3) 49,9%. Die Wirksamkeit war höchsten 2-8 Wochen post-Impfung (51,9%) und nahm ab.",
+  "aufgenommen": "2026-08-19"
+ },
+ {
+  "pmid": "42557557",
+  "journal": "BMC Med",
+  "year": "2026",
+  "author": "Nussbaum C et al.",
+  "pubdate": "04.08.2026",
+  "added": "06.08.2026",
+  "transfer": "Deutsche Krankenkassendaten, vergleichbare Dokumentationspflichten",
+  "title": "Impfluecken bei Kindern in Deutschland: Sozioökonomische Unterschiede und Rolle des Versorgungstyps",
+  "sum": "Analyse von 430.000 Kindern aus Versicherungsdaten 2016-2019 zur Erfassung von Impfquoten und sozioökonomischen Gradienten bei von STIKO empfohlenen Impfungen.",
+  "result": "Etwa 80% der empfohlenen Impfserien waren vollständig und rechtzeitig durchgeführt. Ein kleiner, aber signifikanter sozioökonomischer Gradient zugunsten höherer Einkommen zeigte sich (Konzentrationsindex 0,024). Der Anbietertyp erklärt den größten Teil des Gradienten: Hausarztpraxen hatten niedrigere Abschlussquoten als Kinderarztpraxen. Reisezeit trug weniger bei.",
+  "aufgenommen": "2026-08-19"
+ },
+ {
+  "pmid": "42526173",
+  "journal": "Vaccine",
+  "year": "2026",
+  "author": "van Meijeren DL et al.",
+  "pubdate": "13.08.2026",
+  "added": "29.07.2026",
+  "transfer": "Niederlande, vergleichbares Versicherungssystem und Vakzine",
+  "title": "Keuchhusten-Impfeffektivität im Säuglingsalter in den Niederlanden: 98,2% Schutz bei vollständiger Impfung",
+  "sum": "Fall-Kontroll-Studie mit 1.156 Fällen und 4.624 Kontrollen (laborbestätigt, 12-35 Monate, 2013-2024) zur Wirksamkeit der Grundimmunisierung gegen Pertussis.",
+  "result": "Gesamteffektivität 98,2% (95%-KI 97,6–98,6) bei vollständiger Impfung. Wirksamkeit nahm mit der Zeit seit Impfung ab (p<0,001): 51,9% zwei bis acht Wochen nach Impfung, 44,6% nach 9-16 Wochen, 41,4% nach ≥16 Wochen. Höhere Effektivität bei Kindern 2-17 Jahre (60,8%) als bei Erwachsenen 18-64 Jahre (40,5%) oder ≥65 Jahre (42,3%).",
+  "aufgenommen": "2026-08-19"
+ }
+]
