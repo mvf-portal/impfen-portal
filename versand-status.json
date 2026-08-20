@@ -1,12 +1,15 @@
 {
  "hub": "Knowledge-Hub Impfen",
  "domain": "impfen.m-vf.de",
- "datum": "2026-08-19",
- "stand": "gestoppt",
- "titel": "MVF Impf-Newsletter 19.08.2026",
- "betreff": "Neueste Studien - Impfen und Impfpraevention – 19. August 2026",
- "anzahl": 6,
+ "datum": "2026-08-20",
+ "stand": "terminiert",
+ "titel": "MVF Impf-Newsletter 20.08.2026",
+ "betreff": "Neueste Studien - Impfen und Impfpraevention – 19. August 2026 bis 20. August 2026",
+ "anzahl": 9,
  "pmids": [
+  "42613346",
+  "42599892",
+  "42586081",
   "42610257",
   "42607062",
   "42586610",
@@ -14,9 +17,7 @@
   "42557557",
   "42526173"
  ],
- "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9098458",
- "termin_utc": null,
- "beanstandungen": [
-  "das Empfaengersegment ist leer - niemand wuerde die Ausgabe bekommen"
- ]
+ "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9098476",
+ "termin_utc": "2026-08-20T08:00:00+00:00",
+ "beanstandungen": []
 }

@@ -1,5 +1,44 @@
 [
  {
+  "pmid": "42613346",
+  "journal": "Sci Rep",
+  "year": "2026",
+  "author": "Mulanje L et al.",
+  "pubdate": "18.08.2026",
+  "added": "18.08.2026",
+  "transfer": "Deutsche Krankenkassendaten mit vollständiger Erfassung, direkt übertragbar auf deutsches Versorgungssystem.",
+  "title": "Impfquoten in der Schwangerschaft in Deutschland 2004–2022: Was bleibt ungenutzt?",
+  "sum": "Eine Analyse von über 2,8 Mio. Schwangerschaften in deutschen Krankenkassendaten zeigte, wie sich Impfquoten in der Schwangerschaft entwickelten.",
+  "result": "Influenza-Impfquote bei Schwangeren stieg von 2 % (2004–2009) auf 19 % (2020–2022), Pertussis von 3 % (2015–2019) auf 37 % (2020–2022). Weniger als 50 % der empfohlenen Schwangerschaftsimpfungen wurden durchgeführt; Gründe bleiben unklar. Etwa 0,3 % erhielten kontraindizierte Lebendimpfstoffe.",
+  "aufgenommen": "2026-08-20"
+ },
+ {
+  "pmid": "42599892",
+  "journal": "PLoS One",
+  "year": "2026",
+  "author": "Flood T et al.",
+  "pubdate": "14.08.2026",
+  "added": "14.08.2026",
+  "transfer": "Nordirland, ähnliche schulbasierte Impfstrukturen wie Deutschland, Barrier-Identifizierung übertragbar.",
+  "title": "HPV-Impfung für Adoleszente: Verhaltenswissenschaftliche Entwicklung einer Intervention (15–17 Jahre)",
+  "sum": "Qualitative Studie mit fokussierten Interviews (Impfschwestern n=26, Schüler n=34, Lehrer/Schulnursen n=18) zur Entwicklung eines theoriegestützten HPV-Interventionsangebots.",
+  "result": "Systematische Übersicht fand Mangel an Interventionen für diese Altersgruppe. Identifiziert wurden 12 Barrieren für drei Zielverhalten (Schülerentscheidung, Professionalisierung, öffentliche Akzeptanz). Entwickelte Intervention: schulgestützte HPV-Bildung mit Impfangebot, öffentliche Medienkampagne; Erfolg hängt von Unterstützung durch Behörden und Lehrplanintegration ab.",
+  "aufgenommen": "2026-08-20"
+ },
+ {
+  "pmid": "42586081",
+  "journal": "Lancet Psychiatry",
+  "year": "2026",
+  "author": "Chilman N et al.",
+  "pubdate": "Sept. 2026",
+  "added": "12.08.2026",
+  "transfer": "England-Gesamtbevölkerung, nationales Gesundheitssystem wie Deutschland, Ungleichheitsfrage zentral.",
+  "title": "COVID-19-Sterblichkeit bei Menschen mit schweren psychischen Erkrankungen: Übersterblichkeit trotz Impfung",
+  "sum": "Gesamtbevölkerungsstudie in England (n=13.463.945 COVID-19-Fälle, davon 1,19 % mit schwerer psychischer Erkrankung) auf Mortalität über drei Pandemiephasen mit unterschiedlichem Impfzugang.",
+  "result": "Übersterblichkeit bei schwerer psychischer Erkrankung: aHR 1,56 (95%-KI 1,53–1,59). In Phase 1 (vor Impfung): aHR 1,27; Phase 2 (Impfstart): aHR 1,56; Phase 3 (nach Impfung): aHR 1,55. Impfquoten initial höher (73,2 % vs. 67,4 %), am Ende aber niedriger (79,4 % vs. 87,2 %). Impfung minderte Risiko nur partiell (aHR 1,25, 95%-KI 1,17–1,34).",
+  "aufgenommen": "2026-08-20"
+ },
+ {
   "pmid": "42610257",
   "journal": "Hum Vaccin Immunother",
   "year": "2026",
