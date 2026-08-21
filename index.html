@@ -894,7 +894,7 @@
           <p>eRelation AG – Content in Health, vertreten durch Peter Stegmaier, Johannes-von-Hanstein-Str. 2, 53115 Bonn. Kontakt siehe Impressum.</p>
           <h4>2. Charakter dieses Angebots</h4>
           <p>Dieses Portal ist eine statische Informationsseite. Es setzt <strong>keine Cookies</strong> und bindet <strong>keine Analyse- oder Trackingdienste Dritter</strong> ein. Über die anonyme Reichweitenmessung nach Abschnitt 3 hinaus werden beim bloßen Lesen keine personenbezogenen Daten erhoben oder gespeichert.</p><p>Eine Ausnahme bildet die Seite <a href="newsletter.html">Newsletter bestellen</a>: Dort können Sie freiwillig eine E-Mail-Adresse angeben, um einen Newsletter zu abonnieren. Näheres in den Abschnitten 4 und 5.</p>
-          <h4>3. Reichweitenmessung ohne Cookies</h4><p>Damit wir wissen, ob und wie dieses Angebot genutzt wird, zählen wir Seitenaufrufe. Die Zählung läuft auf einem eigenen Server von <i>Monitor Versorgungsforschung</i>; ein Dritter ist daran nicht beteiligt. Es werden <strong>keine Cookies gesetzt</strong> und <strong>keine Informationen auf Ihrem Endgerät gespeichert oder ausgelesen</strong> — eine Einwilligung nach § 25 Abs. 1 TTDSG ist dafür nicht erforderlich.</p><p>Gespeichert werden ausschließlich Summen: die aufgerufene Seite, die Domain der verweisenden Seite, die Art des Geräts (Desktop oder Mobilgerät) und die Stunde des Zugriffs. <strong>Ihre IP-Adresse wird nicht gespeichert.</strong> Sie geht gemeinsam mit der Browserkennung und einer geheimen Zufallszahl in einen nicht umkehrbaren Hashwert ein, der es uns allein erlaubt, mehrere Aufrufe desselben Tages als eine Person zu zählen. Die Zufallszahl wird jede Nacht durch eine neue ersetzt und die alte verworfen; danach ist auch uns eine Zuordnung nicht mehr möglich. Eine Wiedererkennung über den Tag hinaus findet nicht statt, ebenso wenig eine Zusammenführung mit anderen Daten oder eine Profilbildung.</p><p>Rechtsgrundlage ist unser berechtigtes Interesse an einer bedarfsgerechten Gestaltung dieses Angebots (Art. 6 Abs. 1 lit. f DSGVO). Aufrufe von Browsern, die <i>Do Not Track</i> oder <i>Global Privacy Control</i> senden, werden gar nicht erst gezählt.</p><h4>4. Newsletter-Anmeldung</h4>
+          <h4>3. Reichweitenmessung ohne Cookies</h4><p>Damit wir wissen, ob und wie dieses Angebot genutzt wird, zählen wir Seitenaufrufe. Die Zählung läuft auf einem eigenen Server von <i>Monitor Versorgungsforschung</i>; ein Dritter ist daran nicht beteiligt. Es werden <strong>keine Cookies gesetzt</strong> und <strong>keine Informationen auf Ihrem Endgerät gespeichert oder ausgelesen</strong> — eine Einwilligung nach § 25 Abs. 1 TTDSG ist dafür nicht erforderlich.</p><p>Gespeichert werden ausschließlich Summen: die aufgerufene Seite, die Domain der verweisenden Seite, die Art des Geräts (Desktop oder Mobilgerät), die Bildschirmbreite in groben Stufen und die Stunde des Zugriffs. Die Bildschirmbreite wird bewusst nur als Stufe festgehalten und nicht als genaue Auflösung — diese wäre eines der stärksten Merkmale, um einen Browser wiederzuerkennen. <strong>Ihre IP-Adresse wird nicht gespeichert.</strong> Sie geht gemeinsam mit der Browserkennung und einer geheimen Zufallszahl in einen nicht umkehrbaren Hashwert ein, der es uns allein erlaubt, mehrere Aufrufe desselben Tages als eine Person zu zählen. Die Zufallszahl wird jede Nacht durch eine neue ersetzt und die alte verworfen; danach ist auch uns eine Zuordnung nicht mehr möglich. Eine Wiedererkennung über den Tag hinaus findet nicht statt, ebenso wenig eine Zusammenführung mit anderen Daten oder eine Profilbildung.</p><p>Rechtsgrundlage ist unser berechtigtes Interesse an einer bedarfsgerechten Gestaltung dieses Angebots (Art. 6 Abs. 1 lit. f DSGVO). Aufrufe von Browsern, die <i>Do Not Track</i> oder <i>Global Privacy Control</i> senden, werden gar nicht erst gezählt.</p><h4>4. Newsletter-Anmeldung</h4>
           <p><b>Welche Daten.</b> Für die Bestellung eines Newsletters benötigen wir Ihre E-Mail-Adresse. Weitere Angaben verlangen wir nicht. Mit übermittelt wird, welchen der beiden Newsletter Sie ausgewählt haben.</p>
           <p><b>Bestätigungsverfahren.</b> Nach dem Absenden erhalten Sie eine E-Mail mit einem Bestätigungslink; der Versand beginnt erst, wenn Sie ihn anklicken (Double-Opt-in). So kann niemand fremde Adressen eintragen. Anmeldung und Bestätigung werden mit Zeitpunkt und IP-Adresse protokolliert, damit wir Ihre Einwilligung nachweisen können.</p>
           <p><b>Rechtsgrundlage.</b> Der Versand erfolgt aufgrund Ihrer Einwilligung nach Art. 6 Abs. 1 lit. a DSGVO. Die Protokollierung der Einwilligung stützt sich auf Art. 6 Abs. 1 lit. c DSGVO in Verbindung mit der Nachweispflicht aus Art. 7 Abs. 1 DSGVO.</p>
@@ -947,20 +947,20 @@ const DB = [
   {c:"deutsch", n:"Monitor Versorgungsforschung", de:1, d:"Deutsche Fachzeitschrift für Politik, Praxis & Forschung der Versorgung — durchsuchbares Facharchiv.", t:"live", u:"https://www.monitor-versorgungsforschung.de/?s=%s&utm_source=impf-hub&utm_medium=referral&utm_campaign=impfen-portal", b:0},
   {c:"deutsch", n:"LIVIVO (ZB MED)", de:1, d:"Größtes deutschsprachiges Suchportal der Lebenswissenschaften — Begriff nach Öffnen eingeben.", t:"portal", u:"https://www.livivo.de/"},
   {c:"deutsch", n:"German Medical Science (GMS)", de:1, d:"Open-Access-Portal deutscher medizinischer Fachgesellschaften (AWMF/ZB MED).", t:"portal", u:"https://www.egms.de/"},
-  {c:"deutsch", n:"Robert Koch-Institut (RKI)", de:1, d:"Zentrale Quelle fuer Impfempfehlungen, Meldedaten und Infektionsepidemiologie in Deutschland; enthaelt auch die STIKO-Empfehlungen.", t:"live", u:"https://www.rki.de/SiteGlobals/Forms/Suche/Expertensuche/Servicesuche_Formular.html?templateQueryString=%s"},
-  {c:"deutsch", n:"Paul-Ehrlich-Institut (PEI)", de:1, d:"Bundesinstitut fuer Impfstoffe und biomedizinische Arzneimittel: Zulassung, Chargenpruefung und Sicherheitsbewertung.", t:"live", u:"https://www.pei.de/SiteGlobals/Forms/Suche/Servicesuche_Formular.html?templateQueryString=%s"},
-  {c:"deutsch", n:"impfen-info.de (BZgA)", de:1, d:"Buergerportal der Bundeszentrale mit Impfkalender, Faktenblaettern und Material fuer die Beratung.", t:"portal", u:"https://www.impfen-info.de/suche/"},
-  {c:"deutsch", n:"Bundesgesundheitsministerium", de:1, d:"Gesetzestexte, Verordnungen und Stellungnahmen zu Impfpflicht, Praevention und Infektionsschutz.", t:"live", u:"https://www.bundesgesundheitsministerium.de/suche.html?tx_solr%5Bq%5D=%s"},
-  {c:"deutsch", n:"Gemeinsamer Bundesausschuss (G-BA)", de:1, d:"Schutzimpfungs-Richtlinie und Beschluesse dazu, welche Impfungen die Kassen bezahlen.", t:"live", u:"https://www.g-ba.de/sys/suche/?suchbegriff=%s"},
+  {c:"deutsch", n:"Robert Koch-Institut (RKI)", de:1, d:"Zentrale Quelle für Impfempfehlungen, Meldedaten und Infektionsepidemiologie in Deutschland; enthält auch die STIKO-Empfehlungen.", t:"live", u:"https://www.rki.de/SiteGlobals/Forms/Suche/Expertensuche/Servicesuche_Formular.html?templateQueryString=%s"},
+  {c:"deutsch", n:"Paul-Ehrlich-Institut (PEI)", de:1, d:"Bundesinstitut für Impfstoffe und biomedizinische Arzneimittel: Zulassung, Chargenprüfung und Sicherheitsbewertung.", t:"live", u:"https://www.pei.de/SiteGlobals/Forms/Suche/Servicesuche_Formular.html?templateQueryString=%s"},
+  {c:"deutsch", n:"impfen-info.de (BZgA)", de:1, d:"Bürgerportal der Bundeszentrale mit Impfkalender, Faktenblättern und Material für die Beratung.", t:"portal", u:"https://www.impfen-info.de/suche/"},
+  {c:"deutsch", n:"Bundesgesundheitsministerium", de:1, d:"Gesetzestexte, Verordnungen und Stellungnahmen zu Impfpflicht, Prävention und Infektionsschutz.", t:"live", u:"https://www.bundesgesundheitsministerium.de/suche.html?tx_solr%5Bq%5D=%s"},
+  {c:"deutsch", n:"Gemeinsamer Bundesausschuss (G-BA)", de:1, d:"Schutzimpfungs-Richtlinie und Beschlüsse dazu, welche Impfungen die Kassen bezahlen.", t:"live", u:"https://www.g-ba.de/sys/suche/?suchbegriff=%s"},
   {c:"deutsch", n:"AWMF Leitlinienregister", de:1, d:"Alle deutschen Fachgesellschaftsleitlinien, darunter die zu Impfungen bei Vorerkrankungen.", t:"portal", u:"https://register.awmf.org/de/suche"},
   {c:"deutsch", n:"Deutsches Ärzteblatt", de:1, d:"Fachartikel und Nachrichten zur Impfpraxis, oft mit deutschen Versorgungsdaten.", t:"live", u:"https://www.aerzteblatt.de/search?q=%s"},
-  {c:"deutsch", n:"Bundesgesundheitsblatt", de:1, d:"Amtliches Organ des RKI; hier erscheinen die ausfuehrlichen STIKO-Begruendungen.", t:"portal", u:"https://link.springer.com/search"},
-  {c:"deutsch", n:"Deutsche Gesellschaft für Pädiatrische Infektiologie", de:1, d:"Fachgesellschaft fuer Kinder- und Jugendimpfungen mit Handlungsempfehlungen.", t:"live", u:"https://dgpi.de/?s=%s"},
-  {c:"deutsch", n:"Bundeszentrale für gesundheitliche Aufklärung (BZgA)", de:1, d:"Aufklaerungsmaterial, Kampagnen und Evaluationsberichte zur Impf- und Praeventionskommunikation.", t:"live", u:"https://www.bzga.de/suche/?tx_solr%5Bq%5D=%s"},
-  {c:"deutsch", n:"Bundesinstitut für Arzneimittel und Medizinprodukte (BfArM)", de:1, d:"Arzneimittelinformationen; fuer Impfstoffe ergaenzend zum PEI, etwa bei Kombinationspraeparaten.", t:"live", u:"https://www.bfarm.de/SiteGlobals/Forms/Suche/Servicesuche_Formular.html?templateQueryString=%s"},
-  {c:"deutsch", n:"Zentralinstitut für die kassenärztliche Versorgung (Zi)", de:1, d:"Auswertungen der vertragsaerztlichen Abrechnungsdaten, darunter Impfleistungen.", t:"portal", u:"https://www.zi.de/suche"},
-  {c:"deutsch", n:"Wissenschaftliches Institut der AOK (WIdO)", de:1, d:"Routinedatenanalysen der groessten Kassenart; Reports zu Impfen und Praevention.", t:"portal", u:"https://www.wido.de/suche/"},
-  {c:"deutsch", n:"Nationales Referenzzentrum für Masern, Mumps, Röteln", de:1, d:"Laborbestaetigung und Genotypisierung; Grundlage der Eliminationsberichte an die WHO.", t:"portal", u:"https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-1/FG12/nrz-mmr.html"},
+  {c:"deutsch", n:"Bundesgesundheitsblatt", de:1, d:"Amtliches Organ des RKI; hier erscheinen die ausführlichen STIKO-Begründungen.", t:"portal", u:"https://link.springer.com/search"},
+  {c:"deutsch", n:"Deutsche Gesellschaft für Pädiatrische Infektiologie", de:1, d:"Fachgesellschaft für Kinder- und Jugendimpfungen mit Handlungsempfehlungen.", t:"live", u:"https://dgpi.de/?s=%s"},
+  {c:"deutsch", n:"Bundeszentrale für gesundheitliche Aufklärung (BZgA)", de:1, d:"Aufklärungsmaterial, Kampagnen und Evaluationsberichte zur Impf- und Präventionskommunikation.", t:"live", u:"https://www.bzga.de/suche/?tx_solr%5Bq%5D=%s"},
+  {c:"deutsch", n:"Bundesinstitut für Arzneimittel und Medizinprodukte (BfArM)", de:1, d:"Arzneimittelinformationen; für Impfstoffe ergänzend zum PEI, etwa bei Kombinationspräparaten.", t:"live", u:"https://www.bfarm.de/SiteGlobals/Forms/Suche/Servicesuche_Formular.html?templateQueryString=%s"},
+  {c:"deutsch", n:"Zentralinstitut für die kassenärztliche Versorgung (Zi)", de:1, d:"Auswertungen der vertragsärztlichen Abrechnungsdaten, darunter Impfleistungen.", t:"portal", u:"https://www.zi.de/suche"},
+  {c:"deutsch", n:"Wissenschaftliches Institut der AOK (WIdO)", de:1, d:"Routinedatenanalysen der größten Kassenart; Reports zu Impfen und Prävention.", t:"portal", u:"https://www.wido.de/suche/"},
+  {c:"deutsch", n:"Nationales Referenzzentrum für Masern, Mumps, Röteln", de:1, d:"Laborbestätigung und Genotypisierung; Grundlage der Eliminationsberichte an die WHO.", t:"portal", u:"https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-1/FG12/nrz-mmr.html"},
 
   // 02 — Bibliografische Datenbanken (international)
   {c:"biblio", n:"PubMed / MEDLINE", d:"Die zentrale biomedizinische Datenbank der US-Nationalbibliothek (NLM). >37 Mio. Nachweise.", t:"live", u:"https://pubmed.ncbi.nlm.nih.gov/?term=%s", b:1},
@@ -971,8 +971,8 @@ const DB = [
   {c:"biblio", n:"Scopus", d:"Große Abstract- & Zitationsdatenbank (Elsevier).", t:"lic", u:"https://www.scopus.com/"},
   {c:"biblio", n:"CINAHL", d:"Pflege & Gesundheitsfachberufe (EBSCO).", t:"lic", u:"https://www.ebsco.com/products/research-databases/cinahl-database"},
   {c:"biblio", n:"APA PsycInfo", d:"Psychologie, psychische Gesundheit & Verhaltenswissenschaften.", t:"lic", u:"https://www.apa.org/pubs/databases/psycinfo"},
-  {c:"biblio", n:"npj Vaccines", d:"Open-Access-Zeitschrift fuer Impfstoffforschung aus der Nature-Familie.", t:"live", u:"https://www.nature.com/search?q=%s&journal=npjvaccines"},
-  {c:"biblio", n:"Global Health (CABI)", d:"Datenbank mit starkem Schwerpunkt auf Public Health in Laendern niedrigen Einkommens.", t:"portal", u:"https://www.cabidigitallibrary.org/product/qh"},
+  {c:"biblio", n:"npj Vaccines", d:"Open-Access-Zeitschrift für Impfstoffforschung aus der Nature-Familie.", t:"live", u:"https://www.nature.com/search?q=%s&journal=npjvaccines"},
+  {c:"biblio", n:"Global Health (CABI)", d:"Datenbank mit starkem Schwerpunkt auf Public Health in Ländern niedrigen Einkommens.", t:"portal", u:"https://www.cabidigitallibrary.org/product/qh"},
   {c:"biblio", n:"BMC Infectious Diseases", d:"Open-Access-Zeitschrift mit vielen Versorgungs- und Impfquotenstudien.", t:"portal", u:"https://bmcinfectdis.biomedcentral.com/search"},
 
   // 03 — Systematische Reviews & Evidenzsynthesen
@@ -981,58 +981,58 @@ const DB = [
   {c:"evidenz", n:"Trip Database", d:"Klinische Suchmaschine für evidenzbasierte Antworten & Leitlinien.", t:"live", u:"https://www.tripdatabase.com/search?criteria=%s"},
   {c:"evidenz", n:"PROSPERO", d:"Internationales Register geplanter systematischer Reviews (CRD, York).", t:"portal", u:"https://www.crd.york.ac.uk/prospero/"},
   {c:"evidenz", n:"JBI EBP Database", d:"Evidenzsynthesen des Joanna Briggs Institute.", t:"portal", u:"https://jbi.global/ebp"},
-  {c:"evidenz", n:"Cochrane — Acute Respiratory Infections", d:"Cochrane-Gruppe fuer Atemwegsinfektionen - hier liegen die Influenza- und COVID-Impfreviews.", t:"portal", u:"https://ari.cochrane.org/"},
+  {c:"evidenz", n:"Cochrane — Acute Respiratory Infections", d:"Cochrane-Gruppe für Atemwegsinfektionen - hier liegen die Influenza- und COVID-Impfreviews.", t:"portal", u:"https://ari.cochrane.org/"},
 
   // 04 — Impfquoten, Meldedaten & Surveillance
-  {c:"surveillance", n:"SurvStat@RKI 2.0", de:1, d:"Abfragewerkzeug fuer die Meldedaten nach Infektionsschutzgesetz - Faelle nach Zeit, Ort und Alter.", t:"portal", u:"https://survstat.rki.de/"},
+  {c:"surveillance", n:"SurvStat@RKI 2.0", de:1, d:"Abfragewerkzeug für die Meldedaten nach Infektionsschutzgesetz - Fälle nach Zeit, Ort und Alter.", t:"portal", u:"https://survstat.rki.de/"},
   {c:"surveillance", n:"RKI — Impfquoten (VacMap)", de:1, d:"Karten und Zeitreihen zur Durchimpfung in Deutschland, bis auf Kreisebene.", t:"portal", u:"https://public.data.rki.de/t/public/views/VacMap/Impfquoten"},
-  {c:"surveillance", n:"Epidemiologisches Bulletin (RKI)", de:1, d:"Woechentliche Fachpublikation des RKI; hier stehen STIKO-Empfehlungen und Ausbruchsberichte zuerst.", t:"live", u:"https://www.rki.de/SiteGlobals/Forms/Suche/Expertensuche/Servicesuche_Formular.html?templateQueryString=%s&docId=Epidemiologisches+Bulletin"},
-  {c:"surveillance", n:"ECDC — Surveillance Atlas of Infectious Diseases", d:"Interaktiver Atlas der europaeischen Meldedaten fuer impfpraeventable Krankheiten.", t:"portal", u:"https://atlas.ecdc.europa.eu/public/index.aspx"},
-  {c:"surveillance", n:"ECDC Vaccine Scheduler", d:"Vergleich der nationalen Impfkalender aller EU- und EWR-Laender.", t:"portal", u:"https://vaccine-schedule.ecdc.europa.eu/"},
-  {c:"surveillance", n:"WHO Immunization Data Portal", d:"Weltweite Impfquoten, Impfstoffeinfuehrungen und Programmkennzahlen.", t:"portal", u:"https://immunizationdata.who.int/"},
-  {c:"surveillance", n:"WHO/UNICEF Estimates (WUENIC)", d:"Die jaehrlich abgestimmten Schaetzungen der nationalen Durchimpfung - der internationale Bezugswert.", t:"portal", u:"https://www.who.int/teams/immunization-vaccines-and-biologicals/immunization-analysis-and-insights/global-monitoring/immunization-coverage/who-unicef-estimates-of-national-immunization-coverage"},
-  {c:"surveillance", n:"VIEW-hub (IVAC, Johns Hopkins)", d:"Karten und Daten zu Einfuehrung, Wirkung und Abdeckung einzelner Impfstoffe.", t:"portal", u:"https://view-hub.org/"},
-  {c:"surveillance", n:"Our World in Data", d:"Aufbereitete Zeitreihen zu Impfquoten und impfpraeventablen Krankheiten, gut zitierbar.", t:"portal", u:"https://ourworldindata.org/search"},
-  {c:"surveillance", n:"Gesundheitsberichterstattung des Bundes (GBE-Bund)", de:1, d:"Amtliche Gesundheitsindikatoren fuer Deutschland, auch Impf- und Frueherkennungsraten.", t:"portal", u:"https://www.gbe-bund.de/"},
-  {c:"surveillance", n:"ECDC — Vaccine Preventable Diseases", d:"Uebersichtsseiten des ECDC je impfpraeventabler Krankheit, mit Fallzahlen, Empfehlungen und Ausbruchslage.", t:"portal", u:"https://www.ecdc.europa.eu/en/vaccine-preventable-diseases"},
-  {c:"surveillance", n:"Eurostat — Gesundheit", d:"Europaeische Gesundheitsstatistik, darunter Frueherkennung und Praeventionsindikatoren.", t:"live", u:"https://ec.europa.eu/eurostat/search?p_auth=&text=%s"},
-  {c:"surveillance", n:"Statistisches Bundesamt (Destatis)", de:1, d:"Amtliche Statistik zu Bevoelkerung, Sterbefaellen und Gesundheitsausgaben.", t:"live", u:"https://www.destatis.de/SiteGlobals/Forms/Suche/Servicesuche_Formular.html?templateQueryString=%s"},
+  {c:"surveillance", n:"Epidemiologisches Bulletin (RKI)", de:1, d:"Wöchentliche Fachpublikation des RKI; hier stehen STIKO-Empfehlungen und Ausbruchsberichte zuerst.", t:"live", u:"https://www.rki.de/SiteGlobals/Forms/Suche/Expertensuche/Servicesuche_Formular.html?templateQueryString=%s&docId=Epidemiologisches+Bulletin"},
+  {c:"surveillance", n:"ECDC — Surveillance Atlas of Infectious Diseases", d:"Interaktiver Atlas der europäischen Meldedaten für impfpräventable Krankheiten.", t:"portal", u:"https://atlas.ecdc.europa.eu/public/index.aspx"},
+  {c:"surveillance", n:"ECDC Vaccine Scheduler", d:"Vergleich der nationalen Impfkalender aller EU- und EWR-Länder.", t:"portal", u:"https://vaccine-schedule.ecdc.europa.eu/"},
+  {c:"surveillance", n:"WHO Immunization Data Portal", d:"Weltweite Impfquoten, Impfstoffeinführungen und Programmkennzahlen.", t:"portal", u:"https://immunizationdata.who.int/"},
+  {c:"surveillance", n:"WHO/UNICEF Estimates (WUENIC)", d:"Die jährlich abgestimmten Schätzungen der nationalen Durchimpfung - der internationale Bezugswert.", t:"portal", u:"https://www.who.int/teams/immunization-vaccines-and-biologicals/immunization-analysis-and-insights/global-monitoring/immunization-coverage/who-unicef-estimates-of-national-immunization-coverage"},
+  {c:"surveillance", n:"VIEW-hub (IVAC, Johns Hopkins)", d:"Karten und Daten zu Einführung, Wirkung und Abdeckung einzelner Impfstoffe.", t:"portal", u:"https://view-hub.org/"},
+  {c:"surveillance", n:"Our World in Data", d:"Aufbereitete Zeitreihen zu Impfquoten und impfpräventablen Krankheiten, gut zitierbar.", t:"portal", u:"https://ourworldindata.org/search"},
+  {c:"surveillance", n:"Gesundheitsberichterstattung des Bundes (GBE-Bund)", de:1, d:"Amtliche Gesundheitsindikatoren für Deutschland, auch Impf- und Früherkennungsraten.", t:"portal", u:"https://www.gbe-bund.de/"},
+  {c:"surveillance", n:"ECDC — Vaccine Preventable Diseases", d:"Übersichtsseiten des ECDC je impfpräventabler Krankheit, mit Fallzahlen, Empfehlungen und Ausbruchslage.", t:"portal", u:"https://www.ecdc.europa.eu/en/vaccine-preventable-diseases"},
+  {c:"surveillance", n:"Eurostat — Gesundheit", d:"Europäische Gesundheitsstatistik, darunter Früherkennung und Präventionsindikatoren.", t:"live", u:"https://ec.europa.eu/eurostat/search?p_auth=&text=%s"},
+  {c:"surveillance", n:"Statistisches Bundesamt (Destatis)", de:1, d:"Amtliche Statistik zu Bevölkerung, Sterbefällen und Gesundheitsausgaben.", t:"live", u:"https://www.destatis.de/SiteGlobals/Forms/Suche/Servicesuche_Formular.html?templateQueryString=%s"},
 
   // 05 — Impfstoffsicherheit & Pharmakovigilanz
-  {c:"sicherheit", n:"EudraVigilance (adrreports.eu)", d:"Oeffentliche Auswertung der europaeischen Verdachtsfallmeldungen zu Arzneimitteln und Impfstoffen.", t:"portal", u:"https://www.adrreports.eu/"},
-  {c:"sicherheit", n:"VAERS (CDC/FDA)", d:"Das US-Meldesystem fuer Impfnebenwirkungen; Rohdaten ohne Kausalitaetspruefung - entsprechend vorsichtig zu lesen.", t:"portal", u:"https://wonder.cdc.gov/vaers.html"},
-  {c:"sicherheit", n:"Brighton Collaboration", d:"Standardisierte Falldefinitionen fuer unerwuenschte Ereignisse nach Impfungen - die Grundlage vergleichbarer Sicherheitsdaten.", t:"live", u:"https://brightoncollaboration.us/?s=%s"},
-  {c:"sicherheit", n:"WHO Vaccine Safety Net", d:"Von der WHO geprueftes Netz vertrauenswuerdiger Websites zur Impfstoffsicherheit.", t:"portal", u:"https://www.vaccinesafetynet.org/"},
-  {c:"sicherheit", n:"Arzneimittelkommission der deutschen Ärzteschaft", de:1, d:"Bekanntgaben und Risikoinformationen der aerztlichen Selbstverwaltung.", t:"portal", u:"https://www.akdae.de/"},
-  {c:"sicherheit", n:"Swissmedic", de:1, d:"Schweizer Zulassungsbehoerde; Pharmakovigilanz und Chargenfreigabe.", t:"live", u:"https://www.swissmedic.ch/swissmedic/de/home/suche.html?query=%s"},
+  {c:"sicherheit", n:"EudraVigilance (adrreports.eu)", d:"Öffentliche Auswertung der europäischen Verdachtsfallmeldungen zu Arzneimitteln und Impfstoffen.", t:"portal", u:"https://www.adrreports.eu/"},
+  {c:"sicherheit", n:"VAERS (CDC/FDA)", d:"Das US-Meldesystem für Impfnebenwirkungen; Rohdaten ohne Kausalitätsprüfung - entsprechend vorsichtig zu lesen.", t:"portal", u:"https://wonder.cdc.gov/vaers.html"},
+  {c:"sicherheit", n:"Brighton Collaboration", d:"Standardisierte Falldefinitionen für unerwünschte Ereignisse nach Impfungen - die Grundlage vergleichbarer Sicherheitsdaten.", t:"live", u:"https://brightoncollaboration.us/?s=%s"},
+  {c:"sicherheit", n:"WHO Vaccine Safety Net", d:"Von der WHO geprüftes Netz vertrauenswürdiger Websites zur Impfstoffsicherheit.", t:"portal", u:"https://www.vaccinesafetynet.org/"},
+  {c:"sicherheit", n:"Arzneimittelkommission der deutschen Ärzteschaft", de:1, d:"Bekanntgaben und Risikoinformationen der ärztlichen Selbstverwaltung.", t:"portal", u:"https://www.akdae.de/"},
+  {c:"sicherheit", n:"Swissmedic", de:1, d:"Schweizer Zulassungsbehörde; Pharmakovigilanz und Chargenfreigabe.", t:"live", u:"https://www.swissmedic.ch/swissmedic/de/home/suche.html?query=%s"},
   {c:"sicherheit", n:"CIOMS", d:"Internationale Arbeitsgruppen zu Definitionen und Methodik der Arzneimittelsicherheit.", t:"live", u:"https://cioms.ch/?s=%s"},
 
   // 06 — Institutionen & Gesundheitspolitik (international)
   {c:"policy", n:"WHO IRIS", d:"Institutionelles Repositorium der WHO — Volltexte aller Berichte und Leitlinien.", t:"live", u:"https://iris.who.int/discover?query=%s"},
-  {c:"policy", n:"ECDC", d:"Europaeische Seuchenschutzbehoerde: Lagebilder, Leitlinien und Programmbewertungen.", t:"live", u:"https://www.ecdc.europa.eu/en/search?s=%s"},
+  {c:"policy", n:"ECDC", d:"Europäische Seuchenschutzbehörde: Lagebilder, Leitlinien und Programmbewertungen.", t:"live", u:"https://www.ecdc.europa.eu/en/search?s=%s"},
   {c:"policy", n:"WHO — Immunization", d:"Globale Impfstrategie, Positionspapiere und Empfehlungen der WHO.", t:"live", u:"https://www.who.int/home/search?indexCatalogue=genericsearchindex1&searchQuery=%s"},
-  {c:"policy", n:"Gavi, the Vaccine Alliance", d:"Impfallianz fuer Laender mit niedrigem Einkommen; Programmdaten und Evaluationen.", t:"live", u:"https://www.gavi.org/search?search=%s"},
+  {c:"policy", n:"Gavi, the Vaccine Alliance", d:"Impfallianz für Länder mit niedrigem Einkommen; Programmdaten und Evaluationen.", t:"live", u:"https://www.gavi.org/search?search=%s"},
   {c:"policy", n:"US CDC — Vaccines & Immunizations", d:"US-Impfempfehlungen (ACIP), Schulungsmaterial und das Pink Book.", t:"portal", u:"https://search.cdc.gov/search/"},
-  {c:"policy", n:"UK Health Security Agency (UKHSA)", d:"Britische Impf- und Surveillanceberichte, methodisch ausfuehrlich dokumentiert.", t:"live", u:"https://www.gov.uk/search/all?keywords=%s&organisations%5B%5D=uk-health-security-agency"},
-  {c:"policy", n:"NICE — Guidance", d:"Britische Leitlinien zu Praevention und Impfprogrammen mit expliziter Kosten-Nutzen-Bewertung.", t:"live", u:"https://www.nice.org.uk/search?q=%s"},
-  {c:"policy", n:"AGES (Österreich)", de:1, d:"Oesterreichische Agentur fuer Gesundheit und Ernaehrungssicherheit; Impfplan und Meldedaten.", t:"live", u:"https://www.ages.at/suche?tx_solr%5Bq%5D=%s"},
-  {c:"policy", n:"Sciensano (Belgien)", d:"Belgisches Institut fuer Gesundheit mit Surveillance- und Impfdaten.", t:"live", u:"https://www.sciensano.be/en/search?search_api_fulltext=%s"},
-  {c:"policy", n:"RIVM (Niederlande)", d:"Niederlaendisches Reichsinstitut; das Rijksvaccinatieprogramma ist gut dokumentiert und methodisch vorbildlich.", t:"live", u:"https://www.rivm.nl/en/search?trefwoord=%s"},
-  {c:"policy", n:"Folkhälsomyndigheten (Schweden)", d:"Schwedische Gesundheitsbehoerde mit Impfregisterdaten.", t:"live", u:"https://www.folkhalsomyndigheten.se/sok/?query=%s"},
-  {c:"policy", n:"Santé publique France", d:"Franzoesische Public-Health-Agentur mit Impfquoten und Kampagnenauswertungen.", t:"portal", u:"https://www.santepubliquefrance.fr/recherche/#search=%s"},
+  {c:"policy", n:"UK Health Security Agency (UKHSA)", d:"Britische Impf- und Surveillanceberichte, methodisch ausführlich dokumentiert.", t:"live", u:"https://www.gov.uk/search/all?keywords=%s&organisations%5B%5D=uk-health-security-agency"},
+  {c:"policy", n:"NICE — Guidance", d:"Britische Leitlinien zu Prävention und Impfprogrammen mit expliziter Kosten-Nutzen-Bewertung.", t:"live", u:"https://www.nice.org.uk/search?q=%s"},
+  {c:"policy", n:"AGES (Österreich)", de:1, d:"Österreichische Agentur für Gesundheit und Ernährungssicherheit; Impfplan und Meldedaten.", t:"live", u:"https://www.ages.at/suche?tx_solr%5Bq%5D=%s"},
+  {c:"policy", n:"Sciensano (Belgien)", d:"Belgisches Institut für Gesundheit mit Surveillance- und Impfdaten.", t:"live", u:"https://www.sciensano.be/en/search?search_api_fulltext=%s"},
+  {c:"policy", n:"RIVM (Niederlande)", d:"Niederländisches Reichsinstitut; das Rijksvaccinatieprogramma ist gut dokumentiert und methodisch vorbildlich.", t:"live", u:"https://www.rivm.nl/en/search?trefwoord=%s"},
+  {c:"policy", n:"Folkhälsomyndigheten (Schweden)", d:"Schwedische Gesundheitsbehörde mit Impfregisterdaten.", t:"live", u:"https://www.folkhalsomyndigheten.se/sok/?query=%s"},
+  {c:"policy", n:"Santé publique France", d:"Französische Public-Health-Agentur mit Impfquoten und Kampagnenauswertungen.", t:"portal", u:"https://www.santepubliquefrance.fr/recherche/#search=%s"},
 
   // 07 — Prävention & Gesundheitsförderung
-  {c:"praevention", n:"USPSTF — Preventive Services Task Force", d:"Systematisch begruendete Empfehlungen zu Frueherkennung und Praevention - der internationale Massstab.", t:"live", u:"https://www.uspreventiveservicestaskforce.org/uspstf/search_results?searchterm=%s"},
-  {c:"praevention", n:"BZgA — Leitbegriffe der Gesundheitsförderung", de:1, d:"Fachlexikon der Praevention und Gesundheitsfoerderung, deutschsprachig und begrifflich verlaesslich.", t:"portal", u:"https://leitbegriffe.bzga.de/suche/"},
-  {c:"praevention", n:"GKV-Bündnis für Gesundheit", de:1, d:"Projekte und Berichte der Krankenkassen zur Praevention in Lebenswelten nach Praeventionsgesetz.", t:"portal", u:"https://www.gkv-buendnis.de/"},
-  {c:"praevention", n:"Gesundheitliche Chancengleichheit", de:1, d:"Kooperationsverbund zu sozial bedingter Ungleichheit von Gesundheitschancen - relevant fuer Impfluecken.", t:"portal", u:"https://www.gesundheitliche-chancengleichheit.de/"},
-  {c:"praevention", n:"Nationale Präventionskonferenz", de:1, d:"Bundesrahmenempfehlungen und Praeventionsberichte nach dem Praeventionsgesetz.", t:"portal", u:"https://www.npk-info.de/"},
-  {c:"praevention", n:"Gesundheitsziele.de", de:1, d:"Nationale Gesundheitsziele, darunter Impfen und Frueherkennung.", t:"portal", u:"https://gesundheitsziele.de/"},
-  {c:"praevention", n:"Zentrum für Krebsregisterdaten (RKI)", de:1, d:"Bundesweite Krebsregisterdaten - Bezugsgroesse fuer HPV-Impfung und Frueherkennung.", t:"portal", u:"https://www.krebsdaten.de/"},
-  {c:"praevention", n:"Krebsinformationsdienst (DKFZ)", de:1, d:"Geprueftes Fachwissen zu Krebsfrueherkennung und HPV-Impfung, auch fuer die Beratung.", t:"live", u:"https://www.krebsinformationsdienst.de/suche?tx_solr%5Bq%5D=%s"},
-  {c:"praevention", n:"IARC — Internationale Krebsforschungsagentur", d:"WHO-Agentur fuer Krebsforschung; Handbuecher zur Frueherkennung und zur HPV-Praevention.", t:"portal", u:"https://www.iarc.who.int/"},
-  {c:"praevention", n:"Global Cancer Observatory (GLOBOCAN)", d:"Weltweite Krebsinzidenz und -mortalitaet als Bezugsgroesse fuer Praeventionsprogramme.", t:"portal", u:"https://gco.iarc.fr/"},
-  {c:"praevention", n:"EPPI-Centre", d:"Systematische Uebersichten zu Public Health und Gesundheitsfoerderung.", t:"live", u:"https://eppi.ioe.ac.uk/cms/Default.aspx?tabid=53&searchtext=%s"},
+  {c:"praevention", n:"USPSTF — Preventive Services Task Force", d:"Systematisch begründete Empfehlungen zu Früherkennung und Prävention - der internationale Maßstab.", t:"live", u:"https://www.uspreventiveservicestaskforce.org/uspstf/search_results?searchterm=%s"},
+  {c:"praevention", n:"BZgA — Leitbegriffe der Gesundheitsförderung", de:1, d:"Fachlexikon der Prävention und Gesundheitsförderung, deutschsprachig und begrifflich verlässlich.", t:"portal", u:"https://leitbegriffe.bzga.de/suche/"},
+  {c:"praevention", n:"GKV-Bündnis für Gesundheit", de:1, d:"Projekte und Berichte der Krankenkassen zur Prävention in Lebenswelten nach Präventionsgesetz.", t:"portal", u:"https://www.gkv-buendnis.de/"},
+  {c:"praevention", n:"Gesundheitliche Chancengleichheit", de:1, d:"Kooperationsverbund zu sozial bedingter Ungleichheit von Gesundheitschancen - relevant für Impflücken.", t:"portal", u:"https://www.gesundheitliche-chancengleichheit.de/"},
+  {c:"praevention", n:"Nationale Präventionskonferenz", de:1, d:"Bundesrahmenempfehlungen und Präventionsberichte nach dem Präventionsgesetz.", t:"portal", u:"https://www.npk-info.de/"},
+  {c:"praevention", n:"Gesundheitsziele.de", de:1, d:"Nationale Gesundheitsziele, darunter Impfen und Früherkennung.", t:"portal", u:"https://gesundheitsziele.de/"},
+  {c:"praevention", n:"Zentrum für Krebsregisterdaten (RKI)", de:1, d:"Bundesweite Krebsregisterdaten - Bezugsgröße für HPV-Impfung und Früherkennung.", t:"portal", u:"https://www.krebsdaten.de/"},
+  {c:"praevention", n:"Krebsinformationsdienst (DKFZ)", de:1, d:"Geprüftes Fachwissen zu Krebsfrüherkennung und HPV-Impfung, auch für die Beratung.", t:"live", u:"https://www.krebsinformationsdienst.de/suche?tx_solr%5Bq%5D=%s"},
+  {c:"praevention", n:"IARC — Internationale Krebsforschungsagentur", d:"WHO-Agentur für Krebsforschung; Handbücher zur Früherkennung und zur HPV-Prävention.", t:"portal", u:"https://www.iarc.who.int/"},
+  {c:"praevention", n:"Global Cancer Observatory (GLOBOCAN)", d:"Weltweite Krebsinzidenz und -mortalität als Bezugsgröße für Präventionsprogramme.", t:"portal", u:"https://gco.iarc.fr/"},
+  {c:"praevention", n:"EPPI-Centre", d:"Systematische Übersichten zu Public Health und Gesundheitsförderung.", t:"live", u:"https://eppi.ioe.ac.uk/cms/Default.aspx?tabid=53&searchtext=%s"},
 
   // 08 — Open Access & Discovery
   {c:"openaccess", n:"Google Scholar", d:"Breite Suchmaschine für wissenschaftliche Literatur inkl. grauer Literatur & Zitationen.", t:"live", u:"https://scholar.google.com/scholar?q=%s", b:1},
@@ -1804,15 +1804,27 @@ goBtn.disabled = !input.value.trim();
   try {
     if (navigator.doNotTrack === '1' || window.doNotTrack === '1'
         || navigator.globalPrivacyControl === true) return;
+    // Automatische Umgebungen melden sich selbst: navigator.webdriver setzen
+    // Headless Chrome und Selenium von sich aus. Zuverlaessiger als jede
+    // Liste von Browserkennungen, weil es nicht geraten, sondern gemeldet wird.
+    if (navigator.webdriver) return;
+    if (!screen.width || !screen.height) return;   // kein echter Bildschirm
     if (!/\.m-vf\.de$/.test(location.hostname)) return;   // lokal nicht zaehlen
     var r = '';
     try { r = document.referrer ? new URL(document.referrer).hostname : ''; }
     catch (e) { r = ''; }
     if (r === location.hostname) r = '';
+    // Bildschirmbreite nur in Stufen. Die genaue Aufloesung waere eines der
+    // staerksten Merkmale zum Wiedererkennen eines Browsers; fuer die Frage,
+    // fuer welche Breite zu gestalten ist, genuegt die Schublade.
+    var w = screen.width;
+    var stufe = w < 480 ? 'bis480' : w < 768 ? 'bis768' : w < 1024 ? 'bis1024'
+              : w < 1440 ? 'bis1440' : w < 1920 ? 'bis1920' : 'ueber1920';
     var q = 'h=' + encodeURIComponent(location.hostname)
           + '&p=' + encodeURIComponent(location.pathname)
           + '&r=' + encodeURIComponent(r ? 'https://' + r + '/' : '')
           + '&g=' + (Math.min(screen.width, screen.height) < 768 ? 'm' : 'd')
+          + '&b=' + stufe
           + '&c=' + Date.now();
     new Image(1, 1).src =
       'https://www.monitor-versorgungsforschung.de/zaehler/z.php?' + q;
