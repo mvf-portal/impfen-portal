@@ -1,5 +1,31 @@
 [
  {
+  "pmid": "42621093",
+  "journal": "Front Public Health",
+  "year": "2026",
+  "author": "Harvey-Cowlishaw T et al.",
+  "pubdate": "05.08.2026",
+  "added": "20.08.2026",
+  "transfer": "UK, Kariologie-Surveillance, vergleichbare adoleszente Impfprogramme",
+  "title": "MenACWY-Impfung und Meningokokken-Carriage bei Studierenden: Wirksamkeitsevidenz aus Carriage-Monitoring",
+  "sum": "Querschnittstudie (September + November 2024) an 400 Studierenden einer UK-Universität mit Keimkultur/PCR und Vollgenomsequenzierung von Meningokokken-Carriern.",
+  "result": "Carriage-Rate Sepember 12,5 %, November 25,3 % (p<0,05). Genogruppe C: null Isolate (100 % Reduktion durch MenACWY-Vakzinierung). Genogruppe Y: null verkappselte Isolate in dieser Kohorte, konsistent mit Impfeffektivität. Genogruppe B: 34,3 % (multipler Clonal Complex, teils hyperinvasiv). MenACWY schützt Studierende effektiv vor W/Y-Carriage; Genogruppe B bleibt Risiko.",
+  "aufgenommen": "2026-08-21"
+ },
+ {
+  "pmid": "42546637",
+  "journal": "Vaccine",
+  "year": "2026",
+  "author": "Sanders JG et al.",
+  "pubdate": "30.08.2026",
+  "added": "03.08.2026",
+  "transfer": "Niederlande (RIVM), vergleichbares Versicherungssystem und Impfinfrastruktur",
+  "title": "Vorbuchte Impftermine für COVID-19: Burden-Vergleich und Wirkung auf Uptake-Intention",
+  "sum": "Formative Evaluationsstudie (Niederlande) in zwei Phasen – qualitativ (15 Interviews) und experimentell (n=1.886) – zur Wirkung von Vorbuchung vs. Selbstbuchung auf Impfintention.",
+  "result": "Phase 1: Vorbuchung wurde als fürsorglich und auch als bevormundend wahrgenommen. Phase 2: Selbstbuchung wurde als weniger belastend wahrgenommen (β=−0,23, p<0,05), führte aber nicht zu höherer Impfintention (aOR=1,11). Auch bei zögerlichen Personen kein Unterschied (aOR=0,88). Vorbuchung verändert COVID-19-Intention nicht – konservative Empfehlung: Selbstbuchung für bereits geimpfte Ältere.",
+  "aufgenommen": "2026-08-21"
+ },
+ {
   "pmid": "42613346",
   "journal": "Sci Rep",
   "year": "2026",
