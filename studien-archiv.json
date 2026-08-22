@@ -1,5 +1,31 @@
 [
  {
+  "pmid": "42619272",
+  "journal": "APMIS",
+  "year": "2026",
+  "author": "Aakilde M et al.",
+  "pubdate": "Aug. 2026",
+  "added": "20.08.2026",
+  "transfer": "Dänemark, nationales Register, vergleichbare nordeuropäische Impfpraxis",
+  "title": "HPV-Impfung senkt Häufigkeit von Larynx- und Bindehautpapillomen in Dänemark",
+  "sum": "Register-Studie: 33 juvenile Larynx-, 134 Bindehautpapillom-Patienten 2005–2024 mit HPV-Subtypisierung und Impfstatus-Abfrage.",
+  "result": "Larynxpapillom-Inzidenz sank von 0,190 pro 100.000 (2005–2013) auf 0,107 (2014–2024), nicht signifikant (p=0,145); keine Fälle bei geimpften Müttern. Bindehautpapillom-Inzidenz sank signifikant um 5,3 % pro Jahr (p=0,002). HPV-6/-11 in 74,1 % nachgewiesen. Studie zeigt Schutzeffekt des Impfprogramms auf Bindehautpapillome, juvenile Larynxpapillome bleiben selten und nur bei ungeimpften Müttern.",
+  "aufgenommen": "2026-08-22"
+ },
+ {
+  "pmid": "42576212",
+  "journal": "BMC Public Health",
+  "year": "2026",
+  "author": "Biallas R et al.",
+  "pubdate": "11.08.2026",
+  "added": "11.08.2026",
+  "transfer": "RKI-Studie, deutsche Hochrisikopopulation; Ungleichheit nach Bildung, Geschlechtsidentität und Urbanisierung",
+  "title": "Hepatitis-B-Impfquoten bei trans und nicht-binären Menschen in Deutschland: Wer bleibt ungeimpft?",
+  "sum": "Online-Survey von 2.358 trans und nicht-binären Personen zu Hepatitis-B-Diagnosen und Impfstatus, RKI-Studie.",
+  "result": "HBV-Prävalenz 0,6 %, Impfquote 56,3 %. Quote höher bei Personen auf dem männlichen Spektrum (PR 1,29) als weiblich/nicht-binär; höher mit Hochschulbildung (PR 1,44) und in Großstädten (PR 1,22). 550 (21,7 %) waren impfempfohlen; von 213 mit negativem Impfstatus waren 65 % unter 30 und hätten Routine-Impfung erhalten sollen. Wissenslücken zu Hepatitis als Hauptprädiktor für niedrige Quote identifiziert.",
+  "aufgenommen": "2026-08-22"
+ },
+ {
   "pmid": "42621093",
   "journal": "Front Public Health",
   "year": "2026",
