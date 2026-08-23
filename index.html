@@ -1063,62 +1063,71 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "22. Aug. 2026, 07:05 Uhr";
+const SNAP_DATE = "23. Aug. 2026, 07:16 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
     journal:"Sci Rep", year:"2026", pmid:"42613346",
     author:"Mulanje L et al.", pubdate:"18.08.2026",
     added:"18.08.2026",
-    title:"Impfungen in der Schwangerschaft in Deutschland 2004–2022: Wie viele Schwangere erreicht die Empfehlung?",
-    sum:"Analyse von Krankenkassendaten zu Impfungen in 2,8 Mio. Schwangerschaften zwischen 2004 und 2022 in Deutschland.",
-    result:"15,1 % der Schwangerschaften waren mit mindestens einer Impfung exponiert. Influenza-Impfungen stiegen nach Empfehlung 2010 von 7 % (2010–2014) auf 19 % (2020–2022); Pertussis-Impfungen erreichten nach Empfehlung 2020 bereits 37 % (2020–2022). Kontraindizierte Impfstoffe (Masern, Mumps, Röteln) wurden bei 0,3 % verabreicht. Die Ergebnisse zeigen, dass deutlich weniger als 50 % der empfohlenen Schwangerschaften geimpft werden.",
-    transfer:"Deutsche Krankenkassendaten, direkter Versorgungsbezug ohne Impfregister"
+    title:"Grippeimpfung in der Schwangerschaft stieg nach Empfehlung, Keuchhusten-Impfung folgte dem Muster, zeigt Analyse der deutschen Versorgungswirklichkeit",
+    sum:"Untersuchung der Impfquoten in der Schwangerschaft anhand von Krankenkassendaten 2004–2022 in Deutschland mit 2,8 Millionen Schwangerschaften.",
+    result:"Von 2,8 Millionen Schwangerschaften (Kohorten 2004–2022) erhielten 423.567 (15,1%) mindestens eine Impfung. Grippeimpfung: von 2% (2004–2009) auf 19% (2020–2022) nach Empfehlung 2010. Pertussis: von 3% (2015–2019) auf 37% (2020–2022) nach Empfehlung 2020. Etwa 0,3% erhielten kontraindizierte Impfungen (Mumps, Röteln, Masern). Warum weniger als 50% empfohlene Impfungen erhalten, bleibt unklar.",
+    transfer:"Deutsche Krankenkassendaten; zeigt Implementierungslücken im deutschen System"
   },
   {
-    journal:"BMC Public Health", year:"2026", pmid:"42576212",
-    author:"Biallas R et al.", pubdate:"11.08.2026",
-    added:"11.08.2026",
-    title:"Hepatitis-B-Impfquoten bei trans und nicht-binären Menschen in Deutschland: Wer bleibt ungeimpft?",
-    sum:"Online-Survey von 2.358 trans und nicht-binären Personen zu Hepatitis-B-Diagnosen und Impfstatus, RKI-Studie.",
-    result:"HBV-Prävalenz 0,6 %, Impfquote 56,3 %. Quote höher bei Personen auf dem männlichen Spektrum (PR 1,29) als weiblich/nicht-binär; höher mit Hochschulbildung (PR 1,44) und in Großstädten (PR 1,22). 550 (21,7 %) waren impfempfohlen; von 213 mit negativem Impfstatus waren 65 % unter 30 und hätten Routine-Impfung erhalten sollen. Wissenslücken zu Hepatitis als Hauptprädiktor für niedrige Quote identifiziert.",
-    transfer:"RKI-Studie, deutsche Hochrisikopopulation; Ungleichheit nach Bildung, Geschlechtsidentität und Urbanisierung"
+    journal:"Hum Vaccin Immunother", year:"2026", pmid:"42610257",
+    author:"Gao Y et al.", pubdate:"18.08.2026",
+    added:"18.08.2026",
+    title:"Psychisches Wohlbefinden korreliert mit COVID-19-Impfbereitschaft bei älteren Europäern – Zusammenhang mit langer COVID-Erkrankung schwächer",
+    sum:"Prospektive Studie aus der SHARE-Erhebung in 27 europäischen Ländern: Zusammenhang zwischen psychischem Wohlbefinden (CASP-12-Skala) und COVID-19-Impfung, Infektionsrisiko sowie Langzeit-COVID bei Erwachsenen ≥50 Jahren.",
+    result:"29.597 Teilnehmende. Höchstes vs. niedrigstes Wohlbefinden: OR für Impfung 2,68 (95%-KI: 2,44–2,96); für Langzeit-COVID OR 0,77 (95%-KI: 0,64–0,93, Risikoreduktion 23%). Infektionsrisiko zeigte keinen signifikanten Unterschied (OR 0,87, 95%-KI: 0,74–1,02). Schutzeffekt stärker bei höheren Wohlbefindenswerten.",
+    transfer:"Europäische Kohortendaten; übertragbar auf strukturell ähnliche Systeme"
+  },
+  {
+    journal:"PLoS One", year:"2026", pmid:"42607062",
+    author:"Di Chiara C et al.", pubdate:"17.08.2026",
+    added:"17.08.2026",
+    title:"RSV-Impfung: Kinderärzte unterstützen, aber nur 40% kennen Nirsevimab gut – Wissenslücken und logistische Hürden gefährden frühe Implementierung",
+    sum:"Querschnittliche Befragung von Kinderärzten in Spanien, Italien und Zypern/Griechenland (Juli–August 2024) zu Wissen, Einstellungen und Barrieren bei RSV-Immunisierung mit Nirsevimab und Mutterschaftsimpfung.",
+    result:"578 Ärzte (19,3% Rücklauf): 50% Spanien, 40% Italien, 10% Zypern/Griechenland. 55,9% (245) berichteten durchschnittliches bis geringes Nirsevimab-Wissen, 86,0% (375) geringes Wissen zur Mutterschaftsimpfung (Unterschiede zwischen Ländern, p=0,002). Trotzdem: 85,9% (311) bereit zur Nirsevimab-Gabe, 92,2% (319) befürworteten Einsatz für alle Säuglinge. Barrieren (20,0%, 69 Ärzte): Unvertrautheit, logistische Herausforderungen. 47,4% (165) preferieren Mutterschaftsimpfung über Nirsevimab.",
+    transfer:"Südeuropa mit Einführung Nirsevimab 2023/24; Wissenslücken vor Implementierung relevant für alle Länder"
   },
   {
     journal:"Front Public Health", year:"2026", pmid:"42621093",
     author:"Harvey-Cowlishaw T et al.", pubdate:"05.08.2026",
     added:"20.08.2026",
-    title:"MenACWY-Impfung und Meningokokken-Träger bei britischen Universitätsstudenten: Programm wirkt gegen W und Y",
-    sum:"Querschnittsstudie: Nasopharyngeale Abstriche von 400 Erstjahrstudierenden in UK, Kultur-PCR und Vollgenomsequenzierung zur Evaluierung der Impfprogrammwirkung.",
-    result:"September-Trägerquote 12,5 %, stieg November auf 25,3 %. Genogruppe B 34,3 %, kein C nachgewiesen, W nur 1,4 %. Genogruppe Y stieg signifikant von 1 % auf 6,3 % (p&lt;0,05); keine gekapselte W/Y-Isolate gefunden. Die Studie bestätigt, dass MenACWY-Impfung Erwachsene vor W- und Y-Trägerschaft schützt; Genogruppe-B-Risiko bleibt.",
-    transfer:"UK-Schulimpfprogramm, vergleichbare Routine; Impfregisterqualität durch Sequenzanalyse nachgewiesen"
+    title:"MenACWY-Impfung schützt britische Studierenden vor Serogruppen W und Y, aber Serogruppe-B-Risiko bleibt – Trägerstudien als Wirksamkeitsbeweis",
+    sum:"Querschnittliche Trägerstudie bei 400 britischen Studierenden 2024 zur Erfassung von Neisseria-meningitidis-Träger und Evaluierung der Impfschutzwirkung gegen Serogruppen nach MenACWY-Impfprogramm.",
+    result:"September-Trägerprävalenz 12,5%, November 25,3%. Von isolierten Stämmen: Serogruppe B 34,3% (58,3% mit Kapsel), nullkapsel 24,3%, E 21,4%, Y 12,9%, W 1,4%, keine C-Träger. Für Y kein enkapsulierter Träger, für W kein enkapsulierter Träger gefunden. MenACWY-Impfung zeigte Schutz vor Serogruppen W und Y. Diversität invasiver Serogruppe-B-Stämme deutet auf Bedarf weiterer Strategien hin.",
+    transfer:"UK-Daten mit Impfregister-Qualität; andere europäische Länder ohne Register können von Methodologie lernen"
   },
   {
     journal:"BMC Med", year:"2026", pmid:"42557557",
     author:"Nussbaum C et al.", pubdate:"04.08.2026",
     added:"06.08.2026",
-    title:"Sozialer Gradient in der Kinderimpfung: Welche Faktoren erklären die Ungleichheit?",
-    sum:"Konzentrations-Index-Dekomposition zu empfohlenen Kinderimpfungen bei 430.000 Kindern (Kohorte 2011–2018) anhand von Krankenkassendaten.",
-    result:"80 % der Impfserien wurden komplett und fristgerecht durchgeführt; ein kleiner, aber signifikanter sozioökonomischer Gradient zugunsten höherer Sozialschichten (Konzentrations-Index 0,024). Der Anbietertyp – Hausarzt vs. Kinderarzt – trug am meisten zur Ungleichheit bei (niedrigere Quoten und Pünktlichkeit bei Allgemeinmedizinern), Elternbildung weniger. Fahrtzeit spielte kaum eine Rolle.",
-    transfer:"Deutsche Gesetzliche Krankenversicherung, Versorgungsstruktur (Facharzt vs. Allgemeinmedizin) ähnlich"
+    title:"Impfquoten bei Kindern: Sozioökonomische Unterschiede in Deutschland erklärt durch Anbietertyp, nicht Zugangsbarrieren",
+    sum:"Analyse von Krankenkassendaten zu STIKO-empfohlenen Kinderimpfungen 2016-2019 zeigte einen kleinen, aber signifikanten sozioökonomischen Gradient in der Impfvollständigkeit.",
+    result:"Etwa 80% der Impfserien waren vollständig und rechtzeitig. Der Konzentrationindex betrug 0,024 (95%-KI: 0,023–0,025) zugunsten höherer Sozialschichten. Die Zerlegung zeigte: Anbietertyp (Hausarzt vs. Kinderarzt) erklärte die meiste Ungleichheit, Elternbildung weniger, Fahrtzeit minimal. Kinder mit Hausarztbetreuung hatten niedrigere Abschlussquoten als solche mit Kinderarztbetreuung.",
+    transfer:"Deutsche Krankenkassendaten, direkt auf Deutschlands Versorgungsstruktur übertragbar"
   },
   {
     journal:"APMIS", year:"2026", pmid:"42619272",
     author:"Aakilde M et al.", pubdate:"Aug. 2026",
     added:"20.08.2026",
-    title:"HPV-Impfung senkt Häufigkeit von Larynx- und Bindehautpapillomen in Dänemark",
-    sum:"Register-Studie: 33 juvenile Larynx-, 134 Bindehautpapillom-Patienten 2005–2024 mit HPV-Subtypisierung und Impfstatus-Abfrage.",
-    result:"Larynxpapillom-Inzidenz sank von 0,190 pro 100.000 (2005–2013) auf 0,107 (2014–2024), nicht signifikant (p=0,145); keine Fälle bei geimpften Müttern. Bindehautpapillom-Inzidenz sank signifikant um 5,3 % pro Jahr (p=0,002). HPV-6/-11 in 74,1 % nachgewiesen. Studie zeigt Schutzeffekt des Impfprogramms auf Bindehautpapillome, juvenile Larynxpapillome bleiben selten und nur bei ungeimpften Müttern.",
-    transfer:"Dänemark, nationales Register, vergleichbare nordeuropäische Impfpraxis"
+    title:"HPV-Impfung reduzierte konjunktivale Papillome in Dänemark signifikant – laryngeale Form blieb selten, nur bei ungeimpften Müttern",
+    sum:"Nationale dänische Registerstudie zu HPV-Impfeffektivität gegen juvenile laryngeale und konjunktivale Papillome 2005–2024 mit HPV-Typisierung und Impfstatusabfrage.",
+    result:"33 laryngeale, 134 konjunktivale Papilloma-Patienten identifiziert. HPV-6/-11 in 74,1% der laryngealen Biopsien. Laryngeale Inzidenz 2005–2013: 0,190 pro 100.000, 2014–2024: 0,107 (p=0,145, nicht signifikant). Keine Mütter laryngealer Patienten waren vor Geburt geimpft. Konjunktivale Papillome: signifikanter Rückgang 2008–2024, jährliche Reduktion -5,3% (p=0,002), konsistent mit Impfschutz.",
+    transfer:"Dänemark, Impfregister-basiert; direkt übertragbar auf Deutschland ohne Register"
   },
   {
     journal:"Influenza Other Respir Viruses", year:"2026", pmid:"42560010",
     author:"Bucholc M et al.", pubdate:"Aug. 2026",
     added:"06.08.2026",
-    title:"Influenza-Impfeffektivität gegen Hospitalisierung: 46 % Schutz in Nordirland 2024/25",
-    sum:"Test-Negative-Design in 15.133 hospitalisierten Patienten; 2.024 (13,4 %) positiv auf Influenza laborbestätigt.",
-    result:"Gesamteffizienz gegen laborbestätigte Infektion 46,0 % (95 % KI 39,7–51,8 %); höher bei Kindern 2–17 Jahren (60,8 %) als Erwachsene 18–64 (40,5 %) und ≥65 Jahre (42,3 %). Gegen A(H1) 44,3 %, gegen A(H3) 49,9 %, gegen B 76,4 %. Effektivität gegen A höchst 2–8 Wochen post-Vakzination (51,9 %), fiel auf 41,4 % bei ≥16 Wochen. Befund zeigt klinisch bedeutsamen Schutz mit Dosiseffekt über Zeit.",
-    transfer:"UK-Laborüberwachung, Test-Negative-Methode, vergleichbar deutsche Surveillance"
+    title:"Grippeimpfung schützte 2024/25 mit 46% Wirksamkeit, bei Kindern besser (60,8%), bei Älteren moderate Wirkung – zeitliche Abnahme dokumentiert",
+    sum:"Test-negativ-Studie in Nordirland 2024/25 zur Grippeimpfeffektivität gegen laborbestätigte grippebedingte Hospitalisierung mittels Surveillance und Impfregistern.",
+    result:"Von 15.133 hospitalisierten Patienten waren 2.024 (13,4%) grippepositivm davon 1.803 A(89,1%), 221 B(10,9%). Gesamtwirksamkeit gegen laborbestätigte Grippe: 46,0% (95%-KI: 39,7–51,8%). Nach Alter: Kinder 2–17 Jahre 60,8% (95%-KI: 48,3–70,5%), Erwachsene 18–64 Jahre 40,5% (95%-KI: 24,9–53,2%), ≥65 Jahre 42,3% (95%-KI: 33,2–50,1%). Gegen B: 76,4%. Zeitabhängig: 2–8 Wochen post-Vakzin 51,9%, 9–16 Wochen 44,6%, ≥16 Wochen 41,4%.",
+    transfer:"UK-System mit elektronischer Versorgungsdokumentation; methodisch übertragbar"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
