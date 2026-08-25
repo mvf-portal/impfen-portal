@@ -1063,62 +1063,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "24. Aug. 2026, 07:59 Uhr";
+const SNAP_DATE = "25. Aug. 2026, 07:04 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
+  {
+    journal:"Hum Vaccin Immunother", year:"2026", pmid:"42610257",
+    author:"Gao Y et al.", pubdate:"18.08.2026",
+    added:"18.08.2026",
+    title:"Psychisches Wohlbefinden erhöht COVID-19-Impfbereitschaft bei älteren Europäern",
+    sum:"SHARE-Studie zu psychischem Wohlbefinden (CASP-12-Skala) und COVID-19-Vakzination, Infektion, Long-COVID bei Erwachsenen ≥50 Jahren in 27 europäischen Ländern.",
+    result:"Höchstes vs. niedrigstes CASP-12-Quartil: OR für Impfung 2,68 (95%-KI: 2,44–2,96), OR für Long-COVID 0,77 (95%-KI: 0,64–0,93). Infektionsrisiko nicht signifikant unterschiedlich (OR 0,87).",
+    transfer:"Europa, 29.597 Studienteilnehmer, vergleichbare Altersstrukturen"
+  },
   {
     journal:"Sci Rep", year:"2026", pmid:"42613346",
     author:"Mulanje L et al.", pubdate:"18.08.2026",
     added:"18.08.2026",
-    title:"Influenza- und Keuchhusten-Impfungen in der Schwangerschaft in Deutschland – Quote steigt von 2 auf 19 Prozent, aber unter 50 Prozent empfohlener Quoten",
-    sum:"Analyse von Krankenkassendaten zu Impfungen in der Schwangerschaft in Deutschland 2004–2022 (2,8 Mio. Schwangerschaften).",
-    result:"15,1 % aller Schwangerschaften erhielten mindestens eine Impfung. Grippe-Impfquote stieg nach Empfehlung 2010 von 7 % (2010–2014) auf 19 % (2020–2022). Keuchhusten-Impfquote stieg nach Empfehlung 2020 von 3 % (2015–2019) auf 37 % (2020–2022). Etwa 0,3 % waren Masern-, Mumps- oder Röteln-Impfungen (kontraindiziert in der Schwangerschaft).",
-    transfer:"Deutsche Versicherungsdaten, repräsentativ für tatsächliche Inanspruchnahme in Deutschland, zeigt Versorgungsrealität."
-  },
-  {
-    journal:"BMC Public Health", year:"2026", pmid:"42576212",
-    author:"Biallas R et al.", pubdate:"11.08.2026",
-    added:"11.08.2026",
-    title:"Impflücken bei transgender und nicht-binären Menschen in Deutschland – Hepatitis-B-Impfquote nur bei 56 Prozent",
-    sum:"Deutsche Querschnittstudie untersuchte Hepatitis-B-Impfquote und Diagnosen bei trans und nicht-binären Menschen anhand einer Online-Befragung 2022.",
-    result:"Von 2.358 Teilnehmern berichteten 0,6 % eine Hepatitis-B-Diagnose und 56,3 % eine Impfung. Unter denjenigen, die eine Impfung erhalten sollten, hatten 213 Personen keine Hepatitis-B-Impfung; davon waren 65 % unter 30 Jahren und hätten die Kinderimpfung erhalten sollen. Besseres Wissen über Hepatitis war der stärkste Prädiktor für Impfbereitschaft.",
-    transfer:"Deutsche Daten aus RKI-Studie, repräsentativ für marginalisierte Gruppen mit Impflücken."
+    title:"Grippeimpfung in der Schwangerschaft: von 2% (2004) auf 19% (2022) in Deutschland",
+    sum:"Analyse von Versicherungsdaten (etwa 20% der deutschen Bevölkerung) zu Impfungen während Schwangerschaft 2004–2022 in 2,8 Mio. Schwangerschaften.",
+    result:"Grippeimpfquote: 2% (2004–2009), 7% (2010–2014), 19% (2020–2022). Keuchhustenimpfung: 3% (2015–2019), 37% (2020–2022). Etwa 0,3% erhielten kontraindizierte Lebendimpfstoffe (Masern, Mumps, Röteln).",
+    transfer:"Deutschland, Krankenkassendaten aus GKV-Routineversorgung"
   },
   {
     journal:"Front Public Health", year:"2026", pmid:"42621093",
     author:"Harvey-Cowlishaw T et al.", pubdate:"05.08.2026",
     added:"20.08.2026",
-    title:"Meningokokken-Carriage nach MenACWY-Impfung bei Universitätsstudierenden: Genogruppe W und Y eliminiert, B bleibt Risiko",
-    sum:"Britische Querschnittstudie zur Meningokokken-Besiedlung bei Studierenden (September und November 2024) zur Bewertung von Impfprogrammeffekten.",
-    result:"Carriage-Rate stieg von 12,5 % (September) auf 25,3 % (November). Genogruppe C: 0 %, W: 1,4 %, Y: 12,9 %, B: 34,3 %. Keine Träger von Genogruppe W oder Y mit Kapselexpression wurden gefunden – Beweis für Schutz durch das Adoleszenten-MenACWY-Programm. Genogruppe B zirkulierte weiterhin, einschließlich hyperinvasiver Linien.",
-    transfer:"Großbritannien mit vergleichbarem Schulimpfprogramm, zeigt Wirkung von Impfquoten auf Krankheitsepidemiolgie in der Bevölkerung."
+    title:"Meningokokken-B-Lücke bleibt trotz MenACWY-Impfung bei britischen Studierenden",
+    sum:"UK-Studie zur Meningokokken-Besiedlung bei Studierenden post-Pandemie: Nachweis von Impfeffektivität gegen Y- und W-Serotypen, aber persistente B-Gruppe.",
+    result:"September: 12,5% Besiedlungsrate, November: 25,3%. Keine Träger von Genogruppe C. MenACWY-Impfung zeigte Schutz vor Y- (0% vs. 6,3% Anstieg) und W-Besiedlung. Genogruppe B mit hyper-invasiven Linien vorhanden.",
+    transfer:"Vereinigtes Königreich, vergleichbares System, Universitätskontext"
   },
   {
     journal:"BMC Med", year:"2026", pmid:"42557557",
     author:"Nussbaum C et al.", pubdate:"04.08.2026",
     added:"06.08.2026",
-    title:"Kinderimpfungen in Deutschland: Sozioökonomischer Gradient bei Impfquoten, Unterschiede zwischen Kinderärztinnen und Allgemeinmedizinern",
-    sum:"Analyse von Versicherungsdaten zu STIKO-empfohlenen Kinderimpfungen in Deutschland (2016–2019) mit Fokus auf Ungleichheiten nach sozioökonomischem Status.",
-    result:"Etwa 80 % der empfohlenen Impfserien wurden vollständig und zeitgerecht abgeschlossen. Es zeigte sich ein kleiner, statistisch signifikanter sozioökonomischer Gradient zugunsten höherer Einkommensgruppen (Konzentrationsindex = 0,024, 95 % KI: 0,023–0,025). Der Anbietertyp war der Haupttreiber: Kinderärzte hatten höhere Quoten als Allgemeinmediziner. Reisezeit spielte eine untergeordnete Rolle.",
-    transfer:"Deutsche Krankenkassendaten, direkt übertragbar auf Versorgungsrealität in Deutschland."
+    title:"Sozioökonomische Ungleichheit bei Kinderimpfungen in Deutschland",
+    sum:"Analyse von Versicherungsdaten 2016–2019 zu STIKO-empfohlenen Kinderimpfungen und ihrem Zusammenhang mit sozioökonomischer Position in Deutschland.",
+    result:"Etwa 80% der Impfserien komplett im empfohlenen Alter. Signifikanter, aber kleiner sozioökonomischer Gradient (Konzentrations-Index 0,024; 95%-KI: 0,023–0,025), der hauptsächlich durch Unterschiede zwischen Hausarzt und Kinderarzt erklärt wird, nicht durch Reisezeit.",
+    transfer:"Deutschland, Krankenkassendaten, vergleichbare Dokumentation"
   },
   {
     journal:"Age Ageing", year:"2026", pmid:"42632918",
     author:"Bricout H et al.", pubdate:"03.08.2026",
     added:"23.08.2026",
-    title:"Hochdosis-Grippeimpfstoff senkte Krankenhauseinweisungen bei Altenheimbewohnern um 31 Prozent",
-    sum:"Französische Kohortenstudie verglich Wirksamkeit von Hochdosis- versus Standarddosis-Grippeimpfstoff gegen grippebedingte Krankenhauseinweisungen bei Bewohnern von Altenpflegeeinrichtungen (2022–2023).",
-    result:"Hochdosis-Impfstoff reduzierte grippebedingte Krankenhauseinweisungen um 30,8 % (95 % KI: 11,8–45,7 %; p = 0,0029), verglichen mit Standarddosis. Bei Pneumonie oder kombinierten Ergebnissen zeigte sich kein signifikanter Unterschied. Die Studie stützt bevorzugte Verwendung des Hochdosis-Impfstoffs in dieser Hochrisikogruppe.",
-    transfer:"Frankreich mit vergleichbarem Sozialversicherungssystem und Langzeitpflege-Dokumentation wie Deutschland."
+    title:"Hochdosis-Grippeimpfstoff schützt Pflegeheimbewohner besser vor Hospitalisierung",
+    sum:"Vergleich von hochdosiertem vs. Standardimpfstoff gegen Influenza in französischen Pflegeheimen mit Daten aus dem französischen Gesundheitssystem 2022–2023.",
+    result:"Relative Impfeffektivität des Hochdosis-Impfstoffs: 30,8% weniger Influenza-Hospitalisierungen (95%-KI: 11,8–45,7; p=0,0029) bei 76.858 Paaren, durchschnittliches Alter 88 Jahre. Effekt auf Pneumonie nicht signifikant.",
+    transfer:"Frankreich, vergleichbares Versicherungssystem, nationale Registerdaten"
   },
   {
     journal:"APMIS", year:"2026", pmid:"42619272",
     author:"Aakilde M et al.", pubdate:"Aug. 2026",
     added:"20.08.2026",
-    title:"HPV-Impfung reduzierte konjunktivale Papillome in Dänemark um 5,3 Prozent pro Jahr – juvenile laryngeale Papillome nur bei ungeimpften Müttern",
-    sum:"Dänische Registeranalyse zu Effektivität der HPV-Impfung gegen juvenile laryngeale und konjunktivale Papillome (2005–2024).",
-    result:"Inzidenz juvenile laryngeale Papillome: 0,190 pro 100.000 (2005–2013) vs. 0,107 (2014–2024), p = 0,145 (nicht signifikant). Konjunktivale Papillome zeigten signifikanten Rückgang von 2008–2024 mit jährlicher Abnahme von 5,3 % (p = 0,002). Alle Fälle mit laryngealen Papillomen stammten von ungeimpften Müttern; 22 Patienten mit konjunktivalen Papillomen waren geimpft (Median 5 Jahre 8 Monate nach Impfung).",
-    transfer:"Dänemark mit Impfregister und ähnlicher Impfstrategie wie deutschsprachiger Raum, repräsentativ für Impfeffektivität in der Versorgung."
+    title:"HPV-Impfung verhindert Papillome bei dänischen Kindern",
+    sum:"Nationale dänische Registerstudie 2005–2024 zur Wirksamkeit der HPV-Impfung auf Häufigkeit von Larynx- und Konjunktivalpapillomen.",
+    result:"Larynxpapillome: Inzidenz 0,190 pro 100.000 (2005–2013) vs. 0,107 (2014–2024, p=0,145). Konjunktivalpapillome: jährliche Abnahme -5,3% (p=0,002). 74,1% der Fälle HPV-6/11. Keine Larynx-Papillome bei geimpften Müttern.",
+    transfer:"Dänemark, Pathologieregister, vergleichbares nordisches System"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
