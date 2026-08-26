@@ -1063,62 +1063,71 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "25. Aug. 2026, 07:04 Uhr";
+const SNAP_DATE = "26. Aug. 2026, 07:05 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Hum Vaccin Immunother", year:"2026", pmid:"42610257",
-    author:"Gao Y et al.", pubdate:"18.08.2026",
-    added:"18.08.2026",
-    title:"Psychisches Wohlbefinden erhöht COVID-19-Impfbereitschaft bei älteren Europäern",
-    sum:"SHARE-Studie zu psychischem Wohlbefinden (CASP-12-Skala) und COVID-19-Vakzination, Infektion, Long-COVID bei Erwachsenen ≥50 Jahren in 27 europäischen Ländern.",
-    result:"Höchstes vs. niedrigstes CASP-12-Quartil: OR für Impfung 2,68 (95%-KI: 2,44–2,96), OR für Long-COVID 0,77 (95%-KI: 0,64–0,93). Infektionsrisiko nicht signifikant unterschiedlich (OR 0,87).",
-    transfer:"Europa, 29.597 Studienteilnehmer, vergleichbare Altersstrukturen"
+    journal:"PLoS One", year:"2026", pmid:"42640914",
+    author:"Artemchuk O et al.", pubdate:"25.08.2026",
+    added:"25.08.2026",
+    title:"Influenza-Impfskepsis bei georgischen Gesundheitspersonal senkt Impfquote über drei Jahre",
+    sum:"Prospektive Kohortenstudie in Georgien mit 403 Krankenhausmitarbeitenden über drei Influenza-Saisons (2021–2024): Welche Faktoren beeinflussen die Annahme der jährlichen Influenza-Impfung?",
+    result:"72 % erhielten mindestens einmal die Impfung, 28 % nie. Mangelndes Vertrauen in Sicherheit (aOR 0,27) und Wirksamkeit (aOR 0,36) sowie das Alter 40–49 Jahre (aOR 2,67) waren die Hauptfaktoren. Eine Klinik hatte deutlich niedrigere Quoten (aOR 0,06).",
+    transfer:"Kaukasus-Region mit WHO-Partner, aber begrenzte Übertragbarkeit auf deutsches System ohne Impfregister."
+  },
+  {
+    journal:"BMJ Open", year:"2026", pmid:"42624601",
+    author:"Nkereuwem O et al.", pubdate:"20.08.2026",
+    added:"20.08.2026",
+    title:"Schwangere in Gambia: Lücken beim COVID-19-Impfstoffzugang trotz neuer Leitlinien",
+    sum:"Qualitative Studie in Gambia mit 15 Fachpersonen und 29 Workshop-Teilnehmenden: Welche Barrieren verhindern, dass Schwangere COVID-19-Impfstoffe erhalten?",
+    result:"Evolvierende Sicherheitsleitlinien minderten Beratungsvertrauen und verstärkten Vaccine Hesitancy. Fragmentierte Dienste (nicht in Schwangerenvorsorge integriert), schwache Dokumentation von Nebenwirkungen und Misinformation waren Kernprobleme. Strategien: frühe Schulung, Koordination über Berufsgruppen, gestärkte Logistik und Sicherheitsmeldung.",
+    transfer:"Subsahara-Afrika, aber Befunde zu systemischer Fragmentierung relevant für Integrationsfragen."
   },
   {
     journal:"Sci Rep", year:"2026", pmid:"42613346",
     author:"Mulanje L et al.", pubdate:"18.08.2026",
     added:"18.08.2026",
-    title:"Grippeimpfung in der Schwangerschaft: von 2% (2004) auf 19% (2022) in Deutschland",
-    sum:"Analyse von Versicherungsdaten (etwa 20% der deutschen Bevölkerung) zu Impfungen während Schwangerschaft 2004–2022 in 2,8 Mio. Schwangerschaften.",
-    result:"Grippeimpfquote: 2% (2004–2009), 7% (2010–2014), 19% (2020–2022). Keuchhustenimpfung: 3% (2015–2019), 37% (2020–2022). Etwa 0,3% erhielten kontraindizierte Lebendimpfstoffe (Masern, Mumps, Röteln).",
-    transfer:"Deutschland, Krankenkassendaten aus GKV-Routineversorgung"
+    title:"Impfungen in der Schwangerschaft in Deutschland 2004–2022: Influenza-Anteil stieg auf 19 %, Pertussis auf 37 %",
+    sum:"Analyse von Krankenkassendaten für ~20 % der deutschen Bevölkerung: Wie viele Schwangerschaften (2.801.552 gesamt) wurden mit Impfstoffen exponiert?",
+    result:"15,1 % aller Schwangerschaften hatten mindestens eine Impfung. Influenza: 2 % (2004–2009) → 19 % (2020–2022) nach Empfehlung 2010. Pertussis: 3 % (2015–2019) → 37 % (2020–2022) nach Empfehlung 2020. 0,3 % erhielten kontraindizierte Impfstoffe (Masern, Mumps, Röteln).",
+    transfer:"Deutschland, nationale Krankenkassendaten mit Leistungserbringerdokumentation."
   },
   {
-    journal:"Front Public Health", year:"2026", pmid:"42621093",
-    author:"Harvey-Cowlishaw T et al.", pubdate:"05.08.2026",
-    added:"20.08.2026",
-    title:"Meningokokken-B-Lücke bleibt trotz MenACWY-Impfung bei britischen Studierenden",
-    sum:"UK-Studie zur Meningokokken-Besiedlung bei Studierenden post-Pandemie: Nachweis von Impfeffektivität gegen Y- und W-Serotypen, aber persistente B-Gruppe.",
-    result:"September: 12,5% Besiedlungsrate, November: 25,3%. Keine Träger von Genogruppe C. MenACWY-Impfung zeigte Schutz vor Y- (0% vs. 6,3% Anstieg) und W-Besiedlung. Genogruppe B mit hyper-invasiven Linien vorhanden.",
-    transfer:"Vereinigtes Königreich, vergleichbares System, Universitätskontext"
+    journal:"Front Public Health", year:"2026", pmid:"42638716",
+    author:"Scala A et al.", pubdate:"10.08.2026",
+    added:"25.08.2026",
+    title:"Impfquote bei 24-Monate-Alten in Italien von 92,75 % auf 94,57 % durch Reorganisation der Dienste",
+    sum:"Qualitäts-Verbesserungsprojekt in ASL Napoli 3 Sud 2022–2024 mit M.A.S.T.E.R.-Framework: Wie ließ sich die gefallene Abdeckung von Primärserien wieder heben?",
+    result:"Quote 2023: 92,75 % (Rückgang von 94,57 % 2022). Nach Interventionen (standardisierte Erinnerungen, digitale Kalender, Schulung, Logistik-Überprüfung): 2024 → 94,57 % (+1,82 Pp.). Erinnerungen stiegen von 1.248 auf 2.136, vollendete Nachholtermine von 286 auf 612. Pädiater-Kooperation von 54,2 % auf 87,3 %.",
+    transfer:"Italien, südeuropäisches Sozialversicherungssystem, Dokumentation ähnlich Deutschland-Anforderungen."
   },
   {
     journal:"BMC Med", year:"2026", pmid:"42557557",
     author:"Nussbaum C et al.", pubdate:"04.08.2026",
     added:"06.08.2026",
-    title:"Sozioökonomische Ungleichheit bei Kinderimpfungen in Deutschland",
-    sum:"Analyse von Versicherungsdaten 2016–2019 zu STIKO-empfohlenen Kinderimpfungen und ihrem Zusammenhang mit sozioökonomischer Position in Deutschland.",
-    result:"Etwa 80% der Impfserien komplett im empfohlenen Alter. Signifikanter, aber kleiner sozioökonomischer Gradient (Konzentrations-Index 0,024; 95%-KI: 0,023–0,025), der hauptsächlich durch Unterschiede zwischen Hausarzt und Kinderarzt erklärt wird, nicht durch Reisezeit.",
-    transfer:"Deutschland, Krankenkassendaten, vergleichbare Dokumentation"
+    title:"Soziale Ungleichheit bei Kinderimpfungen in Deutschland: Zahnarzt mindert Quote stärker als Fahrtweg",
+    sum:"Analyse von Krankenkassendaten 2016–2019 für ~430.000 Kinder und 2,5 Mio. Impfungen: Welche Faktoren erklären Impflücken nach Sozialstatus?",
+    result:"80 % der Impfserien vollständig und zeitgerecht abgeschlossen. Kleine signifikante Ungleichheit zugunsten höherer Sozialschichten (Konzentrationsindex 0,024). Größter Faktor: Arzt-Typ (allgemeine Praxen vs. Kinderärzte) erklärte Hauptteil der Quote-Unterschiede; Fahrtzeit spielte kaum Rolle.",
+    transfer:"Deutschland, nationale Krankenkassendaten mit Leistungserbringer-Information."
   },
   {
     journal:"Age Ageing", year:"2026", pmid:"42632918",
     author:"Bricout H et al.", pubdate:"03.08.2026",
     added:"23.08.2026",
-    title:"Hochdosis-Grippeimpfstoff schützt Pflegeheimbewohner besser vor Hospitalisierung",
-    sum:"Vergleich von hochdosiertem vs. Standardimpfstoff gegen Influenza in französischen Pflegeheimen mit Daten aus dem französischen Gesundheitssystem 2022–2023.",
-    result:"Relative Impfeffektivität des Hochdosis-Impfstoffs: 30,8% weniger Influenza-Hospitalisierungen (95%-KI: 11,8–45,7; p=0,0029) bei 76.858 Paaren, durchschnittliches Alter 88 Jahre. Effekt auf Pneumonie nicht signifikant.",
-    transfer:"Frankreich, vergleichbares Versicherungssystem, nationale Registerdaten"
+    title:"Hochdosis-Influenzaimpfstoff reduziert Hospitalisierungen in französischen Pflegeheimen um 31 %",
+    sum:"Nationale französische Kohorte mit 315.239 Bewohnern (76.858 Paare): Wie unterscheidet sich die Wirkung von Hochdosis- gegen Standarddosis-Influenzaimpfstoff bei älteren Pflegeheimbewohnern?",
+    result:"Hochdosis-Impfstoff zeigte relative Impfeffektivität von 30,8 % (95%-KI 11,8–45,7) gegen influenzabedingte Hospitalisierung. Kein signifikanter Effekt auf Lungenentzündung oder kombinierte Endpunkte.",
+    transfer:"Frankreich, vergleichbares Versicherungssystem und nationale Abrechnungsdaten ähnlich Deutschland."
   },
   {
-    journal:"APMIS", year:"2026", pmid:"42619272",
-    author:"Aakilde M et al.", pubdate:"Aug. 2026",
-    added:"20.08.2026",
-    title:"HPV-Impfung verhindert Papillome bei dänischen Kindern",
-    sum:"Nationale dänische Registerstudie 2005–2024 zur Wirksamkeit der HPV-Impfung auf Häufigkeit von Larynx- und Konjunktivalpapillomen.",
-    result:"Larynxpapillome: Inzidenz 0,190 pro 100.000 (2005–2013) vs. 0,107 (2014–2024, p=0,145). Konjunktivalpapillome: jährliche Abnahme -5,3% (p=0,002). 74,1% der Fälle HPV-6/11. Keine Larynx-Papillome bei geimpften Müttern.",
-    transfer:"Dänemark, Pathologieregister, vergleichbares nordisches System"
+    journal:"Influenza Other Respir Viruses", year:"2026", pmid:"42560010",
+    author:"Bucholc M et al.", pubdate:"Aug. 2026",
+    added:"06.08.2026",
+    title:"Influenzaimpfung senkt Hospitalisierungsrisiko 2024/25 in Nordirland um 46 %",
+    sum:"Test-Negative-Design in Nordirland 2024/25 mit 15.133 hospitalisierten Patienten, davon 2.024 influenzapositiv: Welche Impfeffektivität verhinderte Krankenhausaufnahmen?",
+    result:"Gesamtimpfeffektivität 46,0 % (95%-KI 39,7–51,8 %), höher bei Kindern 2–17 Jahren (60,8 %) als Erwachsenen ≥65 Jahren (42,3 %). Gegen Influenza B: 76,4 %. Effektivität gegen A(H1) 44,3 %, gegen A(H3) 49,9 %. Wirkung gegen A sank von 51,9 % (2–8 Wochen) auf 41,4 % (≥16 Wochen) nach Impfung.",
+    transfer:"Vereinigtes Königreich, vergleichbare Testsysteme und Krankenhausdokumentation."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===

@@ -1,5 +1,44 @@
 [
  {
+  "pmid": "42640914",
+  "journal": "PLoS One",
+  "year": "2026",
+  "author": "Artemchuk O et al.",
+  "pubdate": "25.08.2026",
+  "added": "25.08.2026",
+  "transfer": "Kaukasus-Region mit WHO-Partner, aber begrenzte Übertragbarkeit auf deutsches System ohne Impfregister.",
+  "title": "Influenza-Impfskepsis bei georgischen Gesundheitspersonal senkt Impfquote über drei Jahre",
+  "sum": "Prospektive Kohortenstudie in Georgien mit 403 Krankenhausmitarbeitenden über drei Influenza-Saisons (2021–2024): Welche Faktoren beeinflussen die Annahme der jährlichen Influenza-Impfung?",
+  "result": "72 % erhielten mindestens einmal die Impfung, 28 % nie. Mangelndes Vertrauen in Sicherheit (aOR 0,27) und Wirksamkeit (aOR 0,36) sowie das Alter 40–49 Jahre (aOR 2,67) waren die Hauptfaktoren. Eine Klinik hatte deutlich niedrigere Quoten (aOR 0,06).",
+  "aufgenommen": "2026-08-26"
+ },
+ {
+  "pmid": "42638716",
+  "journal": "Front Public Health",
+  "year": "2026",
+  "author": "Scala A et al.",
+  "pubdate": "10.08.2026",
+  "added": "25.08.2026",
+  "transfer": "Italien, südeuropäisches Sozialversicherungssystem, Dokumentation ähnlich Deutschland-Anforderungen.",
+  "title": "Impfquote bei 24-Monate-Alten in Italien von 92,75 % auf 94,57 % durch Reorganisation der Dienste",
+  "sum": "Qualitäts-Verbesserungsprojekt in ASL Napoli 3 Sud 2022–2024 mit M.A.S.T.E.R.-Framework: Wie ließ sich die gefallene Abdeckung von Primärserien wieder heben?",
+  "result": "Quote 2023: 92,75 % (Rückgang von 94,57 % 2022). Nach Interventionen (standardisierte Erinnerungen, digitale Kalender, Schulung, Logistik-Überprüfung): 2024 → 94,57 % (+1,82 Pp.). Erinnerungen stiegen von 1.248 auf 2.136, vollendete Nachholtermine von 286 auf 612. Pädiater-Kooperation von 54,2 % auf 87,3 %.",
+  "aufgenommen": "2026-08-26"
+ },
+ {
+  "pmid": "42624601",
+  "journal": "BMJ Open",
+  "year": "2026",
+  "author": "Nkereuwem O et al.",
+  "pubdate": "20.08.2026",
+  "added": "20.08.2026",
+  "transfer": "Subsahara-Afrika, aber Befunde zu systemischer Fragmentierung relevant für Integrationsfragen.",
+  "title": "Schwangere in Gambia: Lücken beim COVID-19-Impfstoffzugang trotz neuer Leitlinien",
+  "sum": "Qualitative Studie in Gambia mit 15 Fachpersonen und 29 Workshop-Teilnehmenden: Welche Barrieren verhindern, dass Schwangere COVID-19-Impfstoffe erhalten?",
+  "result": "Evolvierende Sicherheitsleitlinien minderten Beratungsvertrauen und verstärkten Vaccine Hesitancy. Fragmentierte Dienste (nicht in Schwangerenvorsorge integriert), schwache Dokumentation von Nebenwirkungen und Misinformation waren Kernprobleme. Strategien: frühe Schulung, Koordination über Berufsgruppen, gestärkte Logistik und Sicherheitsmeldung.",
+  "aufgenommen": "2026-08-26"
+ },
+ {
   "pmid": "42632918",
   "journal": "Age Ageing",
   "year": "2026",
