@@ -1070,71 +1070,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "26. Aug. 2026, 07:05 Uhr";
+const SNAP_DATE = "27. Aug. 2026, 10:36 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"PLoS One", year:"2026", pmid:"42640914",
-    author:"Artemchuk O et al.", pubdate:"25.08.2026",
+    journal:"Hum Vaccin Immunother", year:"2026", pmid:"42647143",
+    author:"Pattyn J et al.", pubdate:"26.08.2026",
+    added:"26.08.2026",
+    title:"Finnlands zentrales Impfsystem erreicht hohe Quoten, kämpft aber mit Eigenverantwortung und Chancengerechtigkeit",
+    sum:"Eine strukturierte Literaturanalyse mit Experteneingaben beschrieb Finnlands National Vaccination Program (NVP) für Erwachsene, seine Stärken und Hürden.",
+    result:"Finnlands zentralisiertes, kostenlos bereitgestelltes NVP mit Bevölkerungsregistern erlaubt präzise Monitoring von Abdeckung, Sicherheit und Wirkung. Herausforderungen: Impfung ist individuelle Verantwortung (Compliance-Problem), Kosten für nicht-NVP-Impfstoffe erzeugen Ungleichheit, Impfvertrauen leicht rückläufig. Die CUBE wurde gegründet, um Verhaltensbarrieren zu verstehen.",
+    transfer:"skandinavisch mit Impfregister; zeigt Möglichkeiten und Limits zentralisierter Systeme."
+  },
+  {
+    journal:"J Med Internet Res", year:"2026", pmid:"42640841",
+    author:"Oakley CM et al.", pubdate:"25.08.2026",
     added:"25.08.2026",
-    title:"Influenza-Impfskepsis bei georgischen Gesundheitspersonal senkt Impfquote über drei Jahre",
-    sum:"Prospektive Kohortenstudie in Georgien mit 403 Krankenhausmitarbeitenden über drei Influenza-Saisons (2021–2024): Welche Faktoren beeinflussen die Annahme der jährlichen Influenza-Impfung?",
-    result:"72 % erhielten mindestens einmal die Impfung, 28 % nie. Mangelndes Vertrauen in Sicherheit (aOR 0,27) und Wirksamkeit (aOR 0,36) sowie das Alter 40–49 Jahre (aOR 2,67) waren die Hauptfaktoren. Eine Klinik hatte deutlich niedrigere Quoten (aOR 0,06).",
-    transfer:"Kaukasus-Region mit WHO-Partner, aber begrenzte Übertragbarkeit auf deutsches System ohne Impfregister."
+    title:"Lesbarer Weblink in digitalen Impfeinladungen erhöht Vertrauen und Buchungsbereitschaft",
+    sum:"Drei randomisierte Onlinestudien mit britischen Teilnehmern testeten, wie das Design von Web-Links in digitalen COVID-19-Impfeinladungen Vertrauen und Buchungsbereitschaft beeinflusst.",
+    result:"Im Kontrollarm (komplizierter Link) waren 63 % unsicher oder unwillig, ihn zu nutzen. Ein klarer Link (‚vaccine-booking.nhs.uk') verbesserte das Vertrauen (β=0,26 in Exp.1, β=0,24 in Exp.3), ebenso ein Text-eingebetteter Link (β=0,18 in Exp.2, β=0,17 in Exp.3). Ein verkürzter Link brachte keinen Gewinn. Einfache, erkennbare Links erhöhten Buchungsintention über verbessertes Vertrauen und Host-Erkennung.",
+    transfer:"Großbritannien; einfache Designprinzipien auch für deutsches Portal- und E-Mail-System anwendbar."
   },
   {
-    journal:"BMJ Open", year:"2026", pmid:"42624601",
-    author:"Nkereuwem O et al.", pubdate:"20.08.2026",
-    added:"20.08.2026",
-    title:"Schwangere in Gambia: Lücken beim COVID-19-Impfstoffzugang trotz neuer Leitlinien",
-    sum:"Qualitative Studie in Gambia mit 15 Fachpersonen und 29 Workshop-Teilnehmenden: Welche Barrieren verhindern, dass Schwangere COVID-19-Impfstoffe erhalten?",
-    result:"Evolvierende Sicherheitsleitlinien minderten Beratungsvertrauen und verstärkten Vaccine Hesitancy. Fragmentierte Dienste (nicht in Schwangerenvorsorge integriert), schwache Dokumentation von Nebenwirkungen und Misinformation waren Kernprobleme. Strategien: frühe Schulung, Koordination über Berufsgruppen, gestärkte Logistik und Sicherheitsmeldung.",
-    transfer:"Subsahara-Afrika, aber Befunde zu systemischer Fragmentierung relevant für Integrationsfragen."
+    journal:"Vaccine", year:"2026", pmid:"42603508",
+    author:"Huiberts AJ et al.", pubdate:"17.09.2026",
+    added:"15.08.2026",
+    title:"Schwere Nebenwirkungen nach COVID-19-Auffrischung vermindern die Bereitschaft zur erneuten Impfung",
+    sum:"Eine niederländische Kohortenstudie untersuchte, ob das Auftreten und die Schwere von Nebenwirkungen nach COVID-19-Auffrischimpfungen die Bereitschaft zur Impfung im Folgejahr beeinflussen.",
+    result:"Von 11.010 Geimpften (2022) waren 73,7 % im nächsten Jahr erneut geimpft. Systémische Nebenwirkungen 2022 waren mit niedrigerem Risiko für Wiederimpfung 2023 verbunden (OR 0,84, 95%-KI 0,76–0,93), besonders bei mittleren (OR 0,79) oder schweren Ereignissen (OR 0,45) sowie Dauer &gt;5 Tagen (OR 0,72). Das Muster wiederholte sich für 2024. Dies zeigt, dass direkte Erfahrungen mit Nebenwirkungen künftige Impfbereitschaft senken.",
+    transfer:"Niederlande mit Impfregister; deutsche Routinedaten vergleichbar."
   },
   {
-    journal:"Sci Rep", year:"2026", pmid:"42613346",
-    author:"Mulanje L et al.", pubdate:"18.08.2026",
-    added:"18.08.2026",
-    title:"Impfungen in der Schwangerschaft in Deutschland 2004–2022: Influenza-Anteil stieg auf 19 %, Pertussis auf 37 %",
-    sum:"Analyse von Krankenkassendaten für ~20 % der deutschen Bevölkerung: Wie viele Schwangerschaften (2.801.552 gesamt) wurden mit Impfstoffen exponiert?",
-    result:"15,1 % aller Schwangerschaften hatten mindestens eine Impfung. Influenza: 2 % (2004–2009) → 19 % (2020–2022) nach Empfehlung 2010. Pertussis: 3 % (2015–2019) → 37 % (2020–2022) nach Empfehlung 2020. 0,3 % erhielten kontraindizierte Impfstoffe (Masern, Mumps, Röteln).",
-    transfer:"Deutschland, nationale Krankenkassendaten mit Leistungserbringerdokumentation."
+    journal:"Vaccine", year:"2026", pmid:"42594637",
+    author:"Addario A et al.", pubdate:"17.09.2026",
+    added:"13.08.2026",
+    title:"Messaging zu ‚gesundem Altern' erhöht Impfbereitschaft bei älteren Erwachsenen in Frankreich",
+    sum:"Eine französische Querschnittsumfrage mit Social-Marketing-Ansatz testete, welche Botschaften und Zugangsmerkmale die Impfintention bei Älteren (≥60 Jahren) verbessern.",
+    result:"Von 2.416 Befragten hatten 15,6 % hohe, 81,7 % mittlere und 2,8 % niedrige Impfbereitschaft. Zustimmung, dass Impfung zu gesundem Altern beiträgt, stieg von 3 % (niedrig) auf 56 % (mittel) und 78 % (hoch). Botschaften zu Schlag- und Herzinfarktrisiko zeigten höchste Intention (69–67 %). Gültigkeitsvoucher wurden positiv aufgenommen (57–81 % würden impfen lassen). Ärzte waren vertrauteste Informationsquelle (93–95 %).",
+    transfer:"Frankreich mit ähnlichem Versicherungssystem; Fokus auf Rahmung und Zugang in DACH übertragbar."
   },
   {
-    journal:"Front Public Health", year:"2026", pmid:"42638716",
-    author:"Scala A et al.", pubdate:"10.08.2026",
-    added:"25.08.2026",
-    title:"Impfquote bei 24-Monate-Alten in Italien von 92,75 % auf 94,57 % durch Reorganisation der Dienste",
-    sum:"Qualitäts-Verbesserungsprojekt in ASL Napoli 3 Sud 2022–2024 mit M.A.S.T.E.R.-Framework: Wie ließ sich die gefallene Abdeckung von Primärserien wieder heben?",
-    result:"Quote 2023: 92,75 % (Rückgang von 94,57 % 2022). Nach Interventionen (standardisierte Erinnerungen, digitale Kalender, Schulung, Logistik-Überprüfung): 2024 → 94,57 % (+1,82 Pp.). Erinnerungen stiegen von 1.248 auf 2.136, vollendete Nachholtermine von 286 auf 612. Pädiater-Kooperation von 54,2 % auf 87,3 %.",
-    transfer:"Italien, südeuropäisches Sozialversicherungssystem, Dokumentation ähnlich Deutschland-Anforderungen."
+    journal:"Vaccine", year:"2026", pmid:"42585808",
+    author:"Huiberts AJ et al.", pubdate:"17.09.2026",
+    added:"12.08.2026",
+    title:"Omicron-JN.1-Impfstoff bot in den Niederlanden nur begrenzte Zusatzschutzwirkung",
+    sum:"Eine prospektive holländische Kohortenstudie quantifizierte die Wirksamkeit der JN.1-Varianten-angepassten COVID-19-Impfung gegen Infektionen von September 2024 bis Februar 2025.",
+    result:"Von 4.490 Teilnehmern &lt;60 Jahren waren 29 % geimpft, von 19.349 Älteren 74 %. Bei 2.142 Infektionen betrug die Impfwirksamkeit 16 % (&lt;60 Jahre, 95%-KI –11–36) und 13 % (≥60 Jahre, 95%-KI 2–23). Gegen KP.3.1.1 und XEC unterschied sich der Schutz nicht signifikant. Die begrenzte Schutzwirkung in einer Phase niedriger Inzidenz deutet auf waning immunity hin.",
+    transfer:"Niederlande mit vollständiger Impfdokumentation und genetischer Variantenbestimmung."
   },
   {
-    journal:"BMC Med", year:"2026", pmid:"42557557",
-    author:"Nussbaum C et al.", pubdate:"04.08.2026",
-    added:"06.08.2026",
-    title:"Soziale Ungleichheit bei Kinderimpfungen in Deutschland: Zahnarzt mindert Quote stärker als Fahrtweg",
-    sum:"Analyse von Krankenkassendaten 2016–2019 für ~430.000 Kinder und 2,5 Mio. Impfungen: Welche Faktoren erklären Impflücken nach Sozialstatus?",
-    result:"80 % der Impfserien vollständig und zeitgerecht abgeschlossen. Kleine signifikante Ungleichheit zugunsten höherer Sozialschichten (Konzentrationsindex 0,024). Größter Faktor: Arzt-Typ (allgemeine Praxen vs. Kinderärzte) erklärte Hauptteil der Quote-Unterschiede; Fahrtzeit spielte kaum Rolle.",
-    transfer:"Deutschland, nationale Krankenkassendaten mit Leistungserbringer-Information."
-  },
-  {
-    journal:"Age Ageing", year:"2026", pmid:"42632918",
-    author:"Bricout H et al.", pubdate:"03.08.2026",
-    added:"23.08.2026",
-    title:"Hochdosis-Influenzaimpfstoff reduziert Hospitalisierungen in französischen Pflegeheimen um 31 %",
-    sum:"Nationale französische Kohorte mit 315.239 Bewohnern (76.858 Paare): Wie unterscheidet sich die Wirkung von Hochdosis- gegen Standarddosis-Influenzaimpfstoff bei älteren Pflegeheimbewohnern?",
-    result:"Hochdosis-Impfstoff zeigte relative Impfeffektivität von 30,8 % (95%-KI 11,8–45,7) gegen influenzabedingte Hospitalisierung. Kein signifikanter Effekt auf Lungenentzündung oder kombinierte Endpunkte.",
-    transfer:"Frankreich, vergleichbares Versicherungssystem und nationale Abrechnungsdaten ähnlich Deutschland."
-  },
-  {
-    journal:"Influenza Other Respir Viruses", year:"2026", pmid:"42560010",
-    author:"Bucholc M et al.", pubdate:"Aug. 2026",
-    added:"06.08.2026",
-    title:"Influenzaimpfung senkt Hospitalisierungsrisiko 2024/25 in Nordirland um 46 %",
-    sum:"Test-Negative-Design in Nordirland 2024/25 mit 15.133 hospitalisierten Patienten, davon 2.024 influenzapositiv: Welche Impfeffektivität verhinderte Krankenhausaufnahmen?",
-    result:"Gesamtimpfeffektivität 46,0 % (95%-KI 39,7–51,8 %), höher bei Kindern 2–17 Jahren (60,8 %) als Erwachsenen ≥65 Jahren (42,3 %). Gegen Influenza B: 76,4 %. Effektivität gegen A(H1) 44,3 %, gegen A(H3) 49,9 %. Wirkung gegen A sank von 51,9 % (2–8 Wochen) auf 41,4 % (≥16 Wochen) nach Impfung.",
-    transfer:"Vereinigtes Königreich, vergleichbare Testsysteme und Krankenhausdokumentation."
+    journal:"Med Sci (Basel)", year:"2026", pmid:"42646566",
+    author:"Nati ID et al.", pubdate:"25.07.2026",
+    added:"26.08.2026",
+    title:"HPV-Wissen und Vertrauen in Gesundheitsbehörden prägen Impfbereitschaft in Rumänien",
+    sum:"Eine rumänische Querschnittsumfrage untersuchte kognitive und institutionelle Faktoren für HPV-Impfbereitschaft bei erwachsenen Frauen.",
+    result:"Unter 368 Befragten lag die Impfquote nur bei 28,6 %. Hohes HPV-Wissen korrelierte mit Impfbereitschaft (p=0,001), ebenso Vertrauen in Behörden. Digitale Fehlinformation zeigte schwachen negativen Zusammenhang mit Wissen, beeinflusste aber Impfbereitschaft nicht direkt. Die Autoren empfehlen Übergang von optionalem zu aktivem Angebot (Opt-out-Modell).",
+    transfer:"Süd-/Osteuropa mit ähnlicher administrativer Struktur; zeigt Wirkung von Vertrauen und Struktur."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
