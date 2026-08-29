@@ -238,4 +238,6 @@ NEWS_SUCHE = [
     "Impfkampagne",
     "Masern",
     "Impfstoffsicherheit",
+    "RSV",
+    "mRNA",
 ]
