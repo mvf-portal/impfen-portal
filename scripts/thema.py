@@ -229,7 +229,9 @@ Gib ausschliesslich das geforderte JSON zurueck.
 # heute null Treffern drin, weil sie fachlich in der Mitte des Themas liegen
 # und das Archiv taeglich waechst. Ein Abruf ohne Treffer kostet nichts.
 NEWS_SUCHE = [
+    "Impfung",
     "Impfquote",
+    "STIKO",
     "Impfskepsis",
     "Grippeschutzimpfung",
     "HPV-Impfung",
