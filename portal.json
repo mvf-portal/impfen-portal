@@ -1,6 +1,7 @@
 {
   "_": "Themenprofil Impfen. Datenbanken am 19.08.2026 mit linkpruefung.py geprueft; PubMed-Trefferzahl aus der Machbarkeitspruefung desselben Tages.",
   "DOMAIN": "impfen.m-vf.de",
+  "HUB": "impfen",
   "REPO": "mvf-portal/impfen-portal",
   "TITEL": "Knowledge-Hub Impfen",
   "TITEL_KURZ": "Impfen",
