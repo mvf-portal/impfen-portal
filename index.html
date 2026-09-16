@@ -1442,71 +1442,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "15. Sept. 2026, 06:20 Uhr";
+const SNAP_DATE = "16. Sept. 2026, 06:20 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Expert Rev Vaccines", year:"2026", pmid:"42728842",
-    author:"Bolanos R et al.", pubdate:"12.09.2026",
-    added:"12.09.2026",
-    title:"Verständnis der Herpes-Zoster-Erkrankung steigert Impfquote bei älteren Erwachsenen in China",
-    sum:"Querschnittsstudie mit 1556 Bürgern ab 60 Jahren aus Shenzhen, China (August–Oktober 2024) zu psychosozialen und familiären Faktoren der Herpes-Zoster-Impfakzeptanz.",
-    result:"8,0 % der Teilnehmer waren geimpft. Besseres Verständnis (Kohärenz) war mit höherer Impfquote assoziiert (AOR 1,15; 95%-KI 1,07–1,24). Impfmüdigkeit korrelierte mit niedrigerer Quote (AOR 0,79; 95%-KI 0,62–0,99). Stark modifizierbare psychosoziale Faktoren identifiziert.",
-    transfer:"China – Versorgungskontext anderer, Impfskepsis-Mechanismen aber übertragbar"
+    journal:"J Sch Health", year:"2026", pmid:"42740714",
+    author:"Nienstedt L et al.", pubdate:"Okt. 2026",
+    added:"15.09.2026",
+    title:"Impfen in Schulen: Was Schulkrankenpfleger in Colorado als Barrieren berichten",
+    sum:"Querschnittsbefragung von 368 Schulkrankenpflegern in Colorado 2024, ob und wie sie schulgebundene Impfaktionen (SAVEs) umsetzten.",
+    result:"Schulen ohne SAVEs nannten Mangel an Leitlinien (Top-3-Barriere), fehlende Personalzeit und mangelnde externe Partnerschaften als Haupthindernisse. In ländlichen Schulen rangierte Impf-Politisierung unter Top-Barrieren; in Schulen mit niedrigem Einkommen und Gymnasien war Zeitdruck dominant. Schulen mit SAVEs betont externe Partnerschaften und elterliches Vertrauen als Erfolsfaktoren.",
+    transfer:"USA - nur Zugangswegs-Hürden übertragbar, nicht System"
   },
   {
-    journal:"JMIR Cancer", year:"2026", pmid:"42715554",
-    author:"Cunningham-Erves J et al.", pubdate:"09.09.2026",
-    added:"09.09.2026",
-    title:"Mobile-App zur HPV-Impfberatung erhöhte Impfrate bei Kindern auf 48 Prozent",
-    sum:"Pilot-RCT (Juni–September 2023) in zwei Stadtkliniken Tennessee mit 57 Eltern von Kindern 9–17 Jahren. HPVVaxFacts-App vermittelt tailorierte Impfaufklärung vor Klinikbesuch versus Ernährungsedukation (Aufmerksamkeitskontrolle).",
-    result:"HPV-Impfeinleitung Interventionsgruppe 48 %, Kontrollgruppe 17 % (Differenz 0,24; 95%-KI 0,03–0,46; p=0,01). Wissensgewinne und Besorgnis-Reduktion in der App-Gruppe größer, aber nicht statistisch signifikant (p=0,13 und p=0,14). 81 % der Eltern nutzten die App, Mehrheit fand Protokoll und App akzeptabel.",
-    transfer:"USA – Impfakzeptanz-Intervention, transferierbar nur für Designprinzipien"
-  },
-  {
-    journal:"East Mediterr Health J", year:"2026", pmid:"42734198",
-    author:"Ullah A et al.", pubdate:"03.09.2026",
+    journal:"Zhonghua Yu Fang Yi Xue Za Zhi", year:"2026", pmid:"42736149",
+    author:"Zhang C et al.", pubdate:"06.09.2026",
     added:"14.09.2026",
-    title:"COVID-19-Pandemie verbesserte Wissen und Einstellung zur Polioimpfung in Pakistan",
-    sum:"Querschnittsstudie mit 308 Eltern von Kindern unter fünf Jahren in Nord-Waziristan, Pakistan (Januar bis April 2025) zum Wissensstand über Polioimpfung vor und nach COVID-19.",
-    result:"Mittlere Wissenspunktzahl stieg von 6,2±2,3 (vor COVID-19) auf 8,3±2,1 (nach COVID-19; p&lt;0,0001). Gutes Wissen (Punktzahl ≥9) nahm von 36,3 % auf 58,7 % zu, Fehlvorstellungen sanken von 64,9 % auf 35,1 %. Empfehlungen von Fachpersonal (85 %), Social-Media-Kampagnen (76 %) und Verfechter religiöser Führer (55 %) trugen zur Verbesserung bei.",
-    transfer:"Pakistan – Impfakzeptanz-Befunde, aber anderes Gesundheitssystem"
+    title:"Grippeschutz bei Älteren: Bildung und Umgebung beeinflussen Impfquote",
+    sum:"Befragung von 700 Personen ≥60 Jahren in Shaanxi (China) 2025 zu Einflussfaktoren auf Grippeimpfung.",
+    result:"49,7% geimpft, 50,3% ungeimpft. Schutzfaktoren: Hochschulbildung (OR 2,77), Stadtwohnung (OR 1,94), hohes Infektionsrisiko-Bewusstsein (OR 4,89), Glaube an Impfnutzen (OR 10,96), Familie/Freunde mit Impfgeschichte (OR 5,07). Bildung und soziales Umfeld sind stärkste Prädiktoren – nicht Zugang allein.",
+    transfer:"China - Befund zu Risiko-Wahrnehmung und Vertrauen transnational relevant"
   },
   {
-    journal:"Front Immunol", year:"2026", pmid:"42707705",
-    author:"Liu J et al.", pubdate:"24.08.2026",
-    added:"08.09.2026",
-    title:"Altersabhängige Immunabläufe erklären unterschiedliche Influenza-Impfwirksamkeit über Lebensalter",
-    sum:"Narrativer Review zu Einflussfaktoren des Alters auf Influenza-Impfeffektivität und zu lebensalter-spezifischen Immunmechanismen von der Entwicklung über Reifung bis zur Immunoseneszenz.",
-    result:"Influenza-Impfeffektivität zeigt erhebliche altersabhängige Heterogenität. Immun-Remodellierung über die Lebensspanne prägt Vakzin-Reaktionen. Review schlägt altersgerechte Impfstoff-Optimierungsstrategie vor: spezifische Formulierungen für Kinder, Erwachsene und ältere Menschen statt ‚one-dose-fits-all'-Modell. Theoretische Grundlage für Präzisions-Impfparadigma gelegt.",
-    transfer:"China (Institut), aber Immunologie-Mechanismen universal"
+    journal:"Immun Inflamm Dis", year:"2026", pmid:"42712161",
+    author:"Leskinen N et al.", pubdate:"Sept. 2026",
+    added:"09.09.2026",
+    title:"RSV-Impfung in der Schwangerschaft und Frühgeburtsrisiko: Metaanalyse",
+    sum:"Metaanalyse von 7 Studien (3 RCTs, 4 Beobachtungsstudien; insgesamt ~17.000 Geburten) zur Frage, ob mütterliche RSV-PreF-Impfung Frühgeburten oder NICU-Aufnahmen erhöht.",
+    result:"RCTs zeigten erhöhtes Frühgeburtsrisiko (RR 1,26, 95%-KI 1,08–1,46); Beobachtungsstudien nicht (RR 0,78, 95%-KI 0,46–1,32). Gepoolte Analyse: kein Gesamteffekt (RR 0,96, 95%-KI 0,68–1,38). NICU-Aufnahme nicht erhöht (RR 0,74). Evidenzsicherheit niedrig bis sehr niedrig; Überwachung empfohlen.",
+    transfer:"Mehrländer-Studie, übertragbar auf europaähnliche Settings"
   },
   {
-    journal:"Nat Commun", year:"2026", pmid:"42733065",
-    author:"Jin P et al.", pubdate:"07.08.2026",
-    added:"13.09.2026",
-    title:"Herpes Zoster-Impfstoff LZ901 schützt 91,6 Prozent der Geimpften vor Erkrankung",
-    sum:"Randomisierte, placebokontrollierte Phase-3-Studie zur Wirksamkeit und Sicherheit des Herpes-Zoster-Impfstoffs LZ901 (rekombinante gE-Fc-Fusionprotein) bei 26 018 Erwachsenen ab 40 Jahren über 12 Monate.",
-    result:"Impfeffektivität gegen Herpes Zoster 91,6 % (95%-KI 86,3–95,3; p&lt;0,001); bei 40–69 Jahren 93,9 %, bei ≥70 Jahren 66,9 %. Gegen Post-Zoster-Neuralgie 95,9 % (95%-KI 63,9–99,9). Injektionsstellen- und systemische Reaktionen erhöht, Grad-3-Reaktionen selten (0,3 % vs. 0,4 % Placebo), keine schwerwiegenden unerwünschten Ereignisse.",
-    transfer:"China, vergleichbare epidemiologische Zielgruppe und klinische Endpunkte"
+    journal:"Front Public Health", year:"2026", pmid:"42741336",
+    author:"Umbetzhanova A et al.", pubdate:"31.08.2026",
+    added:"15.09.2026",
+    title:"Digitale Assistenten für HPV-Impfung und Gebärmutterhalskrebs-Screening – was funktioniert?",
+    sum:"Systematische Übersicht von 14 Studien (2016–2026) zur Frage, ob interaktive digitale Tools (Chatbots, Apps, Serious Games) HPV-Impfung und Gebärmutterhals-Screening erhöhen.",
+    result:"Chatbots zeigten vielversprechende Kurzzeit-Effekte auf Termin-Buchung (moderate Evidenz), aber hohe Abbruch-Quoten bei Mehrfach-Dosen. Theorie-basierte Apps erhöhten Zytologie-Inanspruchnahme kurzfristig (moderate Evidenz). Ein Serious Game korrelierte mit höheren CIN2+-Erkennungsraten, aber Confounding war schwerwiegend. Insgesamt: moderate Kurzzeit-Effekte, aber unzureichende Evidenz für Dauer.",
+    transfer:"Mehrländer-Übersicht, digitale Hürden international ähnlich"
   },
   {
-    journal:"Epidemiol Infect", year:"2026", pmid:"42487216",
-    author:"Vernooij FS et al.", pubdate:"23.07.2026",
-    added:"23.07.2026",
-    title:"23-valente Pneumokokken-Polysaccharidimpfung senkte ambulante Pneumonie um knapp 20 Prozent",
-    sum:"Regression-Discontinuity-Analyse der Wirkung der PPV23-Impfung auf nicht-invasive Pneumokokken-Pneumonie bei Erwachsenen über 60 Jahren in den Niederlanden zwischen 2016 und 2023.",
-    result:"Gesamtwirksamkeit 19,7 % (95%-KI 8,5–29,7). Die Schutzwirkung nahm über die Zeit seit Impfberechtigung ab, blieb aber auch nach drei Jahren deutlich vorhanden. Daten aus 14 Laboren mit geschätzter Abdeckung von 34,9 % der niederländischen Bevölkerung.",
-    transfer:"Niederlande, vergleichbares Versicherungssystem und Laborregister"
+    journal:"Nat Commun", year:"2026", pmid:"42498786",
+    author:"Stankov MV et al.", pubdate:"24.07.2026",
+    added:"24.07.2026",
+    title:"Auffrischimpfung gegen JN.1-Variante aktiviert neue B-Zell-Subpopulationen",
+    sum:"Deutsche Längsschnittstudie (n=42, überwiegend mehrfach Geimpfte und Infizierte) untersuchte, wie JN.1-adaptierte mRNA-Booster die Antikörper- und B-Zell-Antwort verändern.",
+    result:"IgG-Bindung und Neutralisierungstiter gegen JN.1 stiegen; Antigen-spezifische Memory-B-Zellen zeigten durch Mutationen (somatic hypermutation) verbesserte JN.1-Bindung, ohne dass neue naive B-Zellen massiv rekrutiert wurden. Effekt: Reifung vorbestehender Memory-B-Zellen statt Neuausrichtung.",
+    transfer:"Deutschland, vergleichbare Impfstrategie und Dokumentation"
   },
   {
-    journal:"Epidemiol Infect", year:"2026", pmid:"42487216",
-    author:"Vernooij FS et al.", pubdate:"23.07.2026",
-    added:"23.07.2026",
-    title:"PPV23-Impfung reduzierte nicht-invasive Pneumokokken-Pneumonie in Niederlanden",
-    sum:"Retrospektive Analyse mit Regression-Discontinuity-Design von 3821 Patienten mit Pneumokokken-Pneumonie in den Niederlanden 2016–2023 zur Wirkung der PPV23-Impfung auf ambulante Infektionen.",
-    result:"Impfeffektivität gegen nicht-invasive Pneumokokken-Pneumonie 19,7 % (95%-KI 8,5–29,7). Von 634 geimpften Patienten zeigten sich substanzielle Schutzeffekte auch bei längerer Zeit seit Impfung. Laborgestützte Diagnose, Erfassung von 34,9 % der niederländischen Population.",
-    transfer:"Niederlande, Gesundheitssystem und Register-Datenqualität hoch vergleichbar"
+    journal:"PeerJ", year:"2026", pmid:"42428526",
+    author:"Li H et al.", pubdate:"06.07.2026",
+    added:"10.07.2026",
+    title:"CAR-T-Therapien in Europa: Axicabtagene vs. Tisagenlecleucel bei großzelligem Lymphom",
+    sum:"Systematische Übersicht von 8 europäischen Kohortenstudien mit 2.178 Patienten verglich Wirksamkeit und Toxizität zweier CAR-T-Produkte gegen diffuses großzelliges B-Zell-Lymphom.",
+    result:"Axicabtagene zeigte höhere 3-Monats-Ansprechquoten (signifikant, p nicht genannt), aber niedrigere 12-Monats-progressionsfreie Überlebensraten; höhere Raten für Zytokinfreibsetzungssyndrom und neurotoxisches Syndrom (ICANS) alle Grade sowie Grade ≥3 ICANS, häufigere Tocilizumab-Gabe. Unter europäischen Alltagsbedingungen zeigt sich ein Wirksamkeits-Toxizitäts-Trade-off.",
+    transfer:"Europa - acht Kohorten, vergleichbares Versicherungssystem"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1522,7 +1513,7 @@ const RADAR_FRISTEN = [["2026-09-22", "2026-10-20", "2026-10-20"], [], ["2026-09
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "15.09.2026";
+const NEWS_STAND = "16.09.2026";
 const NEWS = [
   {titel:"Covid-19-Impfstoffe bleiben trotz Immunmodulation durch Helminthen wirksam", datum:"2026-07-14", url:"https://www.monitor-versorgungsforschung.de/news/covid-19-impfstoffe-bleiben-trotz-immunmodulation-durch-helminthen-wirksam/"},
   {titel:"Neue Studienergebnisse des IGES Instituts zeigen: Grippeschutzimpfung in Apotheken kann Impfquote verbessern", datum:"2026-05-12", url:"https://www.monitor-versorgungsforschung.de/news/neue-studienergebnisse-des-iges-instituts-zeigen-grippeschutzimpfung-in-apotheken-kann-impfquote-verbessern/"},
@@ -1532,8 +1523,8 @@ const NEWS = [
 // Fremde Pressemeldungen zum Thema — taeglich von scripts/newsfeed.py
 // === PRESSE-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
 const PRESSE = [
-  {titel:"Alt werden mit Rheuma: nicht weniger, sondern präziser behandeln", datum:"2026-09-14", url:"http://idw-online.de/de/news877316", quelle:"idw"},
-  {titel:"Welt-Sepsis-Tag: DGAI fordert mehr Aufklärung und bessere Früherkennung", datum:"2026-09-11", url:"http://idw-online.de/de/news877269", quelle:"idw"},
+  {titel:"Mehr als eine Momentaufnahme", datum:"2026-09-15", url:"http://idw-online.de/de/news877388", quelle:"idw"},
+  {titel:"Mehr als eine Momentaufnahme - Neue KI betrachtet Krebsdiagnostik im Verlauf", datum:"2026-09-15", url:"http://idw-online.de/de/news877387", quelle:"idw"},
 ];
 // === PRESSE-BLOCK-ENDE ===
 
