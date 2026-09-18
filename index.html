@@ -1523,71 +1523,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "17. Sept. 2026, 06:20 Uhr";
+const SNAP_DATE = "18. Sept. 2026, 06:21 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Sex Health", year:"2026", pmid:"42749469",
-    author:"Padeniya TN et al.", pubdate:"20.10.2026",
+    journal:"PLoS One", year:"2026", pmid:"42748077",
+    author:"Wolsko C et al.", pubdate:"16.09.2026",
     added:"16.09.2026",
-    title:"Gonorrhoe-Impfstoff: Modellierte Prävalenzreduktion in abgelegenem indigenem Australien",
-    sum:"Mathematisches Transmissionsmodell (individual-basiert) zur Analyse der Effektivität einer hypothetischen Gonorrhoe-Impfung in abgelegenen Gemeinden mit hoher Inzidenz bei 16–36-jährigen australischen Ureinwohnern.",
-    result:"Bei 5-Jahres-Nachverfolgung mit 40 % jährlicher Impfquote und Impfstoff mit 25–50 % Schutzwirksamkeit: relative Prävalenzreduktion 15–28 %. Bei 80 % Impfquote und 75 % Wirksamkeit: 95 % (5 Jahre) bis 98 % (10 Jahre) Reduktion. Auch mit partieller Wirksamkeit substantielle Prävalenzrückgänge möglich.",
-    transfer:"Australien mit Registersystem und hoher Datenqualität, aber Bevölkerungszusammensetzung und epidemiologische Lage unterscheiden sich von Deutschland."
+    title:"Wertaffirmation in Impfkampagnen: Small Effects auf Impfbereitschaft",
+    sum:"Online-Befragung von 1170 Ungeimpften (USA, Frühjahr 2021) zu COVID-Impfbotschaften, die auf persönliche Werte ausgerichtet sind.",
+    result:"Botschaften, die Misstrauen in Regierung und Sorgen vor Freiheitsbeschränkung bestätigten, zeigten höhere Impfbereitschaft und mehr Vertrauen als Kontrolle; Effektgrößen klein, aber bedeutsam für Vaccine Hesitancy-Subgruppen.",
+    transfer:"USA (Wertbetonung kulturabhängig); Kommunikationsstrategie prinzipiell übertragbar, aber Wertrahmen müssen regional angepasst werden."
   },
   {
-    journal:"JMIR Public Health Surveill", year:"2026", pmid:"42748422",
-    author:"Elsayed EA et al.", pubdate:"16.09.2026",
-    added:"16.09.2026",
-    title:"Kulturell angepasste HPV-Aufklärung und Impfintention in Saudi-Arabien",
-    sum:"Quasi-experimentelle Studie (Prä-Post mit Kontrollgruppe, n=380) zur Wirkung einer 45-minütigen, an lokale Werte adaptierten Schulungsintervention auf HPV-Wissen, Gesundheitsbewusstsein und Impfbereitschaft.",
-    result:"In der Interventionsgruppe zeigte sich bei 3-Monats-Nachverfolgung gegenüber Kontrollen: Wissen (β=0,84, p&lt;0,001, d=0,45), Bewusstsein (β=0,88, p&lt;0,001, d=0,44), Einstellung (β=0,70, p&lt;0,001, d=0,38), Impfabsicht (β=0,86, p&lt;0,001, d=0,82, großer Effekt). Effekte über Altersgruppen, Bildung und Gesundheitskompetenz konsistent.",
-    transfer:"Saudi-Arabien, begrenzt übertragbar, aber Modell für kulturell sensible Beratung in diversen deutschen Bevölkerungsgruppen."
-  },
-  {
-    journal:"Hum Vaccin Immunother", year:"2026", pmid:"42723147",
-    author:"Fisher-Borne M et al.", pubdate:"10.09.2026",
-    added:"11.09.2026",
-    title:"HPV-Impfung bei Erwachsenen 27–45 Jahren: Quote und Trends in USA",
-    sum:"Retrospektive Auswertung kommerzieller Claims-Daten 2019–2023 zur HPV-Impfquote bei erwachsenen Frauen und Männern unter shared clinical decision-making.",
-    result:"Annual HPV-Impfinitiation stieg von 0,21 % (2019) auf 0,54 % (2023); kumulativ über 5 Jahre 0,84 % bei 3–4 Mio. jährlich ungeimpften Personen. Apotheken als Impfort nahmen zu, regionale Variation 0,23–1,56 %.",
-    transfer:"USA mit grundlegend anderer Versicherungsstruktur; aber Befunde zur Rolle von Apotheken und regionaler Varianz relevant für Deutschland."
-  },
-  {
-    journal:"Rev Med Virol", year:"2026", pmid:"42748460",
-    author:"Heen E et al.", pubdate:"Sept. 2026",
-    added:"16.09.2026",
-    title:"Herpes-Zoster-Impfung: Wirksamkeit gegen Zoster, Ophthalmicus und postherpetische Neuralgie",
-    sum:"Systematische Übersicht mit Metaanalyse von 18 Studien (3 RCT, 15 Beobachtungsstudien) zur Effektivität des Recombinant-Zoster-Impfstoffs (RZV) gegen Herpes zoster und Komplikationen in ≥50-Jährigen.",
-    result:"RZV zeigte in RCT 95 % Effektivität gegen Herpes zoster (hochgradig), substantielle Reduktion von Herpes-Zoster-Ophthalmicus (hochgradig), wahrscheinlich postherpetische Neuralgia (moderat). Durable Schutzwirkung mind. 11 Jahre nachgewiesen (niedrig bis moderat). Mögliche Assoziation mit reduziertem Demenzrisiko (niedrig, durch healthy-vaccinee-bias-Unsicherheit).",
-    transfer:"Norwegen und Schweden, vergleichbare altersstrukturierte Bevölkerungen und Impfregister; Befunde direkt auf deutsches Zoster-Impfprogramm übertragbar."
-  },
-  {
-    journal:"Front Immunol", year:"2026", pmid:"42676352",
-    author:"Goerlich N et al.", pubdate:"17.08.2026",
-    added:"01.09.2026",
-    title:"Immunosuppression-Entzug und mRNA-Impfung bei Nierentransplantierten",
-    sum:"Hochdimensionale Analyse der Immunzellkomposition bei Nierentransplantierten unter temporärem Mycophenolsäure-Entzug während mRNA-1273-Impfung.",
-    result:"Mycophenolsäure-Entzug war assoziiert mit erhöhten CD4+/CD8+ T-Zell-Frequenzen (p=0,039 bzw. p=0,001) und verminderten Monozyten- und B-Zell-Frequenzen (p=0,014 bzw. p=0,023). Effekte variierten je nach Transplantationsdauer und Alter; kein einzelner Marker war prädiktiv für Serokonversion.",
-    transfer:"Deutsche Klinikstudie, direkt übertragbar auf deutsches Transplantationssystem mit vergleichbarer Immunsuppression."
-  },
-  {
-    journal:"Nat Commun", year:"2026", pmid:"42744798",
-    author:"Ottensmeier C et al.", pubdate:"17.08.2026",
+    journal:"PLoS One", year:"2026", pmid:"42743175",
+    author:"Olani A et al.", pubdate:"15.09.2026",
     added:"15.09.2026",
-    title:"Personalisierte Neoantigen-Impfstoff-Therapie bei Kopf-Hals-Karzinom vermeidet Rezidive",
-    sum:"Randomisierte Phase-I-Studie (n=32) zur Adjuvans-Therapie mit TG4050, einem individualisierten viralen Neoantigen-Impfstoff mit bis zu 30 tumor-spezifischen Neoantigenen, nach Standard-Chemotherapie vs. abwartendem Vorgehen.",
-    result:"Unmittelbare TG4050-Gruppe: 0 von 16 Rezidive nach 30 Monaten Nachverfolgung; Kontrollgruppe: 3 von 16 Rezidive. T-Zell-Antworten gegen Neoantigen in 73,3 % detektiert (Median 3 Neoantigen pro Responder), persistent über 1 Jahr. Neoantigen-spezifische CD8+ T-Zellen zeigten Effektor- und geweberesidente Marker.",
-    transfer:"Multinationale Studie (UK, Frankreich, Niederlande), übertragbar auf deutsches Klinikum mit entsprechender molekularer Tumorcharakterisierung."
+    title:"Impf-Fachkompetenz in Äthiopien schwach: nur 50 % erfüllen Mindeststandard",
+    sum:"Observationale Studie mit Checklisten zur Impf-Fachkompetenz in 34 äthiopischen Gesundheitseinrichtungen.",
+    result:"340 Impfungen beobachtet; Gesamtkompetenz 50 % (Schwelle: 80 %); beste Leistung: Verabreichung (71 %), schlechteste: Dokumentation (22 %); Defizite in Infektionskontrolle und Patienten-Kommunikation. Lücke zwischen theoretischem Wissen und praktischer Umsetzung.",
+    transfer:"Äthiopien (Niedrig-Ressourcen), begrenzte Übertragbarkeit; zeigt jedoch global relevante Schulungs- und Überwachungsdefizite."
   },
   {
-    journal:"Cytokine", year:"2026", pmid:"42594457",
-    author:"Anabe D et al.", pubdate:"13.08.2026",
-    added:"13.08.2026",
-    title:"IL-33 und sST2 nach Tdap-Booster-Impfung bei finnischen Kindern",
-    sum:"Longitudinale Untersuchung von Interleukin-33 und löslichem ST2 in Serum vor und nach Tdap-IPV-Booster-Impfung in unterschiedlichen Altersgruppen (7–70 Jahre).",
-    result:"IL-33 in 70 % der Fälle nicht nachweisbar. Serum-sST2 zeigte signifikanten Anstieg über 365 Tage (p&lt;0,001), mit höherem Ausgangswert bei jüngeren Altersgruppen. Keine Assoziation zwischen IL-33/sST2 und Impfantwort oder Zytokinen.",
-    transfer:"Finnland, vergleichbares skandinavisches Gesundheitssystem und Register; etablierte Referenzwerte für präklinische Marker."
+    journal:"BMJ Open", year:"2026", pmid:"42731829",
+    author:"Nolting T et al.", pubdate:"11.09.2026",
+    added:"12.09.2026",
+    title:"Ökologische Studien zu Impfeffekten könnten Versorgungsdaten für Deutschland liefern",
+    sum:"Scoping Review, die ökologische Studien zu Impfeffektivität systematisieren soll, mit Fokus auf Deutschland.",
+    result:"Studienprotokoll ohne empirische Ergebnisse; zeigt einen Forschungsbedarf für vergleichende Analysen der Impfbeiträge zu Morbidität und Mortalität.",
+    transfer:"Deutschland, zukünftige Datenquelle; Übertragbarkeit hängt von Verfügbarkeit von Routinedaten ab."
+  },
+  {
+    journal:"Front Immunol", year:"2026", pmid:"42751130",
+    author:"Huang ML et al.", pubdate:"02.09.2026",
+    added:"17.09.2026",
+    title:"MZB1-Spiegel sagen Langzeitschutz nach Hepatitis-B-Impfung voraus",
+    sum:"Single-Cell-RNA-Seq plus nested case-control und Interventionsstudie zur Identifikation von B-Zell-Markern für stabilen Anti-HBs-Schutz.",
+    result:"MZB1 signifikant erhöht in B-Zellen von Langzeitschützer/innen (p=2,1e-12); Serum-MZB1 &gt;1000 mIU/ml nach 30 Jahren: 7,1±2,2 ng/ml vs. Anti-HBs-Negative: 0,96±0,1 ng/ml (p&lt;0,0001); MZB1 korreliert stark mit Anti-HBs-Titer (r=0,892). MZB1 schon nach 1. Dosis erhöht, VE besser bei hohen MZB1-Konzentrationen.",
+    transfer:"China (Validierungskohorten mobil), Biomarker universal; kein nationales Vorteil, aber wissenschaftlich relevant."
+  },
+  {
+    journal:"Med J Aust", year:"2026", pmid:"42754405",
+    author:"Imai-Boulter C et al.", pubdate:"Sept. 2026",
+    added:"17.09.2026",
+    title:"RSV-Hospitalisierungen vor Impfstoffeinführung: Altersgruppen und Datenlücken",
+    sum:"Retrospektive bevölkerungsbasierte Studie zur RSV-Krankheitslast in Australien vor Immunisierungsstart (2016–2019 Hospitalisierungen, 2023 Labor-Meldungen).",
+    result:"Hospitalisierungen bei &lt;3 Monaten alt: 4014/100000, bei ≥65 Jahren: 122/100000 (steigende Tendenz); 55 % der Bronchiolitiden mit ungeklärter Ursache; Labor-Meldungen höchst bei 6–11 Monaten (7778/100000). Zeigt Datenlücken bei Fallerfassung und Testfrequenz.",
+    transfer:"Australien (Versorgungsdaten verfügbar); ähnliche Datenstrukturen in Deutschland schwächer (kein nationales Impfregister)."
+  },
+  {
+    journal:"JMIR Res Protoc", year:"2026", pmid:"42492070",
+    author:"Felipe Fumero E et al.", pubdate:"23.07.2026",
+    added:"23.07.2026",
+    title:"Impfantwort bei Krebs und Immunsuppression: RESPONSE-Kohortenstudie",
+    sum:"Prospektive Kohortenstudie zu humoralen und zellulären Reaktionen auf Atemwegs-Impfstoffe bei onkologischen Patienten, Rekrutierung seit März 2025 laufend.",
+    result:"Protokoll mit laufender Rekrutierung; Fokus auf frühe und späte Booster-Effekte. Finale Analysen ab Q3 2026 geplant; zielt auf T-Zell-Antworten, die bei dieser Gruppe zuverlässiger sind als Antikörper.",
+    transfer:"Deutschland (Köln, Universitätsklinik), direkt übertragbar auf Versorgungsfragen bei Immunsuppression."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1603,7 +1594,7 @@ const RADAR_FRISTEN = [["2026-10-20", "2026-10-20", "2026-09-22"], [], ["2026-10
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "17.09.2026";
+const NEWS_STAND = "18.09.2026";
 const NEWS = [
   {titel:"Covid-19-Impfstoffe bleiben trotz Immunmodulation durch Helminthen wirksam", datum:"2026-07-14", url:"https://www.monitor-versorgungsforschung.de/news/covid-19-impfstoffe-bleiben-trotz-immunmodulation-durch-helminthen-wirksam/"},
   {titel:"Neue Studienergebnisse des IGES Instituts zeigen: Grippeschutzimpfung in Apotheken kann Impfquote verbessern", datum:"2026-05-12", url:"https://www.monitor-versorgungsforschung.de/news/neue-studienergebnisse-des-iges-instituts-zeigen-grippeschutzimpfung-in-apotheken-kann-impfquote-verbessern/"},
@@ -1613,16 +1604,15 @@ const NEWS = [
 // Fremde Pressemeldungen zum Thema — taeglich von scripts/newsfeed.py
 // === PRESSE-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
 const PRESSE = [
+  {titel:"Forschung für die neue Generation der ALL-Therapie", datum:"2026-09-17", url:"http://idw-online.de/de/news877566", quelle:"idw"},
   {titel:"Neues Verfahren kann MRT-Bildgebung künftig präziser machen", datum:"2026-09-17", url:"http://idw-online.de/de/news877548", quelle:"idw"},
-  {titel:"Diamantmagnetometer können neue Einblicke in die Herzaktivität ermöglichen", datum:"2026-09-17", url:"http://idw-online.de/de/news877525", quelle:"idw"},
 ];
 // === PRESSE-BLOCK-ENDE ===
 
 // Meldungen des G-BA — taeglich von scripts/newsfeed.py
 // === SELBST-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
 const SELBST = [
-  {titel:"Schutzimpfungs-Richtlinie: Umsetzung „STIKO-Empfehlung zur Aktualisierung der COVID-19-Impfempfehlung und zum Wegfall der Empfehlung zur Erlangung einer Basisimmunität“", datum:"2026-09-03", url:"/beschluesse/8001/", quelle:"G-BA"},
-  {titel:"Schutzimpfungs-Richtlinie: Umsetzung der aktualisierten STIKO-Empfehlungen zu Reiseimpfungen", datum:"2026-09-03", url:"/beschluesse/8000/", quelle:"G-BA"},
+  {titel:"Schutzimpfungs-Richtlinie: STIKO-Empfehlung zur spezifischen Prophylaxe von RSV-Erkrankungen mit langwirksamen monoklonalen Antikörpern bei Neugeborenen und Säuglingen in ihrer 1. RSV-Saison", datum:"2026-09-17", url:"/beschluesse/8020/", quelle:"G-BA"},
 ];
 // === SELBST-BLOCK-ENDE ===
 
