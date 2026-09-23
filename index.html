@@ -1523,53 +1523,71 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "22. Sept. 2026, 06:20 Uhr";
+const SNAP_DATE = "23. Sept. 2026, 07:29 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Pharmacoepidemiol Drug Saf", year:"2026", pmid:"42764173",
-    author:"Truter I et al.", pubdate:"Okt. 2026",
-    added:"20.09.2026",
-    title:"Influenza- und Pneumokokken-Impfungen in Südafrika 2017–2021: COVID-19 beeinflusste Versorgungsmuster",
-    sum:"Longitudinale pharmakoepidemiologische Studie zu Abgabemengen von Influenza- und Pneumokokken-Impfstoffen in privaten Krankenversicherungsdaten Südafrikas (3,8 Mio. Versicherte).",
-    result:"Jährliche Abgabemuster unterschieden sich signifikant (p &lt; 0,01), Influenza-Impfung hauptsächlich März–Juni. Post-COVID-19 (2020–2021): signifikant mehr Influenza-Impfungen März–Juni (p &lt; 0,01), leichte Zunahme Pneumokokken-Impfungen (p &lt; 0,05). COVID-19-Impfung hatte insgesamt keinen signifikanten Effekt auf die Muster.",
-    transfer:"Südafrika, Versicherungsdaten, Versorgungsrealität im Privatsektor."
+    journal:"Expert Rev Vaccines", year:"2026", pmid:"42770688",
+    author:"Suh J et al.", pubdate:"22.09.2026",
+    added:"22.09.2026",
+    title:"WHO-Einfachdosis-Empfehlung für HPV-Impfung erhöhte Ländereinführungen um 22 weitere Länder",
+    sum:"Analyse von Einflussfaktoren auf nationale HPV-Impfstoff-Einführungsraten in Ländern mit niedrigem und mittlerem Einkommen 2006–2025 mittels GLM und Changepoint-Analyse.",
+    result:"WHO-Einfachdosis-Empfehlung 2022 war der stärkste assoziierte Faktor; Gavi-Finanzierungserweiterung (2017–2025) auch bedeutsam. Modellprognosen: 22,46 zusätzliche nationale HPV-Impfstoff-Einführungen in LMIC allein durch die Einfachdosis-Empfehlung. Signifikanter Anstieg 2022.",
+    transfer:"Globale Politikanalyse, zeigt Hebel für Impfprogramme weltweit, nicht Deutschland-spezifisch"
   },
   {
-    journal:"Emerg Microbes Infect", year:"2026", pmid:"42765371",
-    author:"Hatta M et al.", pubdate:"21.09.2026",
+    journal:"J Korean Med Sci", year:"2026", pmid:"42773072",
+    author:"Kang CR et al.", pubdate:"21.09.2026",
+    added:"22.09.2026",
+    title:"Impfkettenmanagement in koreanischen Gesundheitseinrichtungen: Defizite bei Temperaturüberwachung und Notstrom",
+    sum:"Nationale Querschnittserhebung zur Evaluierung der Impfkühllager-Praktiken in 53 südkoreanischen Immunisierungsanbietern (43 private Einrichtungen, 10 öffentliche Gesundheitszentren).",
+    result:"Alle Einrichtungen hatten dedizierte Impfkühlschränke (100 %), aber nur 73,6 % kontinuierliche Temperaturüberwachung auf allen Geräten; Alarmsysteme in 83,0 %; Notfallpläne in 52,8 %, regelmäßig getestet nur 40,9 %. Dokumentation und Entsorgung erfolgten regelkonform, aber Infrastruktur-Sicherheit ist lückenhaft.",
+    transfer:"Südkorea, vergleichbare Infrastruktur-Herausforderungen, nicht direktes Deutschland-Modell"
+  },
+  {
+    journal:"Front Public Health", year:"2026", pmid:"42769268",
+    author:"Sezer E et al.", pubdate:"07.09.2026",
+    added:"22.09.2026",
+    title:"Impfablehnung in der Türkei: Eltern und Gesundheitspersonal berichten von Vertrauenskrise",
+    sum:"Qualitative Studie mit 19 impfablehnenden Eltern und 21 Fachpersonen (Ärzte, Hebammen) zur Erkundung von Gründen und strukturellen Barrieren für Impfverweigerung in der Türkei 2017.",
+    result:"Vier zentrale ethische Spannungsfelder: (1) Lücke zwischen informierter Ablehnung und uninformierter Wahl durch Informationsasymmetrie; (2) Vertrauenskrise in Gesundheitsinstitutionen durch leistungsbasierte Bezahlung von Ärzten; (3) Konflikt zwischen religiöser und medizinischer Autorität; (4) angefochtene elterliche Autonomie in patriarchalen Strukturen. Leistungsbezahlte Ärzte dokumentieren lieber, als dass sie Gespräche führen.",
+    transfer:"Türkei (LMIC), strukturelle Probleme aber in allen Systemen mit Leistungsvergütung relevant"
+  },
+  {
+    journal:"J Med Virol", year:"2026", pmid:"42765626",
+    author:"Wiggins J et al.", pubdate:"Sept. 2026",
     added:"21.09.2026",
-    title:"Saisonimpfung vor A(H5)-Impfung: marginal additivem Nutzen gegen pandemisches H5N1-Risiko",
-    sum:"Maus- und Frettchen-Modellstudie mit pandemischen H5N1-Viren (Klade 2.3.4.4b) zur Frage, ob saisonale Influenza-Impfung vor A(H5)-Impfung die Schutzwirkung verbessert.",
-    result:"Saisonale Impfung induzierte keine Antikörper gegen A(H5). Saisonale Impfung vor A(H5)-Impfung war in 1 von 3 Maus-Experimenten mit besseren Outcomes assoziiert, nicht aber in den anderen 2 Maus-Experimenten oder bei Frettchen. Begrenzte additive Vorteile.",
-    transfer:"Präklinische Modelle, Pandemiebereitscha Deutschland für Ressourcenpriorisierung."
+    title:"Adenovirus-Serotyp-Wechsel steigerte Ebola-Impfstoff-Immunantwort in Mäusen",
+    sum:"Vergleichende Laborstu die mit verschiedenen Adenovirus-Vektoren und Immunisierungsrouten zur Optimierung der Ebolavirus-Glykoproteinin-Immunogenität.",
+    result:"Species-C-Vektoren (Ad5, Ad6) zeigten starke Antikörperreaktionen und schnelle Klassenumwandlung zu IgG im Vergleich zu Species B und D. Serotyp-Wechsel-Schemata erhöhten Antikörperniveaus und erzeugte robuste T-Zell-Reaktionen bei intramuskulärer Gabe. Intranasale Gabe induzierte nachweisbares IgA, aber keine messbaren T-Zell-Antworten – routenabhängige Immunkompartimentalisierung.",
+    transfer:"Präklinische Mausstudien, Impfstoff-Entwicklungsphase, keine direkten Versorgungsdaten"
   },
   {
-    journal:"CMAJ", year:"2026", pmid:"42767684",
-    author:"Taddio A et al.", pubdate:"20.09.2026",
-    added:"21.09.2026",
-    title:"Impfbelastung bei Kindern senken: Leitlinie 2026 zu Schmerz und Angst",
-    sum:"Systematische Übersichtsarbeiten zu 16 evidenzgestützten Empfehlungen gegen Impfangst und Schmerzen in fünf Domänen (Prozess, Technik, Körperlage, Medikament, Psychologie).",
-    result:"7 starke Empfehlungen mit moderater bis hoher Evidenz (z. B. mehrkomponentige Prozessinterventionen, orale Ernährung für Säuglinge); 9 bedingte Empfehlungen bei niedriger Evidenz. Empfehlungen zielgruppenspezifisch für Fachpersonen, Impflinge und Angehörige.",
-    transfer:"Kanada, GRADE-Methodik, Impfpraxis in Hocheinkommensländern."
+    journal:"Rev Med Liege", year:"2026", pmid:"42751843",
+    author:"Iordachescu M et al.", pubdate:"Sept. 2026",
+    added:"17.09.2026",
+    title:"MMR-Impf-Anaphylaxie durch Schweineglatine: Fallbericht und praktische Empfehlungen",
+    sum:"Zwei pädiatrische Fallberichte von Anaphylaxie nach M-M-RVaxPro®-Impfung, zugeordnet der Schweineglatine (14,5 mg/Dosis) als Stabilisator.",
+    result:"Beide Patienten entwickelten schwere Reaktionen nach Auffrischung mit positiven Haut- und Bluttests für Gelatin; Allergien gegen Neomycin, Latex und Chlorhexidin ausgeschlossen. Empfehlungen: Vermeidung gelatinehaltiger Impfstoffe, Substitution mit gelatinefreien Alternativen (Priorix®), orale Herausforderungsprobe für Lebensmitteltoleranz, Epinephrin-Notfallset, Spitalüberwachung bei Mastzellstörungen.",
+    transfer:"Belgien, europäische Fallberichte, Sicherheitserkenntnis für alle Mastzell-Erkrankungen"
   },
   {
-    journal:"Clin Microbiol Infect", year:"2026", pmid:"42435855",
-    author:"Barretta M et al.", pubdate:"11.07.2026",
-    added:"11.07.2026",
-    title:"Influenza-Impfeffektivität bei Kindern in der Primärversorgung: 79 % Schutz vor laborbestätigter Erkrankung",
-    sum:"Multizenterstudie unter italienischen Kinderärzten zur Influenza-Impfeffektivität in der ambulanten Versorgung während der Saison 2024/2025.",
-    result:"79 % Reduktion von laborbestätigter Influenza bei geimpften vs. ungeimpften Kindern (95%-KI: 70–86 %). Kohorten-Analyse zeigte 76 % VE (95%-KI: 67–82 %). Effektivität konsistent für unterschiedliche Impfstofftypen und Testmethoden. Kein Schutz vor nicht-influenzabedingten Atemwegsinfekten.",
-    transfer:"Italien, vergleichbare pädiatrische Versorgungsstrukturen, Praxisdaten."
+    journal:"NEJM Evid", year:"2026", pmid:"42666095",
+    author:"Lassen MCH et al.", pubdate:"29.08.2026",
+    added:"29.08.2026",
+    title:"RSV-Impfstoff verhinderte 70 % der Hospitalisierungen bei Erwachsenen",
+    sum:"Pragmatische randomisierte Studie zum Schutz der bivalenten RSV-Präfusion-F-Impfung vor RSV-Hospitalisierung in Dänemark und Spanien.",
+    result:"Von 513.358 randomisierten Teilnehmern lag die Impfeffektivität gegen RSV-Atemwegserkrankungen-Hospitalisierung bei 70,3 % (95 %-KI 49,7–83,2), gegen untere Atemwege bei 71,1 % (45,4–85,7). Schwere Nebenwirkungen traten in 2,0 % der Impfgruppe vs. 2,2 % der Kontrollgruppe auf – ein wirksamer und sicherer Impfstoff unter Alltagsbedingungen.",
+    transfer:"Dänemark/Spanien, nationale Versicherungsdaten und Routineüberwachung, nicht USA-abhängig"
   },
   {
-    journal:"J Health Care Poor Underserved", year:"2026", pmid:"42766516",
-    author:"Everman S et al.", pubdate:"2026",
-    added:"21.09.2026",
-    title:"HPV-Impfbereitschaft bei Frauen in Sierra Leone: hohe Akzeptanz trotz Wissenslücken",
-    sum:"Querschnittsstudie zur Akzeptanz der HPV-Impfung bei 189 Frauen in ländlichen und städtischen Gegenden Sierra Leones, untersucht Wissen über Gebärmutterhalskrebs und Impfverhalten.",
-    result:"Geringe Awareness für Gebärmutterhalskrebs und HPV-Impfung. Breite Willingness zur Impfung. Statistisch signifikante positive Assoziation zwischen formaler Bildung und Impfbereitschaft (p &lt; 0,01). Starke Präferenz für Schulmedizin.",
-    transfer:"Wenig entwickelte Region, Impfakzeptanz ist Ausgangspunkt für Programmentwicklung."
+    journal:"Int J Epidemiol", year:"2026", pmid:"42772774",
+    author:"Sukik L et al.", pubdate:"18.08.2026",
+    added:"22.09.2026",
+    title:"COVID-19-Impfeffektivität: Test-negativ vs. Kohortenstudien liefern vergleichbare Ergebnisse",
+    sum:"Direkter Methodenvergleich: Test-negativ-Fall-Kontroll- vs. retrospektive Kohortenstudien zur COVID-19-Impfeffektivität in Katar mit identischer Population und Datenquelle.",
+    result:"BNT162b2-Effektivität gegen Infektion im Test-negativ-Design 71,0 % vs. Kohorten-Design 78,0 % (nach Korrektur für Testrate); gegen schwere COVID-19 96,3 % vs. 98,0 %. Beide Designs zeigten ähnliche Wirksamkeitsverluste. Methodische Unterschiede sind kleiner als erwartet.",
+    transfer:"Katar (nicht Deutschland), aber Methodenvergleich für alle Impfstoff-Studien übertragbar"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1585,7 +1603,7 @@ const RADAR_FRISTEN = [[], [], ["2026-10-06", "2026-09-23", "2026-10-28", "2026-
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "22.09.2026";
+const NEWS_STAND = "23.09.2026";
 const NEWS = [
   {titel:"Impfquote bei Älteren bei 34 Prozent: TÜV Rheinland zur Grippesaison", datum:"2026-09-18", url:"https://www.monitor-versorgungsforschung.de/news/impfquote-bei-aelteren-bei-34-prozent-tuev-rheinland-zur-grippesaison/"},
   {titel:"RSV-Prophylaxe bei Säuglingen: G-BA sieht keine Schutzimpfung", datum:"2026-09-18", url:"https://www.monitor-versorgungsforschung.de/news/rsv-prophylaxe-bei-saeuglingen-g-ba-sieht-keine-schutzimpfung/"},
