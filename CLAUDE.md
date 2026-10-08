@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Projekt
 
-„Knowledge-Hub Impfen" — ein Rechercheportal zum Themenfeld Impfen & Impfprävention. Ein Angebot von **Monitor Versorgungsforschung** (Betreiber: eRelation AG – Content in Health, Bonn).
+„Knowledge-Hub Impfen & Prävention" — ein Rechercheportal zum Themenfeld Impfen & Prävention. Bis 08.10.2026 hieß es „Knowledge-Hub Impfen" mit dem Thema „Impfen & Impfprävention"; Prävention ist im Titel, die Auswahlquote in `scripts/thema.py` (höchstens eine Studie ohne Impfbezug) gilt unverändert. Ein Angebot von **Monitor Versorgungsforschung** (Betreiber: eRelation AG – Content in Health, Bonn).
 
 Live: https://impfen.m-vf.de/
 

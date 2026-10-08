@@ -2,8 +2,8 @@
 <html lang="de">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Rechercheportal zu Impfen und Impfprävention: gebündelte Live-Suchen über Fachdatenbanken, Impfquoten, Meldedaten und Sicherheitsregister, dazu täglich neue Studien mit deutscher Zusammenfassung. Ein Angebot von Monitor Versorgungsforschung.">
-<title>Knowledge-Hub Impfen</title>
+<meta name="description" content="Rechercheportal zu Impfen und Prävention: gebündelte Live-Suchen über Fachdatenbanken, Impfquoten, Meldedaten und Sicherheitsregister, dazu täglich neue Studien mit deutscher Zusammenfassung. Ein Angebot von Monitor Versorgungsforschung.">
+<title>Knowledge-Hub Impfen &amp; Prävention</title>
 <!-- Ohne Icon zeigt die Tableiste nur den Anfangsbuchstaben des Titels. Das
      Zeichen ist in allen zwoelf Portalen dasselbe; gebaut wird es mit
      icon_bauen.py in der Portal-Vorlage. -->
@@ -1292,7 +1292,7 @@
   <div class="ortsleiste-innen wrap">
     <a class="ort-name" href="./">
       <img src="logo/hub-icon.svg" alt="" width="34" height="34">
-      <span><small>KNOWLEDGE-HUB</small><b>Impfen &amp; Impfprävention</b></span>
+      <span><small>KNOWLEDGE-HUB</small><b>Impfen &amp; Prävention</b></span>
     </a>
     <div class="ort-links">
       <a href="#suche">Suche</a>
@@ -1342,7 +1342,7 @@
   <div class="kopfband">
     <div class="wrap">
       <p class="kopf-eyebrow">KNOWLEDGE-HUB</p>
-      <h1 class="serif">Impfen &amp; Impfprävention
+      <h1 class="serif">Impfen &amp; Prävention
         <span class="sub">Ein Zugang zu Studien, Impfquoten und Praxiswissen</span>
       </h1>
       <p class="lede" id="kopfLede">Ein Suchbegriff, alle Datenbanken. Geben Sie bitte unten einen Begriff ein — jede Datenbankkarte öffnet damit direkt die passende Live-Suche in einem neuen Tab. Von PubMed über die Meldedaten des RKI bis zu den Sicherheitsregistern von PEI und EMA. Ein Service von Monitor Versorgungsforschung.</p>
@@ -1585,7 +1585,7 @@
   <aside class="studies" id="studien">
     <div class="studies-head">
       <div class="studies-title"><span class="dot"></span>Neu in PubMed</div>
-      <div class="studies-claim">Impfen &amp; Impfprävention — mit Bezug zu Deutschland ausgewählt</div>
+      <div class="studies-claim">Impfen &amp; Prävention — mit Bezug zu Deutschland ausgewählt</div>
       <div class="studies-status" id="studiesStatus" hidden></div>
       <div class="studies-hint">Bei den Suchergebnissen handelt es sich um eine Momentaufnahme, um keinen Live-Feed. Die Liste wird jeden Morgen um 6 Uhr automatisch aus PubMed geholt, auf Deutsch zusammengefasst und neu veröffentlicht. Bringt PubMed an einem Tag nichts Neues — an Wochenenden häufig —, bleiben die zuletzt gefundenen Studien aktuell, bis neue hinzukommen. Gesucht wird nach Arbeiten zu Impfungen, Impfprogrammen, Impfquoten und Impfstoffsicherheit. Ausgewählt wird nach Übertragbarkeit auf Deutschland: Ein Impfprogramm hängt am Gesundheitssystem, das es trägt — an Impfkalender, Abrechnungswegen und daran, wer impfen darf.</div>
       <div class="studies-sub">Datenbank: <b>PubMed</b>, nach Datum sortiert · jede Studie mit deutscher Zusammenfassung · Zuletzt aktualisiert: <b id="snapDate">Momentaufnahme</b></div>
@@ -1715,7 +1715,7 @@
 <script>
 // === CATS-BLOCK-START (themenspezifisch) ===
 const CATS = [
-  {id:"deutsch", h:14, num:"01", name:"Deutschsprachig: Impfen & Impfprävention"},
+  {id:"deutsch", h:14, num:"01", name:"Deutschsprachig: Impfen & Prävention"},
   {id:"biblio", h:190, num:"02", name:"Bibliografische Datenbanken (international)"},
   {id:"evidenz", h:210, num:"03", name:"Systematische Reviews & Evidenzsynthesen"},
   {id:"surveillance", h:205, num:"04", name:"Impfquoten, Meldedaten & Surveillance",
@@ -1734,7 +1734,7 @@ const CATS = [
 // type: "live" = URL-Suche mit %s | "portal" = feste URL | "lic" = lizenzpflichtig (feste URL)
 // === DB-BLOCK-START (themenspezifisch) ===
 const DB = [
-  // 01 — Deutschsprachig: Impfen & Impfprävention
+  // 01 — Deutschsprachig: Impfen & Prävention
   {c:"deutsch", n:"Monitor Versorgungsforschung", de:1, d:"Deutsche Fachzeitschrift für Politik, Praxis & Forschung der Versorgung — durchsuchbares Facharchiv.", t:"live", u:"https://www.monitor-versorgungsforschung.de/?s=%s&utm_source=impf-hub&utm_medium=referral&utm_campaign=impfen-portal", b:0},
   {c:"deutsch", n:"LIVIVO (ZB MED)", de:1, d:"Größtes deutschsprachiges Suchportal der Lebenswissenschaften — Begriff nach Öffnen eingeben.", t:"portal", u:"https://www.livivo.de/"},
   {c:"deutsch", n:"German Medical Science (GMS)", de:1, d:"Open-Access-Portal deutscher medizinischer Fachgesellschaften (AWMF/ZB MED).", t:"portal", u:"https://www.egms.de/"},
@@ -2421,7 +2421,7 @@ function baueDoc(titel, untertitel, liste, mitDatum){
     + '<p style="margin:0 0 16pt;color:#555">' + htmlEsc(untertitel) + '</p>'
     + eintraege
     + '<p style="margin-top:20pt;font-size:8.5pt;color:#777">Quelle: Knowledge-Hub '
-    + 'Impfen &amp; Impfprävention, impfen.m-vf.de &ndash; ein Angebot von Monitor Versorgungsforschung. '
+    + 'Impfen &amp; Prävention, impfen.m-vf.de &ndash; ein Angebot von Monitor Versorgungsforschung. '
     + 'Studiendaten aus PubMed (U.S. National Library of Medicine).</p></body></html>';
 }
 
@@ -2430,7 +2430,7 @@ const CSV_MIME = 'text/csv;charset=utf-8';
 
 document.getElementById('dlAktuellDoc').addEventListener('click', ()=>{
   speichern('MVF-Impf-Hub_Neueste-Studien_'+dateiStempel()+'.doc',
-    baueDoc('Neu in PubMed: Impfen & Impfprävention', 'Stand: '+alsKlartext(SNAP_DATE), STUDIES, false), DOC_MIME);
+    baueDoc('Neu in PubMed: Impfen & Prävention', 'Stand: '+alsKlartext(SNAP_DATE), STUDIES, false), DOC_MIME);
 });
 document.getElementById('dlAktuellCsv').addEventListener('click', ()=>{
   speichern('MVF-Impf-Hub_Neueste-Studien_'+dateiStempel()+'.csv',
@@ -3830,7 +3830,7 @@ function mtDoc(liste){
     + '<p style="margin:0 0 16pt;color:#555">' + htmlEsc(mtKopfzeile()) + '</p>'
     + eintraege
     + '<p style="margin-top:20pt;font-size:8.5pt;color:#777">Quelle: Knowledge-Hub '
-    + 'Impfen &amp; Impfprävention, impfen.m-vf.de &ndash; ein Angebot von Monitor Versorgungsforschung.</p>'
+    + 'Impfen &amp; Prävention, impfen.m-vf.de &ndash; ein Angebot von Monitor Versorgungsforschung.</p>'
     + '</body></html>';
 }
 
