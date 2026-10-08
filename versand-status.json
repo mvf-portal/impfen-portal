@@ -1,33 +1,33 @@
 {
  "hub": "Knowledge-Hub Impfen",
  "domain": "impfen.m-vf.de",
- "datum": "2026-10-07",
+ "datum": "2026-10-08",
  "stand": "terminiert",
- "titel": "MVF Impf-Newsletter 07.10.2026",
- "betreff": "Neueste Studien - Impfen und Impfpraevention – 7. Oktober 2026",
+ "titel": "MVF Impf-Newsletter 08.10.2026",
+ "betreff": "Neueste Studien - Impfen und Impfpraevention – 8. Oktober 2026",
  "anzahl": 6,
  "pmids": [
-  "42838605",
-  "42837522",
-  "42836598",
-  "42836283",
-  "42835288",
-  "42834615"
+  "42842944",
+  "42842236",
+  "42835057",
+  "42834877",
+  "42834027",
+  "42594547"
  ],
- "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9099279",
- "termin_utc": "2026-10-07T08:00:00+00:00",
+ "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9099294",
+ "termin_utc": "2026-10-08T08:00:00+00:00",
  "empfaenger": 27,
  "listengroesse": 5883,
  "beanstandungen": [],
  "aussortiert": [],
  "pool": {
   "geholt": 220,
-  "bekannt": 140,
-  "pool": 41,
+  "bekannt": 139,
+  "pool": 42,
   "gewaehlt": 6,
   "neu": 6
  },
  "rubriken": {
-  "news": "a092620eff89b1e5"
+  "news": "9675eacda80061b9"
  }
 }
