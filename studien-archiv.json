@@ -2080,12 +2080,12 @@
   "aufgenommen": "2026-09-15"
  },
  {
-  "pmid": "42728842",
-  "journal": "Expert Rev Vaccines",
+  "pmid": "42708543",
+  "journal": "Hum Vaccin Immunother",
   "year": "2026",
-  "author": "Bolanos R et al.",
-  "pubdate": "12.09.2026",
-  "added": "12.09.2026",
+  "author": "Cao H et al.",
+  "pubdate": "08.09.2026",
+  "added": "08.09.2026",
   "transfer": "China – Versorgungskontext anderer, Impfskepsis-Mechanismen aber übertragbar",
   "title": "Verständnis der Herpes-Zoster-Erkrankung steigert Impfquote bei älteren Erwachsenen in China",
   "sum": "Querschnittsstudie mit 1556 Bürgern ab 60 Jahren aus Shenzhen, China (August–Oktober 2024) zu psychosozialen und familiären Faktoren der Herpes-Zoster-Impfakzeptanz.",
@@ -2181,19 +2181,6 @@
   "title": "Sierra Leone: Von Impfstoff-Verfügbarkeit zur Bevölkerungsschutzung – Deployment Readiness",
   "sum": "Vergleichende Analyse von Impfkampagnen-Implementierung in Sierra Leone (COVID-19 2021, Ebola 2024, Mpox 2025) zur Identifikation kritischer Faktoren zwischen Zulassung und Vakzinierungsbeginn.",
   "result": "COVID-19: 45 Tage von EMA-Zulassung bis Impfstart; 73,2–86,7 % Deckung in Zielgruppe. Ebola: 1.851 Tage bis Impfstart trotz globales Stockpile seit 2021. Mpox: 106 Tage nach Ausbruchbestätigung, 186.053 Personen erreicht. >84 % der COVID-Dosen über Surge-Kampagnen. Produktverfügbarkeit allein unzureichend; nationale Aktivierung, Finanzierung und Anbindung an globale Vorgaben entscheidend.",
-  "aufgenommen": "2026-09-14"
- },
- {
-  "pmid": "42728936",
-  "journal": "Open Res Eur",
-  "year": "2026",
-  "author": "La Porta CAM et al.",
-  "pubdate": "22.08.2026",
-  "added": "12.09.2026",
-  "transfer": "Global, zeigt Koordinationsproblem zwischen Zulassung und Programm-Aufnahme, relevant für deutsche Impfkalender-Entscheidungen.",
-  "title": "Dengue- und Chikungunya-Impfstoffe: Verfügbarkeit ungleich Erreichen von Risikogruppen",
-  "sum": "Übersichtsarbeit zu Lücken zwischen Impfstoff-Zulassung/globaler Verfügbarkeit und epidemiologischer Risikoverbreitung sowie inkonsistentem Eintrag in nationale Impfprogramme.",
-  "result": "Erhebliche Diskrepanzen zwischen geografischen Regionen mit regulatorischer Zulassung und Zonen höchster epidemiologischer Belastung (Dengue, Chikungunya). Nationale Impfprogramm-Inklusion fragmentarisch. Aktuelle Strategien reaktiv, unzureichend an Transmissionsmuster und Gesundheitssystem-Kapazität angepasst. Bedarf: Präparedness-orientierte Frameworks für zeitgerechte Einführung, nachhaltige Abdeckung, risikoadaptives Deployment.",
   "aufgenommen": "2026-09-14"
  },
  {
@@ -2509,19 +2496,6 @@
   "aufgenommen": "2026-09-10"
  },
  {
-  "pmid": "42656515",
-  "journal": "Front Public Health",
-  "year": "2026",
-  "author": "Deng L et al.",
-  "pubdate": "12.08.2026",
-  "added": "27.08.2026",
-  "transfer": "China-Studie, System unterscheidet sich; Effektivitätsmessung an Bevölkerungsdaten aber global vergleichbar.",
-  "title": "EV-A71-Impfung reduzierte Hand-Fuß-Mund-Krankheit um 57% in Shanghai – Shift zu anderen Serotypen beobachtet",
-  "sum": "Analyse epidemiologischer Veränderungen der Hand-Fuß-Mund-Krankheit (HFMD) über 15 Jahre in Minhang-Bezirk Shanghai mit Schätzung der Impfeffektivität nach Test-Negative-Design.",
-  "result": "Nach Einführung der EV-A71-Impfung (2016) sanken Inzidenz um 56,7%, Schweregrad um 95,2%, Sterblichkeit um 100%. Gesamtimpfeffektivität gegen EV-A71-assoziierte HFMD: 89,9% (95%-KI 74,5–96,0) für Zwei-Dosen-Serie; Durchimpfungsquote 50%. Keine Kreuzprotektion gegen andere Serotypen.",
-  "aufgenommen": "2026-09-10"
- },
- {
   "pmid": "42407300",
   "journal": "Vaccine",
   "year": "2026",
@@ -2727,19 +2701,6 @@
   "title": "Neutralisierende Antikörper senken Risiko für schwere COVID-19 um durchschnittlich 43 %",
   "sum": "Meta-Analyse von 25 klinischen Studien zur Wirksamkeit vakzininduzierten Neutralisierungstitern gegen Progression zu schwerem COVID-19 bei Infizierten.",
   "result": "Zehnfacher Anstieg der Neutralisierungstiter senkt relatives Progressionsrisiko zu schwerer Erkrankung um 43% (RR 0,57, 95%-KI [0,51–0,64], p<0,001). Schutz durch Impfung übertrifft passiv verabreichte Antikörper, deutet aber auch auf zusätzliche T-Zell-Mechanismen hin.",
-  "aufgenommen": "2026-09-07"
- },
- {
-  "pmid": "42425835",
-  "journal": "Trends Cancer",
-  "year": "2026",
-  "author": "Ren L et al.",
-  "pubdate": "09.07.2026",
-  "added": "09.07.2026",
-  "transfer": "Frankreich/Europa – europäische Zulassungsdaten, PV-Praktiken, pharmakovigilanzregeln vergleichbar",
-  "title": "Sicherheit von fünf COVID-19-Impfstoffen: Vergleich von Laborprüfung und Pharmakovigilanz",
-  "sum": "Vergleichende Analyse von Nichtkliniksicherheitsstudien und Pharmakovigilanzüberwachung zu fünf in Frankreich autorisierten COVID-19-Impfstoffen (Comirnaty, Spikevax, Vaxzevria, Jcovden, Nuvaxovid).",
-  "result": "Reaktogenität bei Vektor-Impfstoffen höher als mRNA-Stoffen. Für seltene Ereignisse (Myokarditis, VITT) zeigten nichtklische Modelle begrenzte Vorhersagekraft. Troponin als klinischer Biomarker identifiziert; Harmonisierung der Biomarker-Überwachung empfohlen – klinische Phänomene wurden durch Labortests nicht vorhergesagt.",
   "aufgenommen": "2026-09-07"
  },
  {
