@@ -1,5 +1,83 @@
 [
  {
+  "pmid": "42858449",
+  "journal": "Rev Med Virol",
+  "year": "2026",
+  "author": "Maria LFBS et al.",
+  "pubdate": "Nov. 2026",
+  "added": "10.10.2026",
+  "transfer": "Brasilien/Lateinamerika; Befund zur kardiovaskulären Langzeit-Schutzwirkung international übertragbar",
+  "title": "COVID-19-Impfung reduziert Risiko für Post-COVID-Herzerkrankungen",
+  "sum": "Systematische Qualitative Synthese der Evidenz nach Bradford Hill-Kriterien und Sufficient Component Cause-Modell zur Frage, ob Impfung vor Post-COVID-Herz-Kreislauf-Komplikationen schützt.",
+  "result": "COVID-19-Impfung erfüllte vier von neun Bradford-Hill-Kriterien als protektiver Faktor gegen Post-COVID-Kardiovaskulärerkrankungen: Assoziationsstärke, Konsistenz, Temporalität und biologischer Gradient. Drei Kriterien (biolog. Plausibilität, Kohärenz, Analogie) waren teilweise erfüllt. Schlussfolgerung: Impfung erwies sich wirksam über die Akutphase hinaus.",
+  "aufgenommen": "2026-10-12"
+ },
+ {
+  "pmid": "42848888",
+  "journal": "Science",
+  "year": "2026",
+  "author": "Huus KE et al.",
+  "pubdate": "08.10.2026",
+  "added": "08.10.2026",
+  "transfer": "Deutschland mit vergleichbarer Bevölkerungsstruktur; Befund zu Immunmechanismus ist universell übertragbar",
+  "title": "Impffieber wird durch Darmbakterienzusammensetzung geprägt",
+  "sum": "Longitudinale Profilerstellung der Darmflora bei 171 Erwachsenen nach mRNA-Impfung zeigte, dass Fieber mit niedriger intestinaler Entzündung und gesteigerten flagellierten Lachnospiraceae-Bakterien korreliert.",
+  "result": "Fieberhäufigkeit war mit mikrobiellem Entzündungsstatus und Flagellin-Expressionsprofilen assoziiert. Diät und Mikrobiom-Targeting könnten Impfnebenwirkungen reduzieren, ohne dass damit Impfeffektivität gefährdet wäre – nur lokale Immuntoleranz wird moduliert.",
+  "aufgenommen": "2026-10-12"
+ },
+ {
+  "pmid": "42847160",
+  "journal": "Hum Vaccin Immunother",
+  "year": "2026",
+  "author": "Thomas Gil M et al.",
+  "pubdate": "08.10.2026",
+  "added": "08.10.2026",
+  "transfer": "Indien; Einflussfaktoren auf Impfverhalten sind kulturübergreifend relevant, aber Interventionsdesign muss an deutsche Kontexte angepasst werden",
+  "title": "HPV-Impfbereitschaft hängt von Risikobewusstsein, Vertrauen und Informationsquellen ab",
+  "sum": "Querschnittsumfrage unter indischen Studentinnen integrierte Konstrukte aus Health Belief Model, Protection Motivation Theory und 3Cs-Rahmen, um Determinanten der Impfbereitschaft und des Impfverhaltens zu untersuchen.",
+  "result": "Wahrgenommene Schweregrad und Anfälligkeit sowie Impfvertrauen erhöhten Impfbereitschaft (+), Selbstzufriedenheit senkte sie (−). Impfbereitschaft mediierte signifikant die Effekte auf tatsächliches Impfverhalten. HPV-Impfempfehlungen und Informationsquellen hatten begrenzt verstärkende Moderatoren-Effekte.",
+  "aufgenommen": "2026-10-12"
+ },
+ {
+  "pmid": "42840118",
+  "journal": "Front Public Health",
+  "year": "2026",
+  "author": "Ak F et al.",
+  "pubdate": "22.09.2026",
+  "added": "07.10.2026",
+  "transfer": "Türkei mit westlichem Versicherungssystem; Befund zum Schutzeffekt durch Impfung bei Immunsuppression auf deutsche Rheumatologie direkt übertragbar",
+  "title": "Impfung senkt COVID-19-Hospitalisierung bei Rheumapatienten deutlich",
+  "sum": "Retrospektive Kohortenstudie von 1.024 Rheumapatienten (März 2020–Januar 2023): Assoziationen zwischen Krankheitssubtyp, Behandlung, Impfstatus und COVID-19-Infektions- sowie Hospitalisierungsrisiko untersucht.",
+  "result": "Von 1.024 Patienten entwickelten 33,9% COVID-19; 92,3% der Nicht-Infizierten waren geimpft vs. 23,9% der Infizierten (p<0,001). Hospitalisiert wurden 11,5% der COVID-19-Positiven; Prädiktoren: höheres Alter, Lungenbeteiligung, längere Krankheitsdauer. BNT162b2-Impfung war mit niedrigerem Hospitalisierungsrisiko assoziiert.",
+  "aufgenommen": "2026-10-12"
+ },
+ {
+  "pmid": "42722692",
+  "journal": "Nat Commun",
+  "year": "2026",
+  "author": "Jiménez-Vázquez S et al.",
+  "pubdate": "10.09.2026",
+  "added": "10.09.2026",
+  "transfer": "Deutschland mit vergleichbarem Zelltherapie-Standard; Befund zu Targetidentifikation prinzipiell universell",
+  "title": "Neues CAR-T-Zielprotein MPZL1 könnte Spektrum von Tumorarten erweitern",
+  "sum": "Entwicklung und präklinische Testung von CAR-T-Zellen gegen MPZL1, ein Oberflächenprotein, das bei bis zu 75% bestimmter Tumortypen amplifiziert ist und kaum auf Normalgewebe vorkommt.",
+  "result": "CAR-T-Zellen gegen MPZL1 zeigten In-vitro-Eliminationsaktivität und Antitumoraktivität in menschlichen Xenograft-, autochthonen Maus- und patientenabgeleiteten Modellen. Die Arbeiten liefern grundsätzlich einen neuen Zielansatz; klinische Überprüfung steht aus.",
+  "aufgenommen": "2026-10-12"
+ },
+ {
+  "pmid": "42696794",
+  "journal": "Cytotherapy",
+  "year": "2026",
+  "author": "Griebling D et al.",
+  "pubdate": "19.06.2026",
+  "added": "04.09.2026",
+  "transfer": "Europäische Versorgungsarchitektur mit direktem Bezug zu Herstellungshürden in Deutschland und Nachbarländern",
+  "title": "Dezentralisierte CAR-T-Herstellung könnte Zugangshürden in Europa senken",
+  "sum": "Review des EASYGEN-Konsortiums zu Engpässen bei CAR-T-Therapie in Europa und Optionen für dezentralisierte Point-of-Care-Fertigung mit nichtviralen Gentransfer-Verfahren an mehreren Zentren.",
+  "result": "Dezentralisierte Produktion und nichtvirale Gentransfer versprechen kürzere Vein-to-Vein-Zeiten, niedrigere Kosten und weniger Patienten-Verschlechterung während der Wartezeit. Konsortium schlägt vor: Standardisierung der Datenintegration und regulatorischer Rahmen für europäische Harmonisierung.",
+  "aufgenommen": "2026-10-12"
+ },
+ {
   "pmid": "42854231",
   "journal": "JMIR Public Health Surveill",
   "year": "2026",
@@ -2080,19 +2158,6 @@
   "aufgenommen": "2026-09-15"
  },
  {
-  "pmid": "42708543",
-  "journal": "Hum Vaccin Immunother",
-  "year": "2026",
-  "author": "Cao H et al.",
-  "pubdate": "08.09.2026",
-  "added": "08.09.2026",
-  "transfer": "China – Versorgungskontext anderer, Impfskepsis-Mechanismen aber übertragbar",
-  "title": "Verständnis der Herpes-Zoster-Erkrankung steigert Impfquote bei älteren Erwachsenen in China",
-  "sum": "Querschnittsstudie mit 1556 Bürgern ab 60 Jahren aus Shenzhen, China (August–Oktober 2024) zu psychosozialen und familiären Faktoren der Herpes-Zoster-Impfakzeptanz.",
-  "result": "8,0 % der Teilnehmer waren geimpft. Besseres Verständnis (Kohärenz) war mit höherer Impfquote assoziiert (AOR 1,15; 95%-KI 1,07–1,24). Impfmüdigkeit korrelierte mit niedrigerer Quote (AOR 0,79; 95%-KI 0,62–0,99). Stark modifizierbare psychosoziale Faktoren identifiziert.",
-  "aufgenommen": "2026-09-15"
- },
- {
   "pmid": "42715554",
   "journal": "JMIR Cancer",
   "year": "2026",
@@ -2103,6 +2168,19 @@
   "title": "Mobile-App zur HPV-Impfberatung erhöhte Impfrate bei Kindern auf 48 Prozent",
   "sum": "Pilot-RCT (Juni–September 2023) in zwei Stadtkliniken Tennessee mit 57 Eltern von Kindern 9–17 Jahren. HPVVaxFacts-App vermittelt tailorierte Impfaufklärung vor Klinikbesuch versus Ernährungsedukation (Aufmerksamkeitskontrolle).",
   "result": "HPV-Impfeinleitung Interventionsgruppe 48 %, Kontrollgruppe 17 % (Differenz 0,24; 95%-KI 0,03–0,46; p=0,01). Wissensgewinne und Besorgnis-Reduktion in der App-Gruppe größer, aber nicht statistisch signifikant (p=0,13 und p=0,14). 81 % der Eltern nutzten die App, Mehrheit fand Protokoll und App akzeptabel.",
+  "aufgenommen": "2026-09-15"
+ },
+ {
+  "pmid": "42708543",
+  "journal": "Hum Vaccin Immunother",
+  "year": "2026",
+  "author": "Cao H et al.",
+  "pubdate": "08.09.2026",
+  "added": "08.09.2026",
+  "transfer": "China – Versorgungskontext anderer, Impfskepsis-Mechanismen aber übertragbar",
+  "title": "Verständnis der Herpes-Zoster-Erkrankung steigert Impfquote bei älteren Erwachsenen in China",
+  "sum": "Querschnittsstudie mit 1556 Bürgern ab 60 Jahren aus Shenzhen, China (August–Oktober 2024) zu psychosozialen und familiären Faktoren der Herpes-Zoster-Impfakzeptanz.",
+  "result": "8,0 % der Teilnehmer waren geimpft. Besseres Verständnis (Kohärenz) war mit höherer Impfquote assoziiert (AOR 1,15; 95%-KI 1,07–1,24). Impfmüdigkeit korrelierte mit niedrigerer Quote (AOR 0,79; 95%-KI 0,62–0,99). Stark modifizierbare psychosoziale Faktoren identifiziert.",
   "aufgenommen": "2026-09-15"
  },
  {
