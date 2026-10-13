@@ -1914,62 +1914,53 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "12. Okt. 2026, 06:02 Uhr";
+const SNAP_DATE = "13. Okt. 2026, 06:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Rev Med Virol", year:"2026", pmid:"42858449",
-    author:"Maria LFBS et al.", pubdate:"Nov. 2026",
+    journal:"JAMA Netw Open", year:"2026", pmid:"42862555",
+    author:"Jia M et al.", pubdate:"01.10.2026",
+    added:"12.10.2026",
+    title:"Was Ältere in Peking von Grippeimpfung abhält und anzieht",
+    sum:"Diskrete Wahlexperimente mit 514 Personen über 60 Jahren in zwei Pekinger Bezirken identifizierten Faktoren, die die Bereitschaft zur Grippeimpfung erhöhen oder senken.",
+    result:"Höhere Impfstoffwirksamkeit (+30,7 Prozentpunkte bei Steigerung von 20 auf 80 Prozent), Telefonerinnerungen und Botschaften zum Schutz von Familienangehörigen erhöhten die Akzeptanz; höhere wahrgenommene Risiken von Nebenwirkungen senkten sie um 20 Prozentpunkte. Nie-Geimpfte zeigten weniger Gewicht auf Wirksamkeit und höhere Sensitivität für Nebenwirkungsrisiken.",
+    transfer:"China, Wahlexperiment mit hohem Evidenzlevel, aber andere epidemiologische Ausgangslage und Versorgungsstruktur"
+  },
+  {
+    journal:"Clin Lab", year:"2026", pmid:"42847950",
+    author:"Emre T et al.", pubdate:"01.10.2026",
+    added:"08.10.2026",
+    title:"COVID-19-Impfstoffe verlangsamen nicht die Nierenkrankheit",
+    sum:"Retrospektive Kohortenstudie mit 140 Nierenpatienten an einem Krankenhaus in der Türkei, die vor, während und 24 Monate nach Impfung die Nierenfunktion verfolgten.",
+    result:"Alle drei Impfgruppen (nur BioNTech, nur inaktiviert, gemischt) zeigten signifikante Verschlechterungen der eGFR und Kreatinin-Anstiege über 5 Jahre (p &lt; 0,001), aber keine signifikanten Unterschiede zwischen den Impftypen (p &gt; 0,05). Weder mRNA- noch inaktivierte COVID-19-Impfstoffe beschleunigten die Nierenkrankheit.",
+    transfer:"Türkei, retrospektiv, kleiner Kreis, aber Sicherheitssignal adressiert häufige Sorge bei vulnerable Population"
+  },
+  {
+    journal:"J Infect Dev Ctries", year:"2026", pmid:"42858342",
+    author:"Gadbaan Hama S", pubdate:"30.09.2026",
     added:"10.10.2026",
-    title:"COVID-19-Impfung reduziert Risiko für Post-COVID-Herzerkrankungen",
-    sum:"Systematische Qualitative Synthese der Evidenz nach Bradford Hill-Kriterien und Sufficient Component Cause-Modell zur Frage, ob Impfung vor Post-COVID-Herz-Kreislauf-Komplikationen schützt.",
-    result:"COVID-19-Impfung erfüllte vier von neun Bradford-Hill-Kriterien als protektiver Faktor gegen Post-COVID-Kardiovaskulärerkrankungen: Assoziationsstärke, Konsistenz, Temporalität und biologischer Gradient. Drei Kriterien (biolog. Plausibilität, Kohärenz, Analogie) waren teilweise erfüllt. Schlussfolgerung: Impfung erwies sich wirksam über die Akutphase hinaus.",
-    transfer:"Brasilien/Lateinamerika; Befund zur kardiovaskulären Langzeit-Schutzwirkung international übertragbar"
+    title:"Spurenelemente beeinflussen Antikörperantwort auf COVID-19-Impfung bei Rheuma nicht",
+    sum:"Querschnittsstudie mit 79 Rheuma-Patienten und 47 Kontrollen im Irak, die Zink-, Kupfer-, Magnesium- und Ceruloplasmin-Spiegel mit COVID-19-Impfantikörper-Positivität in Beziehung setzte.",
+    result:"Signifikante Unterschiede in Spurenelementspiegeln zwischen Geimpften und Ungeimpften (p &lt; 0,05), aber keine signifikanten Assoziationen zwischen IgG-Positivität und Spurenelemantkatus in einer Gruppe (p &gt; 0,05). DMARD-Therapie war nicht signifikant mit IgG-Response assoziiert (p = 0,439). Breite humorale Immunität trotz unterschiedlicher Nährstoff- und therapeutischer Profile.",
+    transfer:"Irak, einfaches Querschnitt-Design, aber klinisch relevante Frage für Immunsupprimierte"
   },
   {
-    journal:"Science", year:"2026", pmid:"42848888",
-    author:"Huus KE et al.", pubdate:"08.10.2026",
-    added:"08.10.2026",
-    title:"Impffieber wird durch Darmbakterienzusammensetzung geprägt",
-    sum:"Longitudinale Profilerstellung der Darmflora bei 171 Erwachsenen nach mRNA-Impfung zeigte, dass Fieber mit niedriger intestinaler Entzündung und gesteigerten flagellierten Lachnospiraceae-Bakterien korreliert.",
-    result:"Fieberhäufigkeit war mit mikrobiellem Entzündungsstatus und Flagellin-Expressionsprofilen assoziiert. Diät und Mikrobiom-Targeting könnten Impfnebenwirkungen reduzieren, ohne dass damit Impfeffektivität gefährdet wäre – nur lokale Immuntoleranz wird moduliert.",
-    transfer:"Deutschland mit vergleichbarer Bevölkerungsstruktur; Befund zu Immunmechanismus ist universell übertragbar"
+    journal:"Front Immunol", year:"2026", pmid:"42827549",
+    author:"Jiang Z et al.", pubdate:"18.09.2026",
+    added:"03.10.2026",
+    title:"Tuberkulose-Patienten zeigen abgeschwächte Immunantwort auf COVID-19-Impfung trotz Antikörper",
+    sum:"Eine Substudie einer RCT verglich 38 TB-Patienten unter Therapie mit 38 Gesunden nach COVID-19-Impfung mittels Proteomik, Transkriptomik und Antikörpertest.",
+    result:"Trotz vergleichbarer Neutralisierungsantikörper-Titer zeigten TB-Patienten minimale Änderungen der Plasma-Proteome und Transkriptome nach Impfung, während Gesunde breit angelegte Umweltungen aufwiesen. TB-Patienten hatten baseline-Deplation von Proteinen in Vesikel-Transport- und Phagozytose-Wegen und verminderte Immunzell-Infiltration nach Vakzination.",
+    transfer:"Vietnam/China (Nanjing) aber RCT-Design mit klaren molekularen Metriken, Übertragbar für Immunschwache"
   },
   {
-    journal:"Hum Vaccin Immunother", year:"2026", pmid:"42847160",
-    author:"Thomas Gil M et al.", pubdate:"08.10.2026",
-    added:"08.10.2026",
-    title:"HPV-Impfbereitschaft hängt von Risikobewusstsein, Vertrauen und Informationsquellen ab",
-    sum:"Querschnittsumfrage unter indischen Studentinnen integrierte Konstrukte aus Health Belief Model, Protection Motivation Theory und 3Cs-Rahmen, um Determinanten der Impfbereitschaft und des Impfverhaltens zu untersuchen.",
-    result:"Wahrgenommene Schweregrad und Anfälligkeit sowie Impfvertrauen erhöhten Impfbereitschaft (+), Selbstzufriedenheit senkte sie (−). Impfbereitschaft mediierte signifikant die Effekte auf tatsächliches Impfverhalten. HPV-Impfempfehlungen und Informationsquellen hatten begrenzt verstärkende Moderatoren-Effekte.",
-    transfer:"Indien; Einflussfaktoren auf Impfverhalten sind kulturübergreifend relevant, aber Interventionsdesign muss an deutsche Kontexte angepasst werden"
-  },
-  {
-    journal:"Front Public Health", year:"2026", pmid:"42840118",
-    author:"Ak F et al.", pubdate:"22.09.2026",
-    added:"07.10.2026",
-    title:"Impfung senkt COVID-19-Hospitalisierung bei Rheumapatienten deutlich",
-    sum:"Retrospektive Kohortenstudie von 1.024 Rheumapatienten (März 2020–Januar 2023): Assoziationen zwischen Krankheitssubtyp, Behandlung, Impfstatus und COVID-19-Infektions- sowie Hospitalisierungsrisiko untersucht.",
-    result:"Von 1.024 Patienten entwickelten 33,9% COVID-19; 92,3% der Nicht-Infizierten waren geimpft vs. 23,9% der Infizierten (p&lt;0,001). Hospitalisiert wurden 11,5% der COVID-19-Positiven; Prädiktoren: höheres Alter, Lungenbeteiligung, längere Krankheitsdauer. BNT162b2-Impfung war mit niedrigerem Hospitalisierungsrisiko assoziiert.",
-    transfer:"Türkei mit westlichem Versicherungssystem; Befund zum Schutzeffekt durch Impfung bei Immunsuppression auf deutsche Rheumatologie direkt übertragbar"
-  },
-  {
-    journal:"Nat Commun", year:"2026", pmid:"42722692",
-    author:"Jiménez-Vázquez S et al.", pubdate:"10.09.2026",
-    added:"10.09.2026",
-    title:"Neues CAR-T-Zielprotein MPZL1 könnte Spektrum von Tumorarten erweitern",
-    sum:"Entwicklung und präklinische Testung von CAR-T-Zellen gegen MPZL1, ein Oberflächenprotein, das bei bis zu 75% bestimmter Tumortypen amplifiziert ist und kaum auf Normalgewebe vorkommt.",
-    result:"CAR-T-Zellen gegen MPZL1 zeigten In-vitro-Eliminationsaktivität und Antitumoraktivität in menschlichen Xenograft-, autochthonen Maus- und patientenabgeleiteten Modellen. Die Arbeiten liefern grundsätzlich einen neuen Zielansatz; klinische Überprüfung steht aus.",
-    transfer:"Deutschland mit vergleichbarem Zelltherapie-Standard; Befund zu Targetidentifikation prinzipiell universell"
-  },
-  {
-    journal:"Cytotherapy", year:"2026", pmid:"42696794",
-    author:"Griebling D et al.", pubdate:"19.06.2026",
-    added:"04.09.2026",
-    title:"Dezentralisierte CAR-T-Herstellung könnte Zugangshürden in Europa senken",
-    sum:"Review des EASYGEN-Konsortiums zu Engpässen bei CAR-T-Therapie in Europa und Optionen für dezentralisierte Point-of-Care-Fertigung mit nichtviralen Gentransfer-Verfahren an mehreren Zentren.",
-    result:"Dezentralisierte Produktion und nichtvirale Gentransfer versprechen kürzere Vein-to-Vein-Zeiten, niedrigere Kosten und weniger Patienten-Verschlechterung während der Wartezeit. Konsortium schlägt vor: Standardisierung der Datenintegration und regulatorischer Rahmen für europäische Harmonisierung.",
-    transfer:"Europäische Versorgungsarchitektur mit direktem Bezug zu Herstellungshürden in Deutschland und Nachbarländern"
+    journal:"Indian J Med Res", year:"2026", pmid:"42851218",
+    author:"Sharma R et al.", pubdate:"Aug. 2026",
+    added:"09.10.2026",
+    title:"BCG-Impfung könnte Immunschwäche bei Nierenkranken über trainierte Immunität umkehren",
+    sum:"Ein Übersichtsartikel beschreibt, wie BCG-Impfung durch epigenetische Umprograierung der angeborenen Immunität (trainierte Immunität) die Impfantwort und Infektionsabwehr bei Patienten mit chronischer Nierenkrankheit möglicherweise verbessern könnte.",
+    result:"BCG stimuliert NOD2- und Akt/mTOR-Signalwege, erhöht aktivierende Histonmarken (H3K4me3) bei Zytokingenen und stabilisiert repressive Marken (H3K9me3) in nicht-essentiellen Genomabschnitten. Dies erzeugt transkriptionell permissives Chromatin, das Phagozytose und antimikrobielle Aktivität von Monozyten, Makrophagen und Neutrophilen steigert. Der Mechanismus ist hypothetisch; klinische Evidenz fehlt.",
+    transfer:"Theoretische Übersicht ohne empirische Daten, spekulativ für vulnerable Population, keine direkten Versorgungsdaten"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1985,7 +1976,7 @@ const RADAR_FRISTEN = [["2026-10-20", "2026-10-20", "2026-12-31"], [], ["2026-10
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "12.10.2026";
+const NEWS_STAND = "13.10.2026";
 const NEWS = [
   {titel:"Impfkampagne „Zusammen geschützt“ startet: BIÖG und RKI", datum:"2026-10-07", url:"https://www.monitor-versorgungsforschung.de/news/impfkampagne-zusammen-geschuetzt-startet-bioeg-und-rki/"},
   {titel:"Impfkampagne zur Grippesaison: KVB kritisiert Apothekenimpfungen", datum:"2026-10-05", url:"https://www.monitor-versorgungsforschung.de/news/impfkampagne-zur-grippesaison-kvb-kritisiert-apothekenimpfungen/"},
