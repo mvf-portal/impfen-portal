@@ -1914,53 +1914,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "17. Okt. 2026, 06:23 Uhr";
+const SNAP_DATE = "18. Okt. 2026, 06:23 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"BMC Public Health", year:"2026", pmid:"42881375",
-    author:"Sandberg M et al.", pubdate:"15.10.2026",
+    journal:"Hum Vaccin Immunother", year:"2026", pmid:"42886011",
+    author:"Walmsley S et al.", pubdate:"16.10.2026",
     added:"16.10.2026",
-    title:"COVID-19 bei Erwachsenen mit intellektueller Behinderung: höhere Sterblichkeit trotz gleicher Impfquoten",
-    sum:"Register-basierte Kohortenstudie in Schweden (2020–2021): Vergleich von COVID-19-Diagnosen, Hospitalisierungen und Todesfällen zwischen 14.046 Personen mit intellektueller Behinderung (ID) und 1.157.138 Allgemeinbevölkerung.",
-    result:"Menschen mit ID hatten höheres Risiko für COVID-19-Diagnose, aber niedrigere Laborbestätigung. Hospitalisierungsrisiko bei Erwachsenen und älteren Menschen mit ID höher in beiden Jahren 2020–2021. Impfquoten vergleichbar, aber Mortalität bei COVID-19 höher in der ID-Gruppe. Schwedische COVID-19-Strategie zu Impfung und Priorisierung funktionierte für diese Gruppe wie beabsichtigt.",
-    transfer:"Skandinavien, Impfregister-Daten, Versorgungsstruktur nicht direkt auf Deutschland übertragbar"
+    title:"HPV-Impfquoten bei Menschen mit Behinderungen: Barrieren und Ungleichheit",
+    sum:"Scoping Review zur HPV-Impfabdeckung und Zugangsbarrieren für Menschen mit Behinderungen in 33 Studien aus Hocheinkommensländern (2006–2025).",
+    result:"Konsistente Ungleichheiten in der HPV-Impfquote für Menschen mit Behinderungen dokumentiert. Hauptbarrieren: falsche Annahmen über Sexualverhalten (unvollständig quantifiziert), fehlende Impfempfehlungen von Fachpersonen in klinischen Settings (65 % der Studien berichten dies), Mangel an Personalschulung. Erhebliche Forschungslücken für Menschen mit körperlichen, psychosozialen, Seh- oder Hörstörungen; keine Populationsdaten aus Niedrig-/Mitteleinkommen-Ländern verfügbar.",
+    transfer:"Australische und europäische Systeme, aber Barrieren (Fachpersonal, Settings) sind auch in Deutschland relevant."
   },
   {
-    journal:"BMC Public Health", year:"2026", pmid:"42875760",
-    author:"Helal MB et al.", pubdate:"15.10.2026",
+    journal:"PLoS One", year:"2026", pmid:"42879418",
+    author:"Yang Y et al.", pubdate:"15.10.2026",
     added:"15.10.2026",
-    title:"Tollwutimpfung in Ägypten: geringe Impfquoten trotz positiver Einstellung der Bevölkerung",
-    sum:"Landesweite Querschnittsbefragung von 1.777 Personen (2024) in ägyptischen Universitätskliniken zu Wissen, Einstellung und Praxis bezüglich Tollwut und Tollwutprophylaxe (prä- und postexpositionell).",
-    result:"Nur 42,8 % der Befragten hatten gutes Wissen über Tollwut und Prophylaxe; 88,5 % Positive Einstellung. Unter 173 Personen mit Tierbisskontakt erhielten 18,5 % (n=32) keine postexpositionelle Prophylaxe und 17 % (n=24) vollendeten den Impfplan nicht. Präexpositionelle Impfung nur 4,3 % bei hochriskanten Personen. Hauptbarrieren: Wissensmangel über Impfstoff (82,4 %), fehlende Kenntnisse über Tollwut (81,7 %), mangelnde Infrastruktur (43,1 %).",
-    transfer:"Ägypten, Entwicklungsland-Kontext, begrenzt übertragbar auf Deutschland"
+    title:"SARS-CoV-2-Impfschutz in der Bevölkerung: Serologische Querschnittmessung vor Omicron",
+    sum:"Längsschnittstudie bei 156 Serumproben von 117 Teilnehmern (HIVE-Kohorte) mit Multiplex-Elektrochemilumineszenz (ECL), ACE2-Hemmungsassays und Pseudoviral-Neutralisationstests für Varianten-spezifische IgG (Juli–Dezember 2021).",
+    result:"Hohe Korrelationen zwischen ECL, ACE2 und PN (0,81–0,95). ROC-Analysen: ECL IgG diskriminiert Impfstatus (AUC 0,84–0,88, Sensitivität 0,88–0,91, Spezifität 0,87–0,88); ACE2 variabler (AUC 0,53–0,96). IgG-Konzentrationen stiegen mit Alter, plateau in frühem Erwachsenenalter; präzise Schätzungen für junge Altersgruppen wegen kleiner Stichproben begrenzt.",
+    transfer:"USA-Kohorte; Serologie-Methodik auf Deutschland übertragbar, aber Bevölkerungsdaten kontextabhängig."
   },
   {
-    journal:"Euro Surveill", year:"2026", pmid:"42885489",
-    author:"Schmid-Küpke NK et al.", pubdate:"Okt. 2026",
-    added:"16.10.2026",
-    title:"HPV-Impfung: Wissenlücken bei Eltern und fehlende Empfehlungsrate bei Ärzten",
-    sum:"Telefonische Befragung von 1.508 Eltern und 503 Kinderärzten in Deutschland (Herbst 2023) zur HPV-Impfbereitschaft, Wissenslücken und Beratungspraxis.",
-    result:"Nur 34,5 % der Kinder waren bereits HPV-geimpft; 35,2 % der Eltern waren Vaccine Hesitant, 5,6 % lehnten ab. Obwohl 97 % der Ärzte angaben, die Impfung zu empfehlen, erinnerten sich nur 43,7 % der Eltern an eine Empfehlung. Eltern unterschätzten die Krebsprävention durch alternative Maßnahmen und unterschätzten das HPV-Infektionsrisiko. Ärztliche Empfehlungen waren der stärkste Einflussfaktor auf Impfentscheidungen.",
-    transfer:"Deutschland, repräsentative Stichprobe, vergleichbare Impfkalender-Strukturen"
+    journal:"Front Public Health", year:"2026", pmid:"42890904",
+    author:"Adedeji AA et al.", pubdate:"02.10.2026",
+    added:"17.10.2026",
+    title:"Impfeffektivität im Feld: Biologisches Monitoring statt nur Verwaltungsquoten",
+    sum:"Konzeptioneller Rahmen für Population-Level Immunologic Monitoring (PLIM) in Ruanda und Ostafrika, um Impfwirksamkeit auf Bevölkerungsebene in Echtzeit zu erfassen – nicht nur Verwaltungsdaten.",
+    result:"PLIM-Modell integriert drei Säulen: biologische Sentinel-Überwachung (Trockenblutkarten mit ELISA und T-Zell-Aktivierungsassays), Risiko-Stratifizierung und digitales Feedback über DHIS2. Population Immunologic Threshold (PIT) als Komposit-Metrik verbindet individuelle Schutzkorrelate mit Herdenimmunitätsschwellwerten. Modell adressiert ‚biologische Kaltflecken' vor Ausbrüchen; erfordert noch Validierungsstudien vor Implementierung.",
+    transfer:"Rwanda-Pilotstudie geplant, auf SSA übertragbar; für Deutschland weniger relevant ohne ähnliche Impfregister-Infrastruktur."
   },
   {
-    journal:"Philos Ethics Humanit Med", year:"2026", pmid:"42823741",
-    author:"Siebner AS et al.", pubdate:"01.10.2026",
-    added:"02.10.2026",
-    title:"COVID-19-Impfstoff-Sicherheit: Einzelfallbericht zeigt Grenzen der Kausalitätsbewertung",
-    sum:"Diskussionsbeitrag (Deutschland, UK, Italien, Kanada, USA, Ägypten) zur epistemischen Vorsicht bei der Bewertung seltener schwerer unerwünschter Ereignisse nach COVID-19-mRNA-Impfung; Fallbeispiel: autoptisch bestätigte Enzephalitis und Myokarditis nach BNT162b2.",
-    result:"Anwendung von Bradford Hills Kriterien auf einen Autopsiebericht zeigte partielle, nicht schlüssige Evidenz: ein Kriterium unterstützte Kausalität, sieben waren teilweise gestützt, eines nicht. Die Analyse deutet, ohne zu beweisen, auf einen möglichen Kausalzusammenhang hin. Autoren betonen: Abwesenheit von Nukleokapsid-Protein liefert keine definitive Evidenz gegen Impfursprung; weitere Analysen sind erforderlich.",
-    transfer:"Überblick über Sicherheitsbewertungsmethoden, keine neuen Versorgungsdaten"
+    journal:"Acta Oncol", year:"2026", pmid:"42752612",
+    author:"Fan J et al.", pubdate:"17.09.2026",
+    added:"17.09.2026",
+    title:"CAR-T-Persistenz vorhersagt Ansprechen auf Salvage-Bestrahlung bei lymphomrezidiv",
+    sum:"Retrospektive Analyse von 13 DLBCL-Patienten (18 Läsionen), die nach CAR-T-Therapie rezidiviert und eine Salvage-Bestrahlung erhielten, mit CAR-Transgene-Verfolgung.",
+    result:"Lokales Ansprechrate 83 % (15/18 Läsionen). CAR-Transgene-Muster bei Rezidiv: erhöht (n=4), persistierend &gt;6 Monate (n=4), abnehmend (n=5). Lokales Ansprechrate 100 % bzw. 100 % vs. 57 %; 12-Monats-Kontrolle 83 %, 100 %, 14 %; 12-Monats-Gesamtüberleben 100 %, 100 %, 20 %. Toxizität Grad ≤2. Autoren betonen hypothesengenerierendes Design, Validierung in größeren Kohorten erforderlich.",
+    transfer:"Deutsche Klinikdaten (Köln), vergleichbares Universitätssystem."
   },
   {
-    journal:"Nat Commun", year:"2026", pmid:"42881148",
-    author:"Chaudhary VS et al.", pubdate:"15.09.2026",
-    added:"15.10.2026",
-    title:"Rotavirus-Impfstoff ROTASIIL senkt Hospitalisierungsrisiko bei Kindern",
-    sum:"Register-gestützte Fall-Kontroll-Studie in 32 indischen Krankenhäusern (2019–2023): Effektivitätsmessung der drei Dosen ROTASIIL gegen Rotavirus-Gastroenteritis bei Kindern unter 23 Monaten mittels Test-Negative-Design.",
-    result:"Bei vollständiger Serie (3 Dosen): bereinigte Impfeffektivität 52 % (95%-KI 32–66) gegen Hospitalisierung; bei jüngeren Kindern (3–5 Monate) 88 % (53–97). Gegen moderate Rotavirus-Gastroenteritis 56 % (11–79), gegen schwere Form 54 % (31–70). Mit mindestens einer Dosis: 45 % (26–60) bei 1–23 Monaten. Höchste genotyp-spezifische Effektivität gegen G1P[8] mit 62 % (29–80).",
-    transfer:"Indien, Routineversorgung, vergleichbar mit Ländern mit ähnlicher Impfabdeckung"
+    journal:"Nat Med", year:"2026", pmid:"42661098",
+    author:"Albach FN et al.", pubdate:"27.08.2026",
+    added:"27.08.2026",
+    title:"CD19-CAR-T-Therapie bei therapierefraktärer rheumatoider Arthritis: klinische Machbarkeit",
+    sum:"Phase-1-Studie zur Sicherheit und Wirksamkeit der autologen CD19-CAR-T-Zelltherapie (mivocabtagene autoleucel) bei 6 Patienten mit schwerer, therapieresistenter anti-CCP-positiver rheumatoider Arthritis.",
+    result:"Zytokerin-Freisetzungssyndrom (CRS) bei allen 6 Patienten, begrenzt auf Grad 1–2; kein ICANS oder schwere Nebenwirkungen außer einer Grad-3-Transaminase-Elevation (resolviert). Klinisch: Krankheitsaktivität bei allen Patienten verbessert (medianer DAS28-CRP-Rückgang 34 %), ACR-70-Response bei 3/6, Autoantikörper-Serokonversion bei 4–5/6. Arzneimittel-induzierte B-Zell-Depletion mit Persistenz.",
+    transfer:"Deutsches Zentrum-Setting (Charité Berlin), deutsche Patienten, Sozialversicherungssystem vergleichbar."
+  },
+  {
+    journal:"J Virol", year:"2026", pmid:"42627231",
+    author:"Alvarez J et al.", pubdate:"22.09.2026",
+    added:"21.08.2026",
+    title:"HPV-L2-Vakzine: Schutzwirkung unter Alltagsbedingungen hängt von Prior-Exposition ab",
+    sum:"Phase-1-Studie bei 20 gesunden Probanden mit AAVLP-HPV-Vakzine (20 μg) zur Immunogenität und Schutzübertragung gegen multiple HPV-Genotypen.",
+    result:"AAVLP-HPV gut verträglich, induzierte modest L2-spezifische Antikörper, die in-vitro HPV16, HPV31, HPV5 neutralisierten. Nach passivem Serumtransfer in Mäuse: Schutz gegen HPV16, HPV31, HPV5, nicht HPV76. HPV-naive Probanden benötigten 3 Dosen für Schutz, vorher exponierte 2 Dosen mit höheren Titern. Prior-AAV2-Exposition verminderte L2-Neutralisations-Antikörper und Schutz deutlich (Original-Antigenic-Sin-Effekt).",
+    transfer:"USA-Studie, Sicherheit transferierbar; Prior-Exposition-Effekte auch in Deutschland relevant."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1976,7 +1985,7 @@ const RADAR_FRISTEN = [["2026-10-20", "2026-10-20", "2026-12-31"], [], ["2026-10
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "17.10.2026";
+const NEWS_STAND = "18.10.2026";
 const NEWS = [
   {titel:"Impfkampagne „Zusammen geschützt“ startet: BIÖG und RKI", datum:"2026-10-07", url:"https://www.monitor-versorgungsforschung.de/news/impfkampagne-zusammen-geschuetzt-startet-bioeg-und-rki/"},
   {titel:"Impfkampagne zur Grippesaison: KVB kritisiert Apothekenimpfungen", datum:"2026-10-05", url:"https://www.monitor-versorgungsforschung.de/news/impfkampagne-zur-grippesaison-kvb-kritisiert-apothekenimpfungen/"},
