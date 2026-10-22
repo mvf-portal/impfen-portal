@@ -1914,71 +1914,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "21. Okt. 2026, 06:23 Uhr";
+const SNAP_DATE = "22. Okt. 2026, 06:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Hum Vaccin Immunother", year:"2026", pmid:"42899377",
-    author:"Leggatt M et al.", pubdate:"20.10.2026",
+    journal:"Can J Health Hist", year:"2026", pmid:"42900833",
+    author:"Dyck E et al.", pubdate:"20.10.2026",
     added:"20.10.2026",
-    title:"Einführung der Einfachdosis-HPV-Impfung in Kanada",
-    sum:"Analyse von Implementierungshürden und -chancen beim Übergang zu Einfachdosis-HPV-Impfschema für Jugendliche in kanadischen Provinzen.",
-    result:"Schlüsselfaktoren für Erfolg: transparente Kommunikation zur Begründung der Schemaänderung, ausreichende Vorbereitung von Fachleuten und Impfpersonal, Elterninformation sowie robuste Catch-up-Programme und gezielte Aufsuchung für Risikogruppen. Ohne diese Maßnahmen droht Vertrauensverlust und ungleiche Impfquoten.",
-    transfer:"Kanada, vergleichbares öffentliches Impfwesen; Schemaänderungen gelten europaweit."
+    title:"Wie Desinformation in sozialen Medien Impfbereitschaft politisiert: Fallstudie Saskatchewan",
+    sum:"Qualitative Analyse mit Interviews und Medienquellen zu Verschiebung der Impfakzeptanz in Saskatchewan während COVID-19: von Konsens für Impfung 2020 zu Anti-Impf-Bewegung 2021–2022.",
+    result:"Saskatchewan wandelte sich von Hochburg der Impfstoffproduktion zu Zentrum der Anti-Impf-Bewegung. Unmoderierte Diskurse in sozialen Medien überlagerten kollektive Reaktionen und politisierten Impfungen als pro-regierungspolitisch. Premierminister Scott Moe wechselte von pro-Impf- zu kritischer Haltung gegenüber Bundesimpfpolitik.",
+    transfer:"Kanada, vergleichbare föderale Struktur und Medienlandschaft; Mechanismen der Vaccine Hesitancy übertragbar auf DACH-Region."
   },
   {
-    journal:"J Med Libr Assoc", year:"2026", pmid:"42889793",
-    author:"Ansell M et al.", pubdate:"01.10.2026",
+    journal:"Zhonghua Yu Fang Yi Xue Za Zhi", year:"2026", pmid:"42893914",
+    author:"Xiao MR et al.", pubdate:"06.10.2026",
+    added:"18.10.2026",
+    title:"RSV-Impfung in der Schwangerschaft: Evidenz zur Wirksamkeit und Sicherheit der Prefusion-F-Vakzine",
+    sum:"Narrative Übersichtsarbeit zu RSV-Impfung schwangerer Frauen: Entwicklung, klinische Wirksamkeit, Sicherheit und Strategieempfehlungen von WHO und EMA.",
+    result:"RSVpreF-Impfstoff zeigt wirksame Übertragung maternaler Antikörper auf Neugeborene und verhindert RSV-Erkrankungen in frühem Säuglingsalter. Sicherheitsdaten positiv, aber langfristige Überwachung erforderlich. Mehrheitlich WHO und EMA empfehlen Impfung schwangerer Frauen ab Trimester 2 oder 3.",
+    transfer:"China-Review; Empfehlungen von EMA/WHO gelten für deutsche Versorgung, Transfer jedoch an Impfkalender und Datenverfügbarkeit gebunden."
+  },
+  {
+    journal:"Front Immunol", year:"2026", pmid:"42889669",
+    author:"Sun G et al.", pubdate:"01.10.2026",
     added:"17.10.2026",
-    title:"Fachgerechte Ressourcen gegen Vaccine Hesitancy für Angehörige von Gesundheitsberufen",
-    sum:"Qualitative Studie: Interviews mit 20 Fachleuten aus Gesundheitsberufen in Florida zu Erfahrungen mit impfskeptischen Patienten, gefolgt von Ko-Design eines evidenzgestützten Ressourcen-Leitfadens.",
-    result:"Zentrale Themen aus Inhaltsanalyse: Vertrauen in Arzt-Patient-Beziehung, Notwendigkeit individualisierter Gespräche, Kampf gegen Desinformation. Fachleute wünschten vielfältige, leicht zugängliche Materialien zur Unterstützung. Ressourcen-Leitfaden entwickelt, lokal in Gesundheitsnetzwerken verteilt; Librarians als kritische Akteure für Public-Health-Kampagnen identifiziert.",
-    transfer:"USA; Befund zu Vertrauensbau und Desinformationsgegenwehr für alle Systeme relevant."
+    title:"Darm-Mikrobiom und Impfantwort: Ist personalisierte Impfung nach Mikrobiom-Profiling reif für die Praxis?",
+    sum:"Systematische Übersichtsarbeit zu Mechanismen, über die das Darm-Mikrobiom die Impfantwort moduliert, mit Fokus auf Short-Chain-Fatty-Acids und Kandidaten für Mikrobiom-gesteuerte Impfoptimierung.",
+    result:"Taxa replizieren selten über Geographien, Alter und Impfplattformen hinweg. Short-Chain-Fatty-Acids zeigen größte mechanistische Evidenz (vorwiegend präklinisch); Acetate, Propionat und Butyrat unterscheiden sich in Targets, Exposition und Effektrichtung. Probiotika-Studien bei älteren Erwachsenen neutral; BNT162b2 in Mikrobiota-verarmten Mäusen nicht sensitiv. Microbiome-gesteuerte Impfung bleibt Forschungsstrategie, keine etablierte klinische Praxis.",
+    transfer:"Systematische Übersicht ohne neue empirische Daten; Befunde zu Mechanismen teilweise präklinisch, klinische Übertragbarkeit noch ungeklärt."
   },
   {
-    journal:"Front Public Health", year:"2026", pmid:"42890191",
-    author:"Ugwu OP et al.", pubdate:"02.10.2026",
-    added:"17.10.2026",
-    title:"Impfparadoxon Ebolavakzin: Erfolg schafft Erwartungen, die künftige Ausbrüche nicht erfüllen",
-    sum:"Perspektive auf East African Public Health: Analyse, wie Erfolg mit Zaire-ebolavirus-Impfstoff zu Erwartungshaltung auf artspezifische Vakzine auch gegen Sudan- und Bundibugyo-Virus führte, was bei deren Fehlen zu Vertrauensverlust droht.",
-    result:"Zentral ist die Vaccine Expectation Gap zwischen verfügbaren (artspezifisch limitiert) und erwarteten Impfstoffen. Sudan- und Bundibugyo-Ausbrüche zeigen: Immunisierungserfolg verstärkt Erwartungen, schafft aber auch Risiko bei nicht-Erfüllbarkeit. Empfohlen: Transparent kommunizieren (Rationale für artspezifische Unterschiede), Preparedness Trust Contract etablieren, Community Engagement ausbauen.",
-    transfer:"Uganda/East Africa; Framework zur Erwartungsmanagement bei Impf-Kampagnen auf Deutschland übertragbar."
+    journal:"Int J Mol Sci", year:"2026", pmid:"42883739",
+    author:"Krier J et al.", pubdate:"23.09.2026",
+    added:"16.10.2026",
+    title:"Candida-Impfstoffe: Erste klinische Phase-II-Daten mit NDV-3A, aber Translationshürden bleiben",
+    sum:"Strukturierte narrative Übersichtsarbeit zu Fortschritten und Barrieren in der Candida-Impfstoffentwicklung 2015–2025, mit Fokus auf NDV-3A und klinische sowie präklinische Evidenz.",
+    result:"NDV-3A erreichte Phase-II-Validierung—erste großangelegte klinische Studie eines Pilzimpfstoffs. Standardisierung A/J-Maus-Modell für C. auris; Computational-Plattformen mit &gt;94% HLA-Populationsabdeckung. Hindernisse: Kommensale-zu-Pathogen-Dualität, Immunsuppression, antigene Plastizität, Unterinvestition. Nächste Generation könnte Bench-zu-Klinik-Lücke schließen.",
+    transfer:"Narrative Übersicht; NDV-3A Phase-II-Daten begrenzt, Translationsreife noch nicht erreicht."
   },
   {
-    journal:"Front Immunol", year:"2026", pmid:"42890872",
-    author:"Klein AH et al.", pubdate:"02.10.2026",
-    added:"17.10.2026",
-    title:"Multi-Omics zeigt plattformspezifische Immunsignaturen nach COVID-19-Impfung",
-    sum:"Integrierte Plasma-Proteomic, Lipidomic und Metabolomic bei 53 SARS-CoV-2-naiven Erwachsenen nach Impfung mit Pfizer, Moderna oder AstraZeneca; Analyse über mehrere Zeitpunkte mit DIABLO-Integration.",
-    result:"Pfizer assoziiert mit breitem Anstieg Immunglobulin/Komplement-Proteine, Lipidabnahme und bidirektionalen Metabolit-Änderungen. Moderna: Lipidanstieg, minimale Proteomic-Änderungen. AstraZeneca: subtilere, aber kohärente cross-omics-Verschiebungen (nur bei integrativem Modellieren sichtbar). Pfizer und Moderna teilten Metabolit-Konkordanz (Aminosäuren, TCA-Zyklus) bei divergenten Lipidomics. Plattformspezifische Unterschiede zeigen: Multi-Omics-Integration ist aussagekräftiger als einzelne Analysen.",
-    transfer:"Australien; Befund zur Plattformvergleichbarkeit für europäische Impfplanung relevant."
+    journal:"Trop Biomed", year:"2026", pmid:"42891935",
+    author:"Afnani MR et al.", pubdate:"01.09.2026",
+    added:"18.10.2026",
+    title:"Melioidose in Asien: Unterschätzte Last und Bedarf für Impfstoffentwicklung",
+    sum:"Narrative Übersichtsarbeit zu Epidemiologie, Risikofaktoren, Therapie und Impfstoffentwicklung der Melioidose in Asien mit Fokus auf Impfkandidaten und Versorgungslücken.",
+    result:"Südostasien endemisch, Südasien trägt großen Teil der globalen Last. Mehrere Impfkandidaten (live-attenuiert, rekombinant, Glykoknjugate, Vesikel, Nanopartikel) zeigen präklinische Schutzeffekte, aber kein zugelassener Impfstoff vorhanden. One-Health-Ansatz und Kapazitätsaufbau erforderlich.",
+    transfer:"Narrative Übersicht; Impfkandidaten vorwiegend präklinisch, klinische Daten fehlen."
   },
   {
-    journal:"FP Essent", year:"2026", pmid:"42879808",
-    author:"Naik H", pubdate:"Okt. 2026",
-    added:"15.10.2026",
-    title:"Influenza-Vakzin-Effizienz 2024–2025 und Barrieren bei Impfquoten",
-    sum:"Übersicht zur Influenza-Epidemiologie USA 2024/2025 und Impfeffektivität, Risikogruppen, Impfstoffzugang, Barrieren gegen Immunisierung sowie Antivirale-Therapien.",
-    result:"2024–2025 schwerste Saison seit 2017/2018: 47–82 Mio. Fälle, bis zu 1,3 Mio. Hospitalisierungen, bis zu 130.000 Todesfälle USA. Impfeffektivität 2024–2025 32–78% je nach Alter/Endpunkt. Barrieren: Desinformation, begrenzte Zugänge, Misstrauen, Ungleichheit. Empfehlungen: Impfzugang verbessern, Desinformation bekämpfen, Community Outreach, Antivirale-Forschung voranbringen.",
-    transfer:"USA; Barrieren und Quoten-Strategien für Deutschland adaptierbar."
-  },
-  {
-    journal:"BMC Public Health", year:"2026", pmid:"42897523",
-    author:"Öncü E et al.", pubdate:"24.07.2026",
-    added:"20.10.2026",
-    title:"Absichts-Umsetzungs-Lücke bei HPV-Impfung in türkischer Frauenklinik",
-    sum:"Querschnittstudie an 305 Frauen (Mittel 38 Jahre) in einer Gynäkologieklinik Istanbul: Erfassung von HPV-Wissen, Einstellungen, Absicht zu impfen und tatsächliche Inanspruchnahme.",
-    result:"Wissens-Score 7,25±1,65 (0–10); 36,7% wussten nicht, dass Männer HPV-Träger sind; 86,6% erklärten Impfbereitschaft, aber nur 38,7% waren geimpft (Lücke: 47,9%-Punkte). Kostbarrier bei 71,0% der Ungeimpften; Fachleute für Gesundheit wiesen 2,01× höhere Quote (p=0,030). Bildung und Wissensstand waren nicht assoziiert mit tatsächlicher Inanspruchnahme.",
-    transfer:"Türkei, mittlere Übertragbarkeit; Kernbefund (Absichts-Umset-zungs-Lücke durch Kostenbarriere) für Deutschland relevant."
-  },
-  {
-    journal:"BMC Public Health", year:"2026", pmid:"42897547",
-    author:"Lin W et al.", pubdate:"23.07.2026",
-    added:"20.10.2026",
-    title:"Politische Polarisierung senkt Impfquoten bei Kindern in US-Bundesstaaten",
-    sum:"Querschnittsökologie mit Bundesstaaten-Paneldaten 2014–2024: Zusammenhang zwischen republikanischem Wählerstimmenanteil und Masernimpfquoten nach Kontrolle für Bildung und Einkommen.",
-    result:"Bundesstaaten mit höherem republikanischem Wahlanteil hatten niedrigere MMR-Quoten (−10,9%-Punkte pro 10%-Punkte Anstieg, 95%-KI −16,69 bis −5,10; p&lt;0,001). Persistenzanalyse mit Bundesstaaten konstanter Wahlausrichtung über vier Wahlen verstärkte den Befund (b=−14,30, p&lt;0,001). Effekt verstärkte sich zeitlich nicht; Bildungsschicht und Politik interagierten nicht.",
-    transfer:"USA mit anderer Systemfinanzierung; Befund zur politischen Polarisierung als Impfquoten-Prediktor dennoch übertragbar."
+    journal:"BMC Pregnancy Childbirth", year:"2026", pmid:"42902272",
+    author:"Katana EB et al.", pubdate:"25.07.2026",
+    added:"21.10.2026",
+    title:"COVID-19-Impfquote bei schwangeren und stillenden Frauen in Uganda deutlich unter Erwartung",
+    sum:"Querschnittsstudie an 424 schwangeren und stillenden Frauen in Uganda zur Akzeptanz und Inanspruchnahme von COVID-19-Impfungen im Vergleich zu anderen Mütterimpfungen.",
+    result:"51,6% hatten mind. eine COVID-19-Impfdosis erhalten, 94,1% waren gegen Tetanus geimpft; 48,4% waren bereit, COVID-19-Impfungen zu erhalten. Nur 2,4% waren während Stillzeit geimpft worden, keine während Schwangerschaft. Schutzfaktoren: COVID-19-Test in der Vorgeschichte (aRR=1,92, 95%-KI 1,46–2,54) und geimpftes Haushaltsmitglied (aRR=1,34, 95%-KI 1,03–1,84).",
+    transfer:"Uganda-Daten; transferierbar für Länder mit ähnlicher Gesundheitskommunikation und Ressourcenlage."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1994,7 +1985,7 @@ const RADAR_FRISTEN = [["2026-10-20", "2026-10-20", "2026-12-31", "2027-01-07"],
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "21.10.2026";
+const NEWS_STAND = "22.10.2026";
 const NEWS = [
   {titel:"Impfkampagne „Zusammen geschützt“ startet: BIÖG und RKI", datum:"2026-10-07", url:"https://www.monitor-versorgungsforschung.de/news/impfkampagne-zusammen-geschuetzt-startet-bioeg-und-rki/"},
   {titel:"Impfkampagne zur Grippesaison: KVB kritisiert Apothekenimpfungen", datum:"2026-10-05", url:"https://www.monitor-versorgungsforschung.de/news/impfkampagne-zur-grippesaison-kvb-kritisiert-apothekenimpfungen/"},
