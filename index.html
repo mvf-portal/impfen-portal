@@ -2044,62 +2044,71 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "23. Okt. 2026, 06:02 Uhr";
+const SNAP_DATE = "24. Okt. 2026, 06:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Behav Med", year:"2026", pmid:"42904418",
-    author:"Malik FA et al.", pubdate:"21.10.2026",
+    journal:"Glob Health Action", year:"2026", pmid:"42910459",
+    author:"Jin J et al.", pubdate:"22.10.2026",
+    added:"23.10.2026",
+    title:"Auffrischungsimpfung in der Pandemie: Was Müdigkeit und Misstrauen bewirken",
+    sum:"Längsschnittstudie (689 Erwachsene, Hongkong) zu psychosozialen Faktoren der Bereitschaft für zusätzliche COVID-19-Impfdosen während Pandemiedauer.",
+    result:"58,2 % zu zusätzlicher Dosis bereit, 18,9 % ablehnend, 22,9 % unentschieden. Erhöhte Pandemie-Müdigkeit assoziiert mit Ablehnung (OR 1,63), niedriges Vertrauen in Behörden mit Ablehnung (OR 0,60), höhere wahrgenommene Bequemlichkeit mit Akzeptanz (OR 1,29). Alltägliche Belastungen bidirektional: erhöhte Chancen sowohl für Ablehnung als auch Akzeptanz je nach subjektiver Maßnahmenbequemlichkeit.",
+    transfer:"Hong Kong-Kontext, aber Befunde zu Pandemie-Ermüdung und Vertrauensverlust auf Deutschland übertragbar"
+  },
+  {
+    journal:"Expert Rev Vaccines", year:"2026", pmid:"42908339",
+    author:"Wang K et al.", pubdate:"22.10.2026",
     added:"22.10.2026",
-    title:"Verhaltensinterventionen mit Community-Beteiligung erhöhen Impfakzeptanz in fragilen Kontexten",
-    sum:"Qualitative Prozessevaluationen an vier Gesundheitszentren im Tschad (2022–2023) mit 48 Interviews und Feldbeobachtungen zu Integration einer Paket-Intervention (Impfbotschaften, Champions, Erinnerungsaktivitäten) ins Routine-Impfsystem, geleitet von WHO-BeSD-Rahmen und IA2030.",
-    result:"Kernfindungen: Partizipative Co-Kreation und aktive Impf-Champions waren zentral für Akzeptanz und Teilnahme. Intervention wurde trotz früher Unterbrechung in Routinepraxen integriert. Akteure beschrieben gestiegenes Community-Vertrauen und erhöhtes Engagement für Impfung, insbesondere in Zero-Dose- und Unter-Immunisierten-Gruppen. Mechanismen für lokale Eigenverantwortung und kontextresponsive Lieferung identifiziert.",
-    transfer:"Tschad (fragiler Kontext), übertragbar auf Engagement-Strategien in heterogenen Populationen"
+    title:"24-valente Pneumokokken-Konjugatimpfung: sichere Immunantwort in Phase-1/2-Studien",
+    sum:"Zwei RCTs (Phase 1: n=240, Phase 2: n=992, chinesische Erwachsene) zur Sicherheit und Immunogenität von PCV24 vs. PPSV23 und Placebo.",
+    result:"Post-Impf-Nebenwirkungen überwiegend Grad 1–2, seltene Grad-3-Ereignisse nur Tag 0–7; keine impfbedingten schwerwiegenden Nebenwirkungen über 6 Monate. PCV24-Hochdosis erreichte Nicht-Unterlegenheit für IgG-Serokonversion aller 24 Serotpyen vs. PPSV23. Verträglichkeitsprofil günstig, robuste Immunantwort dokumentiert.",
+    transfer:"China, Sicherheitsdaten aber zu Pneumokokkenimpfung kohärent mit europäischem Sicherheitsreglement; Nutzbar für Risikoabwägung"
   },
   {
-    journal:"Behav Med", year:"2026", pmid:"42904413",
-    author:"Mabry PL et al.", pubdate:"21.10.2026",
+    journal:"Int J Epidemiol", year:"2026", pmid:"42909463",
+    author:"Wiegand RE et al.", pubdate:"14.10.2026",
+    added:"23.10.2026",
+    title:"Impfeffektivität gegen COVID-19: Schnelltests verzerren die Ergebnisse je nach Impfstatus",
+    sum:"Individuell-level Simulationen mit US-Surveillance-Daten zu Verzerrungsrisiken in Test-Negativ-Studien (TND) zur Impfeffektivität durch unterschiedliche RDT-Nutzung zwischen Geimpften und Ungeimpften.",
+    result:"Impfeffektivität unterschätzt (−5,8 bis −6,1 Prozentpunkte), wenn Geimpfte häufiger nach positivem RDT oder Ungeimpfte häufiger nach negativem RDT Gesundheitseinrichtungen aufsuchen; überschätzt (+5,2 bis +8,4 Prozentpunkte) bei umgekehrtem Muster. Verzerrung abhängig von Wahrscheinlichkeiten: Geimpfte Klinik-Besuch nach positiv RDT 0,5 vs. Ungeimpfte 0,3 → Bias −5,8 pp (95 % UI −9,1 bis −2,4).",
+    transfer:"USA-Datenbasis, aber methodische Verzerrungsanalyse zu TND-Studien auf deutsche COVID-Impfeffektivitätsbewertung übertragbar"
+  },
+  {
+    journal:"Cad Saude Publica", year:"2026", pmid:"42912039",
+    author:"Arredondo-Nontol MR et al.", pubdate:"12.10.2026",
+    added:"23.10.2026",
+    title:"Dengue-Impfung in Lateinamerika: Wissenshieroglyphen und Umsetzungslücken",
+    sum:"Scoping Review über Wissen, Einstellungen und Praktiken zur Dengue-Impfung in Lateinamerika und der Karibik mit Fokus auf den Unterschied zwischen Einstellungen und tatsächlicher Inanspruchnahme.",
+    result:"16 Studien zeigten begrenzte Kenntnisse über Impfverfügbarkeit und Sicherheit, aber grundsätzlich positive Einstellungen (hohe Akzeptanz, Zahlungsbereitschaft ca. 23 USD für dreiteilige Serie). Jedoch persistierte eine große Lücke zwischen Einstellung und Umsetzung mit niedriger Impfquotenerfüllung. Besondere Herausforderungen: Sicherheits- und Vertrauensbedenken bei Studienteilnahmen, Wissenslücken zu Wirkungsmechanismen.",
+    transfer:"Lateinamerika, aber Erkenntnisse zur Diskrepanz Einstellung/Verhalten übertragbar auf deutsche Vakzin-Skepsis-Strategien"
+  },
+  {
+    journal:"Epidemiol Serv Saude", year:"2026", pmid:"42903010",
+    author:"Marques APDC et al.", pubdate:"12.10.2026",
     added:"22.10.2026",
-    title:"Verhaltensprogramm für Zahnpraxen könnte HPV-Impfquoten erhöhen",
-    sum:"Entwicklungsstudie einer theoriegestützten Verhaltensintervention für Zahnärzte zur Promotion der HPV-Impfung, geleitet durch Behavior Change Wheel und COM-B-Modell, mit Rapid-Review, Interviews mit Zahnpraktikern und Umfragen bei Eltern und geeigneten Patienten (2024–2026).",
-    result:"Zentrale Barrieren identifiziert: mangelndes Wissen zu HPV/HPV-Impfstoff, niedrige Selbstwirksamkeit, Befürchtungen vor negativen Konsequenzen. Finale Intervention: Didaktische Schulung, Skripte, tailorierte Botschaften in klinischem Entscheidungshilfe-Tool und Leistungs-Feedback. Pilottests: Zeiteffizient, akzeptabel für Praktiker und Patienten/Eltern. Keine Förderung für Effektivitätsstudie – Autoren suchten Unterstützung.",
-    transfer:"USA; Studiendesign übertragbar auf Setting-basierte Impfpromotion"
+    title:"Strategien gegen Impfskepsis: Was Systemreformen leisten",
+    sum:"Systematische Übersicht von 48 Systematic Reviews zu Maßnahmen gegen Impfhesitanz in Brasilien (urban, Erwachsene ab 18 Jahren, Schwangere).",
+    result:"Wirksame Strategien erfordern Kombination von fünf Handlungsfeldern: (1) zielgruppenbezogene Kommunikationsverstärkung, (2) permanente Fortbildung für Gesundheitsfachpersonen, (3) Zugangsverbesserung (Infrastruktur und Verfügbarkeit), (4) Desinformationsbekämpfung, (5) integrierte Schwangerschafts-Impfstrategien. Einzelmaßnahmen unzureichend; systemische Koordination erforderlich.",
+    transfer:"Brasilien, aber Befunde zu kombinierter Systemstrategie relevant für deutsches Impfprogramm-Design"
   },
   {
-    journal:"Zhonghua Liu Xing Bing Xue Za Zhi", year:"2026", pmid:"42907186",
-    author:"Yan XT et al.", pubdate:"10.10.2026",
+    journal:"Front Public Health", year:"2026", pmid:"42909026",
+    author:"Zhu M et al.", pubdate:"07.10.2026",
+    added:"23.10.2026",
+    title:"HPV-Impfung an chinesischen Unis: Wissen schlecht, Bereitschaft mittel, Uptake schwach",
+    sum:"Querschnittstudie (959 Studierende, Shandong) zur HPV-Impfakzeptanz mittels Knowledge-Attitude-Practice-Framework mit Strukturgleichungsmodellierung.",
+    result:"Durchschnittliches Wissensscore 54,8 % (schwach), Einstellung 74,8 % (moderat), Praxis 67,1 % (moderat). Wissen direkt mit Einstellung (β=0,119, p=0,012) und Praxis assoziiert (β=0,461, p=0,014); Einstellung auch indirekt relevant (β=0,014 indirekt, p=0,003). Männeranteil 58 %, HPV-bezogene Wissenslücken erheblich, Zugang zu Untersuchung und Impfung beschränkt.",
+    transfer:"China, aber KAP-Struktur und Geschlechtseffekte auf deutsche Männer-Impfquoten anwendbar"
+  },
+  {
+    journal:"Transbound Emerg Dis", year:"2026", pmid:"42905874",
+    author:"Sun K et al.", pubdate:"2026",
     added:"22.10.2026",
-    title:"Ärztliche Impf-Verordnung hebt Impfquoten bei älteren Erwachsenen deutlich",
-    sum:"Vorher-nachher-Querschnittsstudie an 10.500 Patienten in Zhejiang, China (März–April 2024 und September–Oktober 2025), mit multistufiger Stichprobenziehung über 175 Standorte, zur Evaluation eines Impf-Verordnungs-Programms für Influenza, Pneumokokken und Zoster.",
-    result:"Impfquoten stiegen für Influenza von 45,16 % auf 65,72 %, Pneumokokken von 16,42 % auf 22,74 %, Zoster von 1,93 % auf 5,74 % (alle p &lt; 0,001). Bei Patienten mit Impf-Verordnung: Influenza 79,69 %, Pneumokokken 33,31 %, Zoster 11,13 % – alle signifikant höher als ohne Verordnung. Multivariate Analyse (adjustiert für Demografie und Standortcluster): Influenza aOR = 3,16 (95 %-KI 2,68–3,72), Pneumokokken aOR = 1,56 (1,30–1,87), Zoster aOR = 3,05 (2,18–4,26). Ärztliche Empfehlung als Hauptförderfaktor.",
-    transfer:"China, strukturell vergleichbar mit aufsuchenden Programmen; Versorgungspraxis"
-  },
-  {
-    journal:"Front Public Health", year:"2026", pmid:"42903207",
-    author:"Duplaga M et al.", pubdate:"06.10.2026",
-    added:"22.10.2026",
-    title:"COVID-19- und Influenza-Impfbereitschaft folgen teilweise unterschiedlichen Mustern",
-    sum:"Querschnittsbefragung von 3.000 polnischen Erwachsenen (Mai 2026) mit COM-B-Modell zu Impfabsichten für COVID-19 und Influenza sowie Vaccine-Hesitancy-Skala, Gesundheitskompetenz und Verschwörungsmentalität.",
-    result:"Impfabsicht: 18,2 % für COVID-19, 31,5 % für Influenza. Fähigkeit (Capability) assoziiert mit beiden Absichten (COVID-19 OR = 1,31; Influenza OR = 1,74). Motivation erhöhte beide (COVID-19 OR = 2,64; Influenza OR = 1,56). Impfskepsis trug zusätzlich erklärende Kraft bei. Politische Präferenz zeigte Impfstoff-spezifisches Muster: Anhänger der Rechtspartei hatten niedrigere COVID-19-Absicht (OR = 0,50), aber keine Assoziation für Influenza. Modellgüte (Nagelkerke R² 0,387–0,392).",
-    transfer:"Polen, vergleichbare Sozialversicherung; COVID-19-Ergebnis überlastet Portfolio aber"
-  },
-  {
-    journal:"J Infect", year:"2026", pmid:"42810690",
-    author:"Nazareth J et al.", pubdate:"29.09.2026",
-    added:"29.09.2026",
-    title:"Influenza-Impfantwort unterschied sich zwischen ethnischen Gruppen in England",
-    sum:"Prospektive Kohorte von 815 Gesundheitsfachpersonen in Großbritannien (2020–2022) mit Bestimmung von Hämagglutinin-Hemmtiteln nach Influenza-Impfung.",
-    result:"Im ersten Jahr zeigten sich keine signifikanten ethnischen Unterschiede. Im zweiten Jahr hatten südasiatische Teilnehmer einen stärkeren Anstieg der A/H1N1-Antikörper während der Booster-Phase (geometrisches Mittel-Ratio 1,77; 95 %-KI 1,26–2,48; p = 0,001). Eine vorherige Influenza-Impfung erklärte die beobachteten Unterschiede teilweise. Die Befunde deuten auf unterschiedliche Immunantworten hin, möglicherweise bedingt durch unterschiedliche Vorimmunsierung.",
-    transfer:"UK-Klinikdaten, vergleichbare Dokumentationspflichten und Impfkalendar"
-  },
-  {
-    journal:"J Infect", year:"2026", pmid:"42674297",
-    author:"Walker JL et al.", pubdate:"31.08.2026",
-    added:"31.08.2026",
-    title:"Mütterliche Keuchhusten-Impfung schützt Neugeborene auch nach COVID-19",
-    sum:"Fallkontrollstudie mit 188 laborbestätigten Pertussis-Fällen bei unter 3 Monate alten Säuglingen (Januar 2020–März 2024) und Deckungsdaten von 453.740 Schwangerschaften in Großbritannien.",
-    result:"Impfeffektivität gegen laborbestätigte Pertussis 84,6 % (95 %-KI 76,9–89,7 %), gegen Hospitalisierung 88,2 % (95 %-KI 81–92,7 %), gegen Tod 91,5 % (95 %-KI 75,4–97,1 %). Hohe Wirksamkeit über alle Gestationsalter-Kategorien hinweg; kein statistisch signifikanter Unterschied. Das Programm hat seine hohe Schutzwirkung beibehalten und war nicht Ursache des post-pandemischen Pertussis-Anstiegs.",
-    transfer:"England-Daten, vergleichbare Mutterschaftshilfe und Impfregister"
+    title:"Tollwutimpfung bei Hunden: Strukturen schlagen Wissen, Einstellung und Appelle",
+    sum:"Mehrebenen-Querschnittsstudie (2.148 ländliche Bewohner, 282 Hundehalter, China) zu Determinanten der Hundertollwut-Impfung mittels multilevel mixed effects und SEM.",
+    result:"Wissensquote 68,0 %, positive Einstellung 88,1 %, aber nur 26,5 % aktive Praxis bei Menschen; Hundimpfquote 36,2 %. Einstellung mediierte Wissenseffekt (91,0 % des indirekten Pfads). Strukturelle Faktoren dominierten jedoch: erworbene Hunde 3,4× höhere Impfquote als Eigenaufzucht (OR 3,38), angebundene Hunde 3,8× höher als frei laufende (OR 3,77). Wissen/Einstellung unzureichend ohne Managementreformen.",
+    transfer:"China ländlich, aber Befund zu Strukturbarrieren über KAP hinaus auf deutsche Tierimpfprogramme und deren Umsetzungshindernisse übertragbar"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2124,7 +2133,7 @@ const ZUL_DIGA = 0;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "23.10.2026";
+const NEWS_STAND = "24.10.2026";
 const NEWS = [
   {titel:"Impfkampagne „Zusammen geschützt“ startet: BIÖG und RKI", datum:"2026-10-07", url:"https://www.monitor-versorgungsforschung.de/news/impfkampagne-zusammen-geschuetzt-startet-bioeg-und-rki/"},
   {titel:"Impfkampagne zur Grippesaison: KVB kritisiert Apothekenimpfungen", datum:"2026-10-05", url:"https://www.monitor-versorgungsforschung.de/news/impfkampagne-zur-grippesaison-kvb-kritisiert-apothekenimpfungen/"},
@@ -2134,8 +2143,8 @@ const NEWS = [
 // Fremde Pressemeldungen zum Thema — taeglich von scripts/newsfeed.py
 // === PRESSE-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
 const PRESSE = [
-  {titel:"Von der Mikroskopie zur KI: Andreas von Deimling prägte die moderne Hirntumordiagnostik in Heidelberg", datum:"2026-10-22", url:"http://idw-online.de/de/news879533", quelle:"idw"},
-  {titel:"Neue Diagnostik soll personalisierte Phagentherapie bei Mukoviszidose verbessern", datum:"2026-10-21", url:"http://idw-online.de/de/news879455", quelle:"idw"},
+  {titel:"Neuer Ansatz für eine zuverlässigere Alzheimer-Diagnostik mittels Bluttests", datum:"2026-10-23", url:"http://idw-online.de/de/news879618", quelle:"idw"},
+  {titel:"10 Jahre nach Ebola in Westafrika: Laborpartnerschaft verbessert Diagnostik viraler hämorrhagischer Fieber in Guinea", datum:"2026-10-23", url:"http://idw-online.de/de/news879613", quelle:"idw"},
 ];
 // === PRESSE-BLOCK-ENDE ===
 
