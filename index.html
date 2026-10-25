@@ -2087,71 +2087,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "24. Okt. 2026, 06:01 Uhr";
+const SNAP_DATE = "25. Okt. 2026, 05:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Glob Health Action", year:"2026", pmid:"42910459",
-    author:"Jin J et al.", pubdate:"22.10.2026",
-    added:"23.10.2026",
-    title:"Auffrischungsimpfung in der Pandemie: Was Müdigkeit und Misstrauen bewirken",
-    sum:"Längsschnittstudie (689 Erwachsene, Hongkong) zu psychosozialen Faktoren der Bereitschaft für zusätzliche COVID-19-Impfdosen während Pandemiedauer.",
-    result:"58,2 % zu zusätzlicher Dosis bereit, 18,9 % ablehnend, 22,9 % unentschieden. Erhöhte Pandemie-Müdigkeit assoziiert mit Ablehnung (OR 1,63), niedriges Vertrauen in Behörden mit Ablehnung (OR 0,60), höhere wahrgenommene Bequemlichkeit mit Akzeptanz (OR 1,29). Alltägliche Belastungen bidirektional: erhöhte Chancen sowohl für Ablehnung als auch Akzeptanz je nach subjektiver Maßnahmenbequemlichkeit.",
-    transfer:"Hong Kong-Kontext, aber Befunde zu Pandemie-Ermüdung und Vertrauensverlust auf Deutschland übertragbar"
-  },
-  {
-    journal:"Expert Rev Vaccines", year:"2026", pmid:"42908339",
-    author:"Wang K et al.", pubdate:"22.10.2026",
+    journal:"Probl Sotsialnoi Gig Zdravookhranenniiai Istor Med", year:"2026", pmid:"42904709",
+    author:"Bogdan IV et al.", pubdate:"15.12.2026",
     added:"22.10.2026",
-    title:"24-valente Pneumokokken-Konjugatimpfung: sichere Immunantwort in Phase-1/2-Studien",
-    sum:"Zwei RCTs (Phase 1: n=240, Phase 2: n=992, chinesische Erwachsene) zur Sicherheit und Immunogenität von PCV24 vs. PPSV23 und Placebo.",
-    result:"Post-Impf-Nebenwirkungen überwiegend Grad 1–2, seltene Grad-3-Ereignisse nur Tag 0–7; keine impfbedingten schwerwiegenden Nebenwirkungen über 6 Monate. PCV24-Hochdosis erreichte Nicht-Unterlegenheit für IgG-Serokonversion aller 24 Serotpyen vs. PPSV23. Verträglichkeitsprofil günstig, robuste Immunantwort dokumentiert.",
-    transfer:"China, Sicherheitsdaten aber zu Pneumokokkenimpfung kohärent mit europäischem Sicherheitsreglement; Nutzbar für Risikoabwägung"
+    title:"Impfbereitschaft in Moskau während COVID-19: Polarisierung trotz abnehmender Prävention",
+    sum:"Wiederholte Bevölkerungsbefragung in Moskau (Februar und Juli/August 2021, je ~1000 Teilnehmer) zur Entwicklung von Impfbereitschaft und Vertrauen während der Pandemie.",
+    result:"Bis Welle 5 sank Einhaltung der meisten Präventionsmaßnahmen (Abstand, Kontaktlimit, Desinfektionsmittel). Durchschnittliche Selbstbewertung des emotionalen Zustands fiel auf 3,47 Punkte. Institutionelles Vertrauen sank, Einstellung zur Impfung wurde polarisierter. Empfehlung: konsistente Wissenschaftskommunikation und gezielte Arbeit mit Vaccine Hesitancy-Gruppen.",
+    transfer:"Russland – Bevölkerungsänderungen, aber Zeitraum und System nur begrenzt übertragbar"
   },
   {
-    journal:"Int J Epidemiol", year:"2026", pmid:"42909463",
-    author:"Wiegand RE et al.", pubdate:"14.10.2026",
+    journal:"Lancet Rheumatol", year:"2026", pmid:"42833234",
+    author:"Greco R et al.", pubdate:"05.10.2026",
+    added:"05.10.2026",
+    title:"CAR-T-Zellen bei Autoimmunerkrankungen: Harmonisierte europäische Empfehlungen",
+    sum:"Europäische Konsensus-Update von EBMT, ISCT und JACIE zu CAR-T-Zelltherapie bei schweren refraktären Autoimmunerkrankungen, basierend auf aktuellem Evidenzstand 2024–2026.",
+    result:"Aktualisierte Empfehlungen zu Patientenauswahl, Diagnostik, klinischem Management, Nachbeobachtung und Immunmonitoring für rheumatische, neurologische, hämatologische und pädiatrische Indikationen. Unerfüllte Bedarfe und Forschungspriorit­äten identifiziert. Spezifische Zahlen zur Häufigkeit oder Effektivität nicht berichtet.",
+    transfer:"Deutschland, österreich, Schweiz – europäisches Expertenkonsens, direkt übertragbar"
+  },
+  {
+    journal:"Front Immunol", year:"2026", pmid:"42898624",
+    author:"Li S et al.", pubdate:"05.10.2026",
+    added:"20.10.2026",
+    title:"Bioengineering von BCG: Strategien für verbesserte Blasenkrebs-Immuntherapie",
+    sum:"Narrative Review zu genetischen Modifikationen, synthetischer Biologie und Delivery-Systemen zur Optimierung von BCG als Immuntherapie bei nicht-muskelinvasivem Blasenkrebs; Mechanismen und aktuelle Forschungsansätze.",
+    result:"Überblick über BCG-induzierte Antitumorimmunantwort (Typ-1- und Typ-2-Effekte, trainierte Immunität), biotech-gestützte Strategien zur Verbesserung von Tumor-Interaktion, angeborener Immunaktivierung und Immunmilieumodulierung. Keine primären Outcomes berichtet, nur Literaturübersicht.",
+    transfer:"Methodische Übersicht ohne Versorgungsdaten – grenzwertiger Einschluss, konzeptueller Nutzen"
+  },
+  {
+    journal:"Ann Hematol", year:"2026", pmid:"42799871",
+    author:"Schneider MMK et al.", pubdate:"26.09.2026",
+    added:"26.09.2026",
+    title:"Digitale Nachsorge nach Zelltransplantation in Deutschland: SPIZ-Studie mit 306 Patienten",
+    sum:"Deutsches RCT-Protokoll (SPIZ) zur Optimierung der posttherapeutischen Versorgung nach allogener Stammzelltransplantation und CAR-T-Therapie durch digitale Unterstützung, Fallmanagement und regionale Vernetzung.",
+    result:"306 Patienten erfolgreich in 3 Zentren rekrutiert und 1:1 randomisiert. Intervention: Fallmanager, Pflegefachbesuche, mobiles App-Monitoring, Videokonferenzen. Primäre Endpunkte: Mortalität und Rehospitalisierungsraten. Studienabschluss und Auswertung laufen. G-BA-Förderung mit Ziel der Routineintegration.",
+    transfer:"Deutschland – deutsches Versicherungs- und Gesundheitssystem, direkt übertragbar"
+  },
+  {
+    journal:"Nat Commun", year:"2026", pmid:"42918783",
+    author:"Phadke VK et al.", pubdate:"23.09.2026",
     added:"23.10.2026",
-    title:"Impfeffektivität gegen COVID-19: Schnelltests verzerren die Ergebnisse je nach Impfstatus",
-    sum:"Individuell-level Simulationen mit US-Surveillance-Daten zu Verzerrungsrisiken in Test-Negativ-Studien (TND) zur Impfeffektivität durch unterschiedliche RDT-Nutzung zwischen Geimpften und Ungeimpften.",
-    result:"Impfeffektivität unterschätzt (−5,8 bis −6,1 Prozentpunkte), wenn Geimpfte häufiger nach positivem RDT oder Ungeimpfte häufiger nach negativem RDT Gesundheitseinrichtungen aufsuchen; überschätzt (+5,2 bis +8,4 Prozentpunkte) bei umgekehrtem Muster. Verzerrung abhängig von Wahrscheinlichkeiten: Geimpfte Klinik-Besuch nach positiv RDT 0,5 vs. Ungeimpfte 0,3 → Bias −5,8 pp (95 % UI −9,1 bis −2,4).",
-    transfer:"USA-Datenbasis, aber methodische Verzerrungsanalyse zu TND-Studien auf deutsche COVID-Impfeffektivitätsbewertung übertragbar"
+    title:"Meningokokken-B-Impfstoff induziert Antikörper gegen Gonorrhö-Antigene",
+    sum:"Randomisierte Phase-II-Studie an 52 gesunden Erwachsenen (41 Impfstoff, 11 Placebo), die Antikörperresponses gegen Gonorrhö-Oberflächenantigene nach 4CMenB-Impfung maß.",
+    result:"4CMenB erzeugte robuste Serum-IgG-Antworten gegen Gonorrhö-Antigene mit Peak am Tag 43 und Persistenz bis Tag 181. Mukosale IgG-Antworten waren niedrig ausgeprägt, mit höchsten Werten in Vaginalsekreten. Bei Placebo-Empfängern keine relevanten Antworten. Die Ergebnisse unterstützen potenziellen Einsatz von 4CMenB zur Gonorrhö-Prävention.",
+    transfer:"USA, Antikörpertiter gemessen, aber Wirksamkeit in der Versorgung unklar"
   },
   {
-    journal:"Cad Saude Publica", year:"2026", pmid:"42912039",
-    author:"Arredondo-Nontol MR et al.", pubdate:"12.10.2026",
-    added:"23.10.2026",
-    title:"Dengue-Impfung in Lateinamerika: Wissenshieroglyphen und Umsetzungslücken",
-    sum:"Scoping Review über Wissen, Einstellungen und Praktiken zur Dengue-Impfung in Lateinamerika und der Karibik mit Fokus auf den Unterschied zwischen Einstellungen und tatsächlicher Inanspruchnahme.",
-    result:"16 Studien zeigten begrenzte Kenntnisse über Impfverfügbarkeit und Sicherheit, aber grundsätzlich positive Einstellungen (hohe Akzeptanz, Zahlungsbereitschaft ca. 23 USD für dreiteilige Serie). Jedoch persistierte eine große Lücke zwischen Einstellung und Umsetzung mit niedriger Impfquotenerfüllung. Besondere Herausforderungen: Sicherheits- und Vertrauensbedenken bei Studienteilnahmen, Wissenslücken zu Wirkungsmechanismen.",
-    transfer:"Lateinamerika, aber Erkenntnisse zur Diskrepanz Einstellung/Verhalten übertragbar auf deutsche Vakzin-Skepsis-Strategien"
-  },
-  {
-    journal:"Epidemiol Serv Saude", year:"2026", pmid:"42903010",
-    author:"Marques APDC et al.", pubdate:"12.10.2026",
-    added:"22.10.2026",
-    title:"Strategien gegen Impfskepsis: Was Systemreformen leisten",
-    sum:"Systematische Übersicht von 48 Systematic Reviews zu Maßnahmen gegen Impfhesitanz in Brasilien (urban, Erwachsene ab 18 Jahren, Schwangere).",
-    result:"Wirksame Strategien erfordern Kombination von fünf Handlungsfeldern: (1) zielgruppenbezogene Kommunikationsverstärkung, (2) permanente Fortbildung für Gesundheitsfachpersonen, (3) Zugangsverbesserung (Infrastruktur und Verfügbarkeit), (4) Desinformationsbekämpfung, (5) integrierte Schwangerschafts-Impfstrategien. Einzelmaßnahmen unzureichend; systemische Koordination erforderlich.",
-    transfer:"Brasilien, aber Befunde zu kombinierter Systemstrategie relevant für deutsches Impfprogramm-Design"
-  },
-  {
-    journal:"Front Public Health", year:"2026", pmid:"42909026",
-    author:"Zhu M et al.", pubdate:"07.10.2026",
-    added:"23.10.2026",
-    title:"HPV-Impfung an chinesischen Unis: Wissen schlecht, Bereitschaft mittel, Uptake schwach",
-    sum:"Querschnittstudie (959 Studierende, Shandong) zur HPV-Impfakzeptanz mittels Knowledge-Attitude-Practice-Framework mit Strukturgleichungsmodellierung.",
-    result:"Durchschnittliches Wissensscore 54,8 % (schwach), Einstellung 74,8 % (moderat), Praxis 67,1 % (moderat). Wissen direkt mit Einstellung (β=0,119, p=0,012) und Praxis assoziiert (β=0,461, p=0,014); Einstellung auch indirekt relevant (β=0,014 indirekt, p=0,003). Männeranteil 58 %, HPV-bezogene Wissenslücken erheblich, Zugang zu Untersuchung und Impfung beschränkt.",
-    transfer:"China, aber KAP-Struktur und Geschlechtseffekte auf deutsche Männer-Impfquoten anwendbar"
-  },
-  {
-    journal:"Transbound Emerg Dis", year:"2026", pmid:"42905874",
-    author:"Sun K et al.", pubdate:"2026",
-    added:"22.10.2026",
-    title:"Tollwutimpfung bei Hunden: Strukturen schlagen Wissen, Einstellung und Appelle",
-    sum:"Mehrebenen-Querschnittsstudie (2.148 ländliche Bewohner, 282 Hundehalter, China) zu Determinanten der Hundertollwut-Impfung mittels multilevel mixed effects und SEM.",
-    result:"Wissensquote 68,0 %, positive Einstellung 88,1 %, aber nur 26,5 % aktive Praxis bei Menschen; Hundimpfquote 36,2 %. Einstellung mediierte Wissenseffekt (91,0 % des indirekten Pfads). Strukturelle Faktoren dominierten jedoch: erworbene Hunde 3,4× höhere Impfquote als Eigenaufzucht (OR 3,38), angebundene Hunde 3,8× höher als frei laufende (OR 3,77). Wissen/Einstellung unzureichend ohne Managementreformen.",
-    transfer:"China ländlich, aber Befund zu Strukturbarrieren über KAP hinaus auf deutsche Tierimpfprogramme und deren Umsetzungshindernisse übertragbar"
+    journal:"ESMO Open", year:"2026", pmid:"42777327",
+    author:"Ciccarese C et al.", pubdate:"23.09.2026",
+    added:"23.09.2026",
+    title:"BCG plus Immun-Checkpoint-Inhibitoren: Toxizität steigt deutlich",
+    sum:"Systematische Übersicht und Metaanalyse von 3 Phase-III-RCTs (1895 Patienten) zur Sicherheit von BCG kombiniert mit Anti-PD-1/PD-L1-Inhibitoren bei High-Risk-NMIBC.",
+    result:"BCG+ICI versus BCG allein: RR für Grad ≥3 TRAE 4,02 (95%-KI 3,06–5,30, p&lt;0,00001), RR für schwere Unerwünschte Ereignisse 4,54 (2,09–9,85, p=0,0001), RR für Immun-bedingte AE (jeder Grad) 15,18 (4,34–53,14, p&lt;0,0001). Behandlungsabbruch RR 2,87 (1,50–5,52, p=0,002). Toxizität hauptsächlich durch systemische Immunereignisse.",
+    transfer:"Europa, Behandlungsdaten vergleichbare klinische Systeme, übertragbar"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2176,7 +2167,7 @@ const ZUL_DIGA = 0;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "24.10.2026";
+const NEWS_STAND = "25.10.2026";
 const NEWS = [
   {titel:"Impfkampagne „Zusammen geschützt“ startet: BIÖG und RKI", datum:"2026-10-07", url:"https://www.monitor-versorgungsforschung.de/news/impfkampagne-zusammen-geschuetzt-startet-bioeg-und-rki/"},
   {titel:"Impfkampagne zur Grippesaison: KVB kritisiert Apothekenimpfungen", datum:"2026-10-05", url:"https://www.monitor-versorgungsforschung.de/news/impfkampagne-zur-grippesaison-kvb-kritisiert-apothekenimpfungen/"},
