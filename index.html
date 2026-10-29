@@ -2094,62 +2094,71 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "28. Okt. 2026, 05:01 Uhr";
+const SNAP_DATE = "29. Okt. 2026, 05:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Eur J Pediatr", year:"2026", pmid:"42944943",
-    author:"Toledo D et al.", pubdate:"27.10.2026",
+    journal:"Hum Vaccin Immunother", year:"2026", pmid:"42949617",
+    author:"Gray Brunton C et al.", pubdate:"28.10.2026",
+    added:"28.10.2026",
+    title:"Peer-Edukation erhöht HPV-Impfbereitschaft bei Jugendlichen",
+    sum:"Qualitative Evaluation einer STEAM-Schulungsintervention zur Impfbereitschaft: 53 Jugendliche (Fokusgruppen), 35 jüngere Schüler (Klassenevaluation) und 300 Austrittsfragebögen wurden analysiert.",
+    result:"Thematische Analyse zeigte drei kompatible Themen zu demokratischer Partizipation und Impfbefürwortung. Jugendliche berichteten positive Veränderungen in HPV-Wissen, Vertrauen und Befürwortungsüberzeugungen; jüngere Schüler konnten HPV-Fakten in Klassenevaluationen und Austrittsfragebögen abrufen. Das Peer-Education-Format befähigte Jugendliche, als Impfbefürworter zu fungieren.",
+    transfer:"Irland, qualitatives Schulmodell; Übertragbarkeit auf Deutschland begrenzt durch Schulstruktur."
+  },
+  {
+    journal:"PLoS One", year:"2026", pmid:"42945220",
+    author:"Ezenwa-Ahanene S et al.", pubdate:"27.10.2026",
     added:"27.10.2026",
-    title:"Grippeimpfung bei Kindern mit chronischen Erkrankungen: 80,6 % Schutz vor Hospitalisierung",
-    sum:"Spanische Multizenterstudie über drei Influenzasaisons (2021/22–2023/24) zur Wirksamkeit der Grippeimpfung bei hospitalisierten Kindern mit Grunderkrankungen.",
-    result:"Bei immunokompetenten Kindern lag die adjustierte Impfeffektivität gegen influenzaassoziierte Hospitalisierung bei 80,6 % (95%-KI: 36,7–95,9), bei immunsupprimierten Kindern war sie nicht statistisch signifikant. Nur 21,5 % der 274 eingeschlossenen Kinder waren geimpft; unter den 66 Influenzafällen betrug der Impfquote 21,5 %.",
-    transfer:"Spanien, Krankenhauses-Surveillance; Systeme vergleichbar, aber ohne Impfregister wie Deutschland."
+    title:"Masern-Transmission in Nigeria: 86 Prozent der Fälle im Norden, Impfquoten kritisch",
+    sum:"Nationale retrospektive ökologische Studie (19 Jahre Surveillance 2006–2025, n=253.595 Masernfälle). Räumlich-zeitliche Analyse mit Moran's I und Getis-Ord Gi*, lineare Mixed-Effects-Modelle zum MCV1/MCV2-Effekt.",
+    result:"86,4% der Fälle konzentriert im Norden. 38 persistente Hotspot-LGAs mit 23,2% aller Fälle. MCV1-Quote national 73,8%, MCV2 38,4%. Signifikante negative Assoziation MCV1-Abdeckung und Masern-Fallquote (p&lt;0,001); MCV2 kein unabhängiger Effekt. Hotspots erfordern intensive SIA (Supplemental Immunization Activities).",
+    transfer:"Nigeria, Überwachungsdaten; zeigt Risikokonzentration und Impflücken in Low-Income-Settings."
   },
   {
-    journal:"JMIR Public Health Surveill", year:"2026", pmid:"42944720",
-    author:"He Y et al.", pubdate:"27.10.2026",
+    journal:"Medicine (Baltimore)", year:"2026", pmid:"42937774",
+    author:"Guo Z et al.", pubdate:"23.10.2026",
     added:"27.10.2026",
-    title:"Pertussis in China: 6-Jahres-Booster senkt Inzidenz um 24 %, Säuglinge gewinnen Herdenimmunität",
-    sum:"Mathematisches Modell der Keuchhusten-Transmission in Hunan-Provinz (2010–2025), kalibriert mit chinesischen Meldedaten, zur Bewertung der neuen Auffrischungsimpfung im Alter von 6 Jahren (2025).",
-    result:"Bei Pertussis-Resurgenz (Peak 4743 Fälle April 2024) verschob sich die Altersverteilung von Säuglingen auf Schulkinder. Mit voller Abdeckung der 6-Jahres-Auffrischung wird erwartet: 24,15 % Reduktion der 10-Jahres-Inzidenz (24.972,58 / 103.408,95 Fälle), 45,06 % Rückgang bei 6–10-Jährigen, indirekte Schutzwirkung bei Säuglingen +28,91 %.",
-    transfer:"China, nationale Surveillance; Modell zeigt Altersstruktur-Effekte, Übertragbarkeit für Deutschland bedingt."
+    title:"PCV13-Einführung in Qinghai spart Kosten und verhindert 7.500 Fälle in 5 Jahren",
+    sum:"Entscheidungsbaum-Markov-Modell zur Kosteneffektivität einer 4-Dosen-PCV13-Serie im Nationalen Impfprogramm vs. Status quo (private Verfügbarkeit). Geburtskohorte 2022 in Qinghai-Provinz (High-Altitude-Region), gesellschaftliche Perspektive, Zeithorizont 5 Jahre.",
+    result:"PCV13 in NIP verhindert ~7.493 Pneumokokkenfälle (75,60% Reduktion) und 146 Todesfälle (93,59% Reduktion) in ersten 5 Jahren. Bei aktueller Dosis-Preis USD 68,00: kosteneffektiv mit Kosteneinsparung. 1-Wege- und Szenarioanalysen zeigten robuste Ergebnisse; probabilistische Sensitivitätsanalyse: 99% Wahrscheinlichkeit Kosteneffektivität.",
+    transfer:"China, Qinghai-Region mit Hochaltitude-Besonderheiten; Modellbasiert, Anwendung begrenzt auf Kosten-Struktur."
   },
   {
-    journal:"Front Public Health", year:"2026", pmid:"42935580",
-    author:"Ike TJ et al.", pubdate:"12.10.2026",
-    added:"27.10.2026",
-    title:"Impfskepsis bei Kindern von Migranten: fünf Barrieren, kulturgerechte Lösungen nötig",
-    sum:"Systematischer Review von 10 Studien zu Faktoren der Impfverweigerung bei Eltern mit Migrationshintergrund im Vereinigten Königreich und Interventionen zur Verbesserung der Impfquote.",
-    result:"Identifiziert fünf Kernbarrieren: Impfskepsis, Misstrauen gegenüber Fachleuten, mangelnde Impfaufklärung, soziale Netzwerke und Familieneinfluss. Empfohlen werden kulturell angepasste Aufklärungsmaterialien und Interventionen, die durch randomisierte kontrollierte Studien getestet werden sollten.",
-    transfer:"Großbritannien; Migrationsstrukturen in Europa ähnlich, aber nationale Impfprogramme unterscheiden sich."
+    journal:"JAMA Netw Open", year:"2026", pmid:"42949743",
+    author:"Bui DP et al.", pubdate:"01.10.2026",
+    added:"28.10.2026",
+    title:"RSV-mRNA-Impfstoff schützt US-Veteranen mit sinkender Effektivität im Alter",
+    sum:"Kohortenstudie mit Target-Trial-Emulation bei US-Veteranen ≥50 Jahren (n=74.926 geimpft, 286.425 Kontrollen; 149.852 gewichtet). Median-Alter 73 Jahre, 91,3% männlich. Primärer Endpunkt: positiver RSV-Test ab Tag 14 nach Index-Datum über 24 Wochen.",
+    result:"Impfeffektivität 60,3% (95% CI 49,0–70,4%) gegen dokumentierte Infektionen, 60,2% (95% CI 47,2–71,5%) gegen RSV-ED/UC-Kontakte, 81,8% (95% CI 58,1–99,9%) gegen Hospitalisierungen. Effektivität sank mit Alter: 82,9% (50–59 Jahre) auf 28,6% (≥80 Jahre). Mit aktivem Vergleichsarm: 67,1% gegen Infektionen.",
+    transfer:"USA, Veteranensystem; Sicherheitsbefund übertragbar, Zugangsweg nicht."
   },
   {
-    journal:"Vaccine", year:"2026", pmid:"42858678",
-    author:"Okomo U et al.", pubdate:"20.12.2026",
-    added:"10.10.2026",
-    title:"Gambia: Geburtshilfe-Register zur Impfsicherheit in der Schwangerschaft etabliert",
-    sum:"Prospektive Beobachtungsstudie an drei Entbindungskliniken in Gambia (Aug. 2022–Aug. 2024) zur Erfassung von Hintergrundereignissen bei Mutter und Neugeborenem zur Überwachung der Sicherheit von Impfungen in der Schwangerschaft.",
-    result:"Von 5099 eingeschriebenen Frauen wurden 4775 Infanten geboren (4671 Lebendgeburten, 104 Totgeburten). Mütterliche Sterblichkeitsrate 1,3 pro 1000 Geburten (95%-KI: 0,5–2,7), Totgeburtsrate 21,8 (17,8–26,3) pro 1000 Lebendgeburten, neonatale Mortalität 15,6 (12,3–19,6) pro 1000 Lebendgeburten. Etablierte klinische Hintergrund-Referenzwerte für Sicherheitsüberwachung.",
-    transfer:"Westafrika; Datenqualität abhängig von klinischer Dokumentation und Impfhistorie-Erfassung."
+    journal:"Int J Drug Policy", year:"2026", pmid:"42715835",
+    author:"Opheim E et al.", pubdate:"09.09.2026",
+    added:"09.09.2026",
+    title:"HBV-Impfquote bei Drogengebrauchern in Oslo nur 40 Prozent",
+    sum:"Längsschnittquerschnittsstudien (acht Wellen 2002–2024) unter Menschen mit aktuellem Drogengebrauch in Oslo (n=1.689): Erfassung von HCV-, HBV- und HIV-Prävalenz sowie HBV-Impfstatus (Anti-HBs ≥10 IU/L bei Anti-HBc-Negativen).",
+    result:"HCV-RNA-Prävalenz sank dramatisch von 50,2% (2002) auf 6,3% (2024) (adjustiertes OR 0,06 für 2024 vs. 2002). HIV und HBsAg blieben durchgehend niedrig (&lt;3,3%). In 2021–2024 waren nur 40,0% der HBV-Exponierten geimpft (170/425). HBV-Impfung assoziiert mit Druckraum-Nutzung (aOR 1,33).",
+    transfer:"Norwegen mit Impfregister; Längsschnittdaten zur Erreichbarkeit von Risikogruppen."
   },
   {
-    journal:"An Pediatr (Engl Ed)", year:"2026", pmid:"42855362",
-    author:"Alvarez Aldeán J et al.", pubdate:"09.10.2026",
-    added:"09.10.2026",
-    title:"Spanien: Grippeimpfung 2025–2026 mit Ausweitung bis 17 Jahre empfohlen",
-    sum:"Spanische Fachgesellschaften (AEV, CAV-AEP, SEIP) evaluieren die Grippekampagne 2025–2026 bei Kindern und Jugendlichen und empfehlen Strategien zur Steigerung der Impfquote.",
-    result:"Routine-Grippeimpfung für Kinder 6–59 Monate ist entscheidend; Ausweitung der Empfehlung bis 17 Jahre wurde in einigen autonomen Gemeinschaften bereits 2025–2026 umgesetzt. Bericht identifiziert Bedarf für wirksame Strategien zur Steigerung der Durchimpfung und Erweiterung des Impfzielbereichs.",
-    transfer:"Spanien, nationale Impfempfehlungen; direkter Bezug zu deutschem Impfkalender."
+    journal:"Diabetologia", year:"2026", pmid:"42663626",
+    author:"Östman M et al.", pubdate:"28.08.2026",
+    added:"28.08.2026",
+    title:"Rotavirus-Impfung zeigt keinen Effekt auf Typ-1-Diabetes-Risiko",
+    sum:"Kohortenstudie aller in Norwegen 2007–2019 geborenen Kinder (n=740.744), gefolgt von 6 Monaten bis 5 Jahren auf Typ-1-Diabetes; Unterbrochene Zeitreihenanalyse zur Impfprogrammeinführung (September 2014).",
+    result:"846 Kinder erhielten eine Typ-1-Diabetes-Diagnose. Primäre Analyse zeigte einen leicht erhöhten Trend nach Impfeinführung (relatives HR 1,11 [95% CI 1,03–1,20]), der nach Ausschluss von 2013–2015 nicht signifikant war (relatives HR 1,05 [95% CI 0,93–1,18]). Sekundäranalyse vollständig geimpft vs. nicht geimpft: HR 1,17 (95% CI 0,78–1,77). Kein Hinweis auf reduziertes Diabetesrisiko.",
+    transfer:"Norwegen, Geburtskohorte mit Registerdaten; Ähnliche Altersgruppen wie Deutschland."
   },
   {
-    journal:"BMC Infect Dis", year:"2026", pmid:"42934535",
-    author:"Ru L et al.", pubdate:"30.07.2026",
-    added:"27.10.2026",
-    title:"Keuchhusten in Xinjiang: Impfeffektivität 47,1 % bei Vakzinierten, U-förmige Altersverteilung",
-    sum:"Retrospektive Analyse von 2250 Kindern mit Pertussis-Verdacht (März 2024–Juni 2025) in Xinjiang; PCR-gestützte Diagnostik zur Bestimmung von Impfeffektivität, epidemiologischen Mustern und Risikofaktoren.",
-    result:"Positivitätsrate 9,3 %; höchste Raten bei Säuglingen 0–5 Monate (17,4 % bei 0–2 Monaten), danach Rückgang, dann erneuter Anstieg ≥6 Jahre. Impfquote 90,3 %, aber 82,9 % der Fälle waren geimpft. Impfeffektivität ≥1 Dosis: 47,1 % (95%-KI: 9,4–69,1 %). Sommer größter Risikofaktor (aOR 5,25), Kuchenkontakt (aOR 2,54), Lymphozytose &gt;50 % (aOR 1,56).",
-    transfer:"China (Xinjiang), Provinz-Surveillance; ähnliche Impfkalender, aber weniger Booster-Daten als Deutschland."
+    journal:"J Health Popul Nutr", year:"2026", pmid:"42947267",
+    author:"Ssegujja E et al.", pubdate:"24.07.2026",
+    added:"28.10.2026",
+    title:"Datenqualität Impfung im privaten Sektor: Co-Design bessert Erfassung, Infrastruktur bleibt Hürde",
+    sum:"Qualitative Endline-Fallstudie (n=20 Health-Worker aus 2 Kampalas Bezirken) nach Implementierung eines Datenqualitäts-Verbesserungsinterventions-Piloten in privaten Impfanbietern. Audio-Aufzeichnungen, thematische Analyse nach PRISM-Rahmen.",
+    result:"Co-gestaltete Intervention stärkte bestehende Strategien (Kohorten-Register, Monitoring-Charts, Datenreview), verbesserte Rückverfolgung und Zeitnähe. Papierabhängigkeit, fehlende Ausrüstung und Improvisationskosten blieben. Unterstützungs-Supervision förderte Ownership, aber Unterbesetzung und hohe Fluktuation limitierten Fortschritt. Berichterstattung inkonsistent, besonders ohne DHIS2-Anbindung. Schlussfolgerung: Nachhaltige Gewinne erfordern stärkere Infrastruktur, Führung und eingebettete Feedback-Prozesse.",
+    transfer:"Uganda, Privatsektor-Datenerfassung; zeigt Systemlücken in Low-Resource-Settings."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2174,7 +2183,7 @@ const ZUL_DIGA = 0;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "28.10.2026";
+const NEWS_STAND = "29.10.2026";
 const NEWS = [
   {titel:"Impfkampagne „Zusammen geschützt“ startet: BIÖG und RKI", datum:"2026-10-07", url:"https://www.monitor-versorgungsforschung.de/news/impfkampagne-zusammen-geschuetzt-startet-bioeg-und-rki/"},
   {titel:"Impfkampagne zur Grippesaison: KVB kritisiert Apothekenimpfungen", datum:"2026-10-05", url:"https://www.monitor-versorgungsforschung.de/news/impfkampagne-zur-grippesaison-kvb-kritisiert-apothekenimpfungen/"},
