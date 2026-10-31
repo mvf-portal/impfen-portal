@@ -2209,71 +2209,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "30. Okt. 2026, 05:23 Uhr";
+const SNAP_DATE = "31. Okt. 2026, 05:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Yonsei Med J", year:"2026", pmid:"42937145",
-    author:"Jeong NY et al.", pubdate:"Nov. 2026",
-    added:"27.10.2026",
-    title:"Postmenopausale Blutungen nach COVID-19-Impfung: Bevölkerungsstudie zeigt kein erhöhtes Risiko",
-    sum:"Eine nationale Population-basierte Selbstkontroll-Fallserie (Korea, KDCA- und NHIS-Daten) verglich Inzidenz postmenopausaler Blutungen, die Krankenhausbehandlung erforderten, in Risiko- versus Baseline-Perioden bei 8,08 Mio. Frauen ≥56 Jahren nach COVID-19-Impfung.",
-    result:"Unter 8.075.792 Impfempfängerinnen wurden 5.716 mit postmenopausaler Blutung diagnostiziert. Kein signifikanter Anstieg im Risiko 1–30 Tage nach Impfung (IRR 0,98; 95% CI 0,92–1,04). Befunde konsistent in Subgruppen- und Sensitivitätsanalysen über Impfstofftypen, Dosen und Altersgruppen.",
-    transfer:"Südkorea, nationale Versicherungs- und Registerdaten – hochwertige bevölkerungsbezogene Sicherheitsanalyse mit kontrolliertem Design"
+    journal:"Pediatr Transplant", year:"2026", pmid:"42957987",
+    author:"Barbey FA et al.", pubdate:"Nov. 2026",
+    added:"30.10.2026",
+    title:"Strukturierte Impfreviews erhöhten Impfquote transplantierter Kinder deutlich",
+    sum:"Vor-nach-Beobachtungsstudie mit wiederholtem Querschnitt an einem kanadischen Zentrum (2020 und 2024): Auswirkung strukturierter Impfreviews nach Organtransplantation auf Impfquoten bei Kindern (n=Kohorte variabel).",
+    result:"Gesamtimpfquote stieg von 33 % (2020) auf 51 % (2024). Stärkste Verbesserungen bei Pneumokokken-Polysaccharid-Impfstoff (PPV23): 58 %–88 % (p&lt;0,001) und HPV-Impfstoff: 32 %–81 % (p=0,003). Bei Kindern mit Transplantation vor Alter &lt;2 Jahren war Quote 2020 signifikant niedriger, 2024 nicht mehr. Strukturierte Reviews waren mit Impfquote-Anstiegen über alle Impfstoffe und Organgruppen assoziiert.",
+    transfer:"Kanada, vergleichbare Finanzierung und Dokumentationspflicht wie Deutschland"
   },
   {
-    journal:"Hum Vaccin Immunother", year:"2026", pmid:"42956266",
-    author:"Konlan M et al.", pubdate:"29.10.2026",
-    added:"29.10.2026",
-    title:"Impfquoten und Abbruchquoten bei Kindern in Ghana: Prädiktoren für lückenlose Immunisierung",
-    sum:"Eine Querschnittstudie mit 3.371 Kindern (0–59 Monate) in zwei Bezirken Nordghanas untersuchte Impfquoten, Dropout-Raten und Vorhersagefaktoren für einen vollständigen Impfplan.",
-    result:"OPV0-Abdeckung betrug 44,2–50,5% (deutlich unter BCG mit 93,6–98,0%), Penta-Reihe fiel von 96% (Dosis 1) auf 88% (Dosis 3), Rotavirus-Dosis-3-Quote nur 40,5–44,0%. Dropout-Raten blieben unter 10%. Geburtsort, Alter und Betreuerperson waren signifikante Vorhersagefaktoren für vollständige Impfung. Die Studie identifiziert Geburtsdosis und Zweijahres-Impfstoffe als Engpässe.",
-    transfer:"Ghana, nationale Dokumentationsdaten – Lücken bei Geburts- und Nachfolgedosen relevant für alle ressourcenlimitierten Settings"
+    journal:"Epidemiol Infect", year:"2026", pmid:"42958808",
+    author:"Konstantopoulou A et al.", pubdate:"30.10.2026",
+    added:"30.10.2026",
+    title:"RSV-Impfprogramm reduzierte Bronchiolitishospitalisierungen in Griechenland deutlich",
+    sum:"Prospektive Beobachtungsstudie der Auswirkungen einer neuen nationalen RSV-Impfstrategie (Antikörper und Mutter-Impfung) auf Bronchiolitiserkrankungen bei Säuglingen in einem quaternären Kinderkrankenhaus (2025–2026).",
+    result:"Die Bronchiolitisrate sank signifikant von 64 (2023–2024) und 59 (2024–2025) auf 42 pro 1000 Aufnahmen (2025–2026). Von 186 Bronchiolitisfällen waren 19,9 % geimpft; Schweregrad unterschied sich nicht signifikant zwischen geimpften und ungeimpften Kindern, obwohl Ungeimpfte älter waren und Trend zu höheren Komplikationen aufwiesen. Die Studie zeigt, dass die nationale RSV-Impfung mit reduzierten Hospitalierungen und Komplikationen assoziiert war, aber unterstreicht Bedarf für bessere Abdeckung und zeitgerechte Immunisierung.",
+    transfer:"Griechenland, europäisches Gesundheitssystem mit Krankenhausdaten vergleichbar Deutschland"
   },
   {
-    journal:"PLoS One", year:"2026", pmid:"42945161",
-    author:"Aldali J et al.", pubdate:"27.10.2026",
-    added:"27.10.2026",
-    title:"Herpes-zoster-Impfung: Nebenwirkungsprofil in Querschnitt von 382 Probanden",
-    sum:"Eine Querschnittsbefragung mit 382 Teilnehmern in Saudi-Arabien (September 2024–August 2025) erfasste Nebenwirkungen nach Herpes-zoster-Vakzin (Zostavax oder Shingrix) in Dose 1 und 2.",
-    result:"Nach Dosis 1: häufigste Nebenwirkungen Müdigkeit/Kopfschmerz, Injektionsstellen-Schmerz und Schwindel; 29,3% berichteten keine Effekte. Nach Dosis 2: Schüttelfrost, Injektionsstellen-Schmerz, Schwindel; 18,4% keine Effekte. Zostavax-Empfänger zeigten signifikant höhere Schweregrad-Scores als Shingrix nach Dosis 1 (p=0,003) und Dosis 2 (p&lt;0,001). Symptom-Dauer meist 1–2 Tage.",
-    transfer:"Saudi-Arabien, selbstberichtete Nebenwirkungen – Vergleich rekombinanter (Shingrix) vs. Lebendvakzin (Zostavax) zeigt relevante Verträglichkeitsunterschiede"
+    journal:"PLoS One", year:"2026", pmid:"42961930",
+    author:"Langhe R et al.", pubdate:"30.10.2026",
+    added:"30.10.2026",
+    title:"HPV-Impfskepsis bei jungen Frauen: Kulturelle und strukturelle Barrieren in den VAE",
+    sum:"Querschnittsbefragung von 1455 Frauen (18–30 Jahre) in den VAE zu HPV-Impfstatus, kulturellen Überzeugungen und institutionellen Faktoren für Impfannahme (Juli–August 2024).",
+    result:"58,8 % hielten HPV-Impfung für kulturell akzeptabel, aber nur 26,2 % waren geimpft. Hauptbarrieren: Nebenwirkungssorgen (47,5 %), Gefühl zu jung (28,4 %), Angst vor Familie (27,8 %). Gründe für Impfung: Aufnahme in Impfplan (37,9 %), elterliche Ermutigung (36,6 %), Selbstschutz (25,6 %). Annahme stieg bei Framing als Krebsprävention (64,6 %), besserer Erreichbarkeit (63,8 %) und Erschwinglichkeit (61,5 %).",
+    transfer:"VAE-Daten, begrenzt übertragbar; zeigt aber universal geltende Barrieren für Frauenimpfungen"
   },
   {
-    journal:"Front Public Health", year:"2026", pmid:"42952823",
-    author:"Xie L et al.", pubdate:"14.10.2026",
-    added:"29.10.2026",
-    title:"Elternbildung und Impfbereitschaft: Rolle von Einkommen und Vertrauen",
-    sum:"Eine Befragung von 2.212 Haushalten in Hangzhou (China) analysierte, wie Elternbildung, Familieneinkommen, Impfbewusstsein und Vertrauen die Bereitschaft beeinflussen, selbstgezahlte Impfstoffe (Pentavalenz, EV71, Varicella, Influenza) zu kaufen.",
-    result:"Familieneinkommen war ein wichtiger Vermittler zwischen Elternbildung und Impfbereitschaft, besonders für Grippeimpfstoff (RR 3,52) und Varicella-Impfstoff. Nach Einführung des Einkommens wurde die Assoziation zwischen Bildung und Bereitschaft abgeschwächt. Für Pentavalenz spielten auch Impfbewusstsein und Vertrauen eine Rolle. Nicht-wirtschaftliche Faktoren wie Vertrauen sollten parallel adressiert werden.",
-    transfer:"China, Middle-Income-Land – Zeigt, dass Preis- und Vertrauensbarrieren zusammen wirken, relevant für Versorgungsdesign"
+    journal:"Rev Gaucha Enferm", year:"2026", pmid:"42961257",
+    author:"Castro TH et al.", pubdate:"26.10.2026",
+    added:"30.10.2026",
+    title:"Wie Desinformation zur Kinderimpfung auf TikTok verstärkt wird: Narrative und Algorithmen",
+    sum:"Qualitative, exploratorische Dokumentenanalyse von 13 öffentlichen brasilianischen TikTok-Videos mit Anti-Impfstoff-Inhalten zu Kinderimpfungen (Januar–Oktober 2025); Analyse von Narrativen, Engagement und diskursiven Strukturen mittels IRaMuTeQ-Software.",
+    result:"Hohe Engagement-Metriken: Durchschnitt 1.815,36 Likes, 810,36 Kommentare, 558,29 Shares und 224,64 Speicherungen pro Video. Drei Narrativ-Kerne: politisch-institutionell, biomedizinisches Risiko und wissenschaftlich-legitimierend. Correspondence Factor Analysis erklärte ~60 % Varianz (32 % Factor 1, 28 % Factor 2). Diskursverstärkung zu Nebenwirkungsangst, Institutionalvertrauen und Missbrauch wissenschaftlicher Sprache beobachtet; Kommentare als Validierungsraum.",
+    transfer:"Brasilien; Muster digitaler Desinformation universal, Algorithmus-Mechaniken auf TikTok global gleich"
   },
   {
-    journal:"Front Immunol", year:"2026", pmid:"42952850",
-    author:"Camara OL et al.", pubdate:"14.10.2026",
-    added:"29.10.2026",
-    title:"Gelbfieber-17D-Impfung: Langfristige T-Zell-Immunität über Jahre nachgewiesen",
-    sum:"Eine systematische PRISMA-2020-konforme Übersicht (36 Studien, 2000–2025) fasste Evidenz zu Ausmaß, Kinetik und funktioneller Charakterisierung der CD8+-Memory- und CD4+-T-Zellantworten nach Gelbfieber-17D-Vakzin-Impfung zusammen.",
-    result:"Primärimpfung induziert schnelle CD8+-T-Zell-Aktivierung, die sich in langlebige Memory-Populationen über Jahre bis Jahrzehnte differenziert. CD4+-Antworten waren breit und funktionell vielfältig, T-Follikel-Helferzellen (Tfh) korrelieren mit Neutralisierungs-Antikörper-Entwicklung. Auffrischimpfungen zeigten schwächere zelluläre Reaktionen als Primärimpfung. Definitive Evidenz zur Korrelation von T-Zellen mit klinischem Langzeitschutz bleibt begrenzt.",
-    transfer:"Systematische Übersicht zu etabliertem Impfstoff, keine Populationsdaten – relevant für Verständnis von Langzeitimmunität nach Lebendimpfstoffen"
+    journal:"Adv Clin Exp Med", year:"2026", pmid:"42735430",
+    author:"Strózik M et al.", pubdate:"Okt. 2026",
+    added:"14.09.2026",
+    title:"RSV-Impfbereitschaft schwangerer Frauen in Polen: Barrieren und Chancen",
+    sum:"Online-Querschnittsbefragung (CAWI) von 668 schwangeren oder gerade entbundenen Frauen in Polen zu RSV-Impfbereitschaft, Impfwissen und Einflussfaktoren (Juli–August 2024).",
+    result:"58,8 % hielten RSV-Impfung für kulturell akzeptabel, aber nur 26,2 % waren tatsächlich geimpft. Hauptbarrieren waren Nebenwirkungssorgen (47,5 %), Altersargument (28,4 %) und Angst vor Familienurteil (27,8 %). Impfung in den Impfplan (37,9 %), elterliche Zustimmung (36,6 %) und Krebsprävention als Botschaft (64,6 %) erhöhten Annahmebereitschaft; bessere Erreichbarkeit (63,8 %) und Bezahlbarkeit (61,5 %) würden Quote steigern.",
+    transfer:"Polen, vergleichbare Sozialversicherung; zeigt typische Impfskepsis-Muster Mitteleuropas"
   },
   {
-    journal:"Front Immunol", year:"2026", pmid:"42952807",
-    author:"Abad Fernandez M et al.", pubdate:"14.10.2026",
-    added:"29.10.2026",
-    title:"Dengvaxia-Einzeldosis bei seronegativ exponierten Kindern: 45% Schutzwirkung im ersten Jahr",
-    sum:"Eine prospektive Kohortenstudie an 186 seronegativ exponierten Kindern in den Philippinen (114 geimpft mit Dengvaxia, 72 ungeimpft) verfolgte Vaccine-induzierte Immunität und Wildtyp-Infektionsrisiko über 40 Monate.",
-    result:"Bei T1 (20 Monate): 61% Impfresponder; Impfeffektivität gegen WT-DENV-Infektion VE=45%. Im zweiten Beobachtungszeitraum (T1–T2, bis Monat 40) kein Unterschied in Infektionsrisiko zwischen Gruppen. Nach Durchbruchinfektion im ersten Zeitraum entwickelten Geimpfte breitere Antikörper-Reaktionen als Ungeimpfte. Diese Unterschiede verschwanden im zweiten Zeitraum.",
-    transfer:"Philippinen, Langzeitkohortendaten zu Feldeffektivität – zeigt zeitlich begrenzte Schutzwirkung nach Einzeldosis bei seronegativ exponierten Kindern"
-  },
-  {
-    journal:"Nat Commun", year:"2026", pmid:"42946742",
-    author:"Khuzwayo S et al.", pubdate:"28.09.2026",
-    added:"28.10.2026",
-    title:"COVID-19-mRNA-Impfstoff in HIV-Patienten: CD4+-T-Zell-Antwort ist Schutzfaktor",
-    sum:"Eine Fall-Kohorten-Studie (CoVPN 3008) mit 14.002 Teilnehmern (83% HIV+) in Subsahara-Afrika analysierte CD4+-T-Zell-Antworten nach mRNA-1273-Impfung und deren Assoziation mit COVID-19-Infektionsrisiko.",
-    result:"Bei hybrid-immun (vorheriges SARS-CoV-2) HIV-positiven Patienten: COVID-19-Risiko sank von 15,8% (0,1% Spike BA.4/5-spezifische CD4+-IFN-γ/IL-2) auf 0% (0,3% Responserate). Peak CD4+-T-Zell-Antwort war unabhängiger Schutzfaktor; kombiniert mit Baseline-Neutralisierungs-Antikörpern verstärkt (p&lt;0,001). CD4+-T-Zellantworten relevant auch unter Immundefizienz.",
-    transfer:"Subsahara-Afrika, kohortale Populationsdaten – relevant für HIV+-Impfstrategien, übertragbar auf Immunschwache"
+    journal:"BMC Infect Dis", year:"2026", pmid:"42958073",
+    author:"Barrett BS et al.", pubdate:"01.08.2026",
+    added:"30.10.2026",
+    title:"Impfung und Hybrid-Immunität schützen vor COVID-19-Infektion, nicht vor Virusverschuppung",
+    sum:"Längsschnitt-Haushalt-Kohortenstudie (September 2021–Dezember 2022) in Guatemala (n=70 Haushalte, 119 PCR-positive Fälle, 101 Kontrollen): Auswirkung von Impfstatus und Hybrid-Immunität auf Infektionsrisiko und Virusverschuppungsdauer gemessen durch wöchentliche Speicheltests.",
+    result:"Verglichen mit Kontrollen waren COVID-19-Fälle häufiger weiblich (60,5 % vs. 48,5 %), hatten weniger Impfdosen (p=0,07) und weniger Hybrid-Immunität (p=0,08). Fälle zeigten niedrigere Median-Titer für Nukleokapsid-IgG (9,6 vs. 23,6; p=0,12) und Omicron-Neutralisierungsantikörper (28,4 vs. 50,4; p=0,15). Bei Geimpften mit 1, 2 oder 3 Dosen bzw. aufgefrischten Personen waren Fälle-NAb signifikant niedriger (alle p&lt;0,05). Nukleokapsid-IgG und NAb unterschieden nicht zwischen kurzer (≤7 Tage) und langer (&gt;7 Tage) Verschuppungsdauer.",
+    transfer:"Guatemala, Arbeiterkohorte in Entwicklungsland; COVID-Schutzme­cha­nis­men gelten universal"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2298,7 +2289,7 @@ const ZUL_DIGA = 0;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "30.10.2026";
+const NEWS_STAND = "31.10.2026";
 const NEWS = [
   {titel:"Impfkampagne „Zusammen geschützt“ startet: BIÖG und RKI", datum:"2026-10-07", url:"https://www.monitor-versorgungsforschung.de/news/impfkampagne-zusammen-geschuetzt-startet-bioeg-und-rki/"},
   {titel:"Impfkampagne zur Grippesaison: KVB kritisiert Apothekenimpfungen", datum:"2026-10-05", url:"https://www.monitor-versorgungsforschung.de/news/impfkampagne-zur-grippesaison-kvb-kritisiert-apothekenimpfungen/"},
@@ -2309,7 +2300,7 @@ const NEWS = [
 // === PRESSE-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
 const PRESSE = [
   {titel:"Eine Impfung gegen Parkinson?", datum:"2026-10-30", url:"http://idw-online.de/de/news879968", quelle:"idw"},
-  {titel:"Neuer Ansatz für eine zuverlässigere Alzheimer-Diagnostik mittels Bluttests", datum:"2026-10-23", url:"http://idw-online.de/de/news879618", quelle:"idw"},
+  {titel:"Atemwegsinfekt mit Folgen: RSV kann ältere Menschen mit Vorerkrankungen schwer treffen", datum:"2026-10-29", url:"https://www.presseportal.de/pm/39763/6380374", quelle:"presseportal.de"},
 ];
 // === PRESSE-BLOCK-ENDE ===
 
