@@ -2209,71 +2209,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "3. Nov. 2026, 05:23 Uhr";
+const SNAP_DATE = "4. Nov. 2026, 05:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Hum Vaccin Immunother", year:"2026", pmid:"42969388",
-    author:"Zhong S et al.", pubdate:"31.12.2026",
-    added:"02.11.2026",
-    title:"Rekombinante Influenzaimpfung bei Älteren effizienter als Standardimpfstoff",
-    sum:"Kosteneffektivitätsanalyse zum Austausch des Standard-Influenzaimpfstoffs (IIV) durch rekombinanten Impfstoff (RIV) für Erwachsene ≥50 Jahre in Hong Kong.",
-    result:"RIV zeigte ICERs von 40.659 USD (≥50 Jahre), 29.077 USD (≥65 Jahre) und 21.092 USD (≥80 Jahre) pro QALY – alle unter lokalen Willingness-to-Pay-Schwellen. RIV ist kostengünstiger und effektiver bei älteren Personen.",
-    transfer:"Hong Kong, aber Methodik auf deutsches System übertragbar bei vergleichbarem Kostenrahmen"
+    journal:"Hum Vaccin Immunother", year:"2026", pmid:"42973393",
+    author:"Xie Q et al.", pubdate:"03.11.2026",
+    added:"03.11.2026",
+    title:"DTaP-Impfung bei 6-Jährigen sicher und gut verträglich: Hangzhou-Sicherheitssurveillance 2024–2025",
+    sum:"Passive Sicherheitsüberwachung bei 239.480 Dosen DTaP oder DT an 6-Jährigen nach Impfplanänderung 2025 in Hangzhou.",
+    result:"AEFI-Melderate DTaP: 833,58 pro 100.000 Dosen (vs. DT 181,49; χ²=539,95, p&lt;0,05). 99,31 % milde Allgemeinreaktionen (Fieber, Rötung, Verhärtung), keine schweren Fälle. Signale nur für lokale Rötung/Schwellung.",
+    transfer:"China – Passive Surveillance; Übertragbarkeit auf Deutschland nur für Verträglichkeitsprofil, nicht Systeme"
   },
   {
-    journal:"PLoS One", year:"2026", pmid:"42970565",
-    author:"Assefa KT et al.", pubdate:"02.11.2026",
-    added:"02.11.2026",
-    title:"HPV-Impfung in Äthiopien: Befähiger und Hemmfaktoren aus Stakeholder-Sicht",
-    sum:"Qualitative Studie zu Faktoren, die die HPV-Impf-Umsetzung in Äthiopien beeinflussen, basierend auf Fokusgruppenidiskussionen und Interviews.",
-    result:"Befähiger: wahrgenommene Impfstoff-Vorteile, unterstützende Politik, Partnerschaften, Systembereitschaft. Hemmfaktoren: Vorbehalte gegenüber Zielgruppe, Missverständnisse über Fertilitätsrisiken, Ressourcenmängel, Zugangsbarrieren. Nachhaltige Fortschritte erfordern Vertrauensaufbau und kontextspezifische Liefermodelle.",
-    transfer:"Subsahara-Afrika, aber Barrieren-Kategorisierung relevant für marginalisierte Gruppen auch in Deutschland"
+    journal:"Expert Rev Vaccines", year:"2026", pmid:"42973270",
+    author:"Fox L et al.", pubdate:"03.11.2026",
+    added:"03.11.2026",
+    title:"COVID-19-Impfstoff NVX-CoV2705 kosteneffektiv in USA: 114–341 Hospitalisierungen pro 1 Mio. bei 5–15 % Impfquote-Anstieg vermeidbar",
+    sum:"Markov-Modell zu Kosteneffektivität von NVX-CoV2705 gegen keine Impfung bei ≥1 Komorbiditäten (18–64 Jahre) und ≥65-Jährigen aus US-Payer-Perspektive; Szenarioanalysen für Bevölkerungseffekt.",
+    result:"ICER: 9.840 USD/QALY. Pro Person: 0,0447 weniger Fälle, 0,0037 weniger Hospitalisierungen, 0,0004 weniger Todesfälle. 5–15 % Impfquote-Anstieg: 114–341 Hospitalisierungen und 11–33 Todesfälle pro 1 Mio. vermieden.",
+    transfer:"USA – Modellstudie; Kosteneffektivität nicht 1:1 übertragbar, epidemiologische Szenarien aber informativ"
   },
   {
-    journal:"Top Antivir Med", year:"2026", pmid:"42970765",
-    author:"Dunlevy HA et al.", pubdate:"28.10.2026",
-    added:"02.11.2026",
-    title:"Impfempfehlungen für Menschen mit HIV: aktualisierte Übersicht 2026",
-    sum:"Aktualisierte Empfehlungen der Advisory Committee on Immunization Practices für Routine- und Spezialimpfungen bei HIV-positiven Personen, einschließlich neuer Pneumokokken- und RSV-Impfstoffformulierungen.",
-    result:"Empfohlen: Influenza, COVID-19, Herpes zoster, Hepatitis B, Meningokokokken, Mpox, HPV. Neu integriert: aktuelle Pneumokokken- und RSV-Impfstoffe. Timing-Überlegungen zur CD4-Rekonstitution vor Impfung beschrieben.",
-    transfer:"USA, aber Impfkalendar-Aktualisierungen für HIV-positive Personen in DACH systemunabhängig"
+    journal:"Child Care Health Dev", year:"2026", pmid:"42974901",
+    author:"Martín TV et al.", pubdate:"Nov. 2026",
+    added:"03.11.2026",
+    title:"COVID-19-Impfung bei Kindern mit Entwicklungsstörungen: Eltern wägten Angst vor Nebenwirkungen gegen Infektionsrisiko ab",
+    sum:"Qualitative Studie an 65 Eltern in Norddeutschland zur COVID-19-Impfbereitschaft und Pandemieerfahrung bei Kindern mit Entwicklungsstörungen.",
+    result:"Von 44 impfberechtigten Kindern waren 59 % nicht geimpft. Angst vor Nebenwirkungen war Hauptgrund gegen Impfung (81 %), Angst vor COVID-19-Infektion Hauptmotivation für Geimpfte (89 %). Geimpfte Kinder zeigten bessere Teilhabe im Alltag, ungeimpfte mehr Infektionssorgen.",
+    transfer:"Deutschland: direkte Befragung von Eltern mit qualitativem Zugang zu Impfentscheidungen"
   },
   {
-    journal:"BMC Public Health", year:"2026", pmid:"42968025",
-    author:"Lau KM et al.", pubdate:"05.08.2026",
-    added:"01.11.2026",
-    title:"COVID-19-Impfschutz: 16.607 Hospitalisierungen in King County verhindert",
-    sum:"Modellierung von Krankenhausaufenthalten und Todesfällen, die durch Primärimpfserie in den ersten acht Monaten der Impfkampagne in King County, Washington verhindert wurden.",
-    result:"Geschätzte Vermeidung: 16.607 Hospitalisierungen (vs. beobachtet 3.086) und 4.307 Todesfälle (vs. beobachtet 591). Ohne Impfung wäre die Hospitalisierungsrate sechsfach, die Sterberate achtfach höher gewesen.",
-    transfer:"USA, aber Methodik mit deutschen Versorgungsdaten reproduzierbar ohne Impfregister"
+    journal:"Front Public Health", year:"2026", pmid:"42973675",
+    author:"Alzamil L et al.", pubdate:"19.10.2026",
+    added:"03.11.2026",
+    title:"HPV-Impf-Schulung für Studenten reduziert Impfskepsis von 64 % auf 29 % in Saudi-Arabien",
+    sum:"Quasi-experimentelle Studie mit Pre-Post-Design an 355 (Post: 324) Studierenden der Gesundheitsberufe nach einstündiger Schulung zu HPV, Krebsrisiko und Impfung.",
+    result:"Korrekte Antworten stiegen von 12–22 % auf 45–80 % (p&lt;0,0001). Impfskepsis fiel von 63,7 % auf 28,7 % (p&lt;0,0001). Männliches Geschlecht assoziiert mit höherer Skepsis; Informationsmangel als Hauptgrund vor Schulung, danach nicht mehr relevant.",
+    transfer:"Saudi-Arabien – Kontext mit Vaccine Hesitancy; Schulungsformat auf deutsches Gesundheitspersonal übertragbar"
   },
   {
-    journal:"BMC Health Serv Res", year:"2026", pmid:"42968145",
-    author:"Ordóñez J et al.", pubdate:"03.08.2026",
-    added:"01.11.2026",
-    title:"RSV-Mütterimpfung in Kolumbien kosteneffektiv und reduziert Kinderhospitalisierungen",
-    sum:"Markov-Modell der Kosteneffektivität von RSVpreF-Mütterimpfung vs. Standardbetreuung über Lebensdauer eines kolumbianischen Geburtsjahrgangs.",
-    result:"ICER 2.322 USD pro QALY (Willingness-to-Pay 7.491 USD). Verhinderung von ~25.781 RSV-Fällen, +2.315 QALYs. Sensitivitätsanalysen zeigen hohe Robustheit. 83,5% Wahrscheinlichkeit für Kosteneffektivität unterhalb Schwelle.",
-    transfer:"Kolumbien/Lateinamerika, aber RSV-Last und Kosten-Nutzen-Verhältnis auf entwickelte Systeme übertragbar"
+    journal:"Int J Cancer", year:"2027", pmid:"42665891",
+    author:"Bekkevold T et al.", pubdate:"01.01.2027",
+    added:"29.08.2026",
+    title:"HPV-Schutzwirkung bei früher Impfung: 49 % HPV16-Befall ungeimpft vs. 1 % bei geimpften Mädchen in Norwegen",
+    sum:"Nationale Surveillance von HPV-Genotypen in zervikalen Läsionen vor und nach Impfung; Vergleich nach Impfstatus in vaccine-eligible Fällen 2017–2024.",
+    result:"Ungeimpfte Mädchen (Jahrgang ≥1997, impfbar ab 11–12 Jahren): 49,9 % HPV16 in CIN2/3. Vor Alter 15 geimpft: 1,1 % HPV16 (95%-KI 0–3,4). Catch-up-Impfung (1991–1996 geboren) zeigte geringere Effekte (45,7 % vs. 35,5 %).",
+    transfer:"Norwegen, Impfregister: direkte Genotypisierung aller Fälle, unvergleichlich präzise für Effektivitätsmessung"
   },
   {
-    journal:"BMC Public Health", year:"2026", pmid:"42958177",
-    author:"Jalal MA et al.", pubdate:"03.08.2026",
-    added:"30.10.2026",
-    title:"Hepatitis-B-Impfprogramm im Irak: Impfquote gestiegen, aber Lücken bei Diagnose bleiben",
-    sum:"Evaluierung von Epidemiologie und Umsetzung des irakischen Hepatitis-B-Kontrollplans 2015–2022, mit Fokus auf Impfquoten und Screening-Abdeckung.",
-    result:"Hepatitis-B-Inzidenz gesunken von 8,3 auf 3,5 pro 100.000 (2015–2022). Kinderimpfquote übertraf Ziel; Prävention Mutter-zu-Kind und Diagnoseabdeckung bleiben unterhalb Ziel. 88% der PHCCs erzielte akzeptable Bewertung, aber Variabilität erheblich.",
-    transfer:"Irak/Nahost, aber Programmstruktur ähnlich DACH – Monitoring und Auditierung relevant"
-  },
-  {
-    journal:"Yakugaku Zasshi", year:"2026", pmid:"42968307",
-    author:"Hirota Y et al.", pubdate:"2026",
-    added:"01.11.2026",
-    title:"Schulapotheker-Vorträge zur HPV-Impfung erhöhen Akzeptanz bei Jugendlichen",
-    sum:"Before-after-Studie zur Wirksamkeit einer 45-minütigen Schulapotheker-Vorlesung über Gebärmutterhalskrebs und HPV-Impfung auf Wissen, Bewusstsein und Impfbereitschaft.",
-    result:"Wissens- und Bewusstseinszuwachs signifikant (p&lt;0,001). Anteil der Schüler mit Impfwunsch stieg von 16,7% auf 45,8% (p&lt;0,001). In Multivariablenanalyse: post-Vortrag-Wissen, Interesse und Impressionswandel assoziiert mit Impfbereitschaft.",
-    transfer:"Japan, aber Modell der schulischen Impfaufklärung durch Apotheker auch für Deutschland relevant"
+    journal:"Rev Esp Salud Publica", year:"2026", pmid:"42904446",
+    author:"Vicente Alcalde N et al.", pubdate:"14.08.2026",
+    added:"22.10.2026",
+    title:"Spanischer Impfkalender entstanden aus Pockenbekämpfung: 170-Jahr-Entwicklung von 1803 bis 1975",
+    sum:"Historische Analyse der Institutionalisierung von Impfung in Spanien, von der Variolation über Jennersches Verfahren zur staatlichen Regelung und zum Impfkalender.",
+    result:"Königliche Philanthropische Pockenexpedition (1803–1813) schuf erste systematische Impfverwaltung. Obligatorische Pockenimpfung und -revakzination wurden strukturelle Gesundheitspolitik. Diphtherie-Zwangsimpfung 1943, TB-Tilgungsplan 1960er Jahre prägten Nationalen Impfkalender ab den 1970ern.",
+    transfer:"Spanien, historische Quellenanalyse: zeigt Entstehung und politische Funktionen von Impfpflicht"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2298,10 +2289,10 @@ const ZUL_DIGA = 0;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "03.11.2026";
+const NEWS_STAND = "04.11.2026";
 const NEWS = [
+  {titel:"Prävention in der Primärversorgung: DGIMTalk am 9. November", datum:"2026-11-03", url:"https://www.monitor-versorgungsforschung.de/news/praevention-in-der-primaerversorgung-dgimtalk-am-9-november/"},
   {titel:"Impfkampagne „Zusammen geschützt“ startet: BIÖG und RKI", datum:"2026-10-07", url:"https://www.monitor-versorgungsforschung.de/news/impfkampagne-zusammen-geschuetzt-startet-bioeg-und-rki/"},
-  {titel:"Impfkampagne zur Grippesaison: KVB kritisiert Apothekenimpfungen", datum:"2026-10-05", url:"https://www.monitor-versorgungsforschung.de/news/impfkampagne-zur-grippesaison-kvb-kritisiert-apothekenimpfungen/"},
 ];
 // === NEWS-BLOCK-ENDE ===
 
