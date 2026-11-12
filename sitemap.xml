@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- erzeugt von hub-scripts/studienseiten.py -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://impfen.m-vf.de/</loc><lastmod>2026-11-11</lastmod></url>
-<url><loc>https://impfen.m-vf.de/studie/</loc><lastmod>2026-11-11</lastmod></url>
+<url><loc>https://impfen.m-vf.de/</loc><lastmod>2026-11-12</lastmod></url>
+<url><loc>https://impfen.m-vf.de/studie/</loc><lastmod>2026-11-12</lastmod></url>
 <url><loc>https://impfen.m-vf.de/neue-studien.html</loc></url>
 <url><loc>https://impfen.m-vf.de/newsletter.html</loc></url>
 <url><loc>https://impfen.m-vf.de/themen-quellen.html</loc></url>
+<url><loc>https://impfen.m-vf.de/studie/43013717/</loc><lastmod>2026-11-12</lastmod></url>
+<url><loc>https://impfen.m-vf.de/studie/43013529/</loc><lastmod>2026-11-12</lastmod></url>
+<url><loc>https://impfen.m-vf.de/studie/43013304/</loc><lastmod>2026-11-12</lastmod></url>
+<url><loc>https://impfen.m-vf.de/studie/43011092/</loc><lastmod>2026-11-12</lastmod></url>
+<url><loc>https://impfen.m-vf.de/studie/43009985/</loc><lastmod>2026-11-12</lastmod></url>
+<url><loc>https://impfen.m-vf.de/studie/42925772/</loc><lastmod>2026-11-12</lastmod></url>
 <url><loc>https://impfen.m-vf.de/studie/43004276/</loc><lastmod>2026-11-11</lastmod></url>
 <url><loc>https://impfen.m-vf.de/studie/43003856/</loc><lastmod>2026-11-11</lastmod></url>
 <url><loc>https://impfen.m-vf.de/studie/43001902/</loc><lastmod>2026-11-11</lastmod></url>
