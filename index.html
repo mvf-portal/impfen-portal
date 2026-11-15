@@ -2281,18 +2281,9 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "15. Nov. 2026, 05:01 Uhr";
+const SNAP_DATE = "15. Nov. 2026, 05:23 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
-  {
-    journal:"PLoS Negl Trop Dis", year:"2026", pmid:"43013581",
-    author:"Huang X et al.", pubdate:"11.11.2026",
-    added:"11.11.2026",
-    title:"Hantavirus-Impfstoff-Schutz gegen zirkulierende Stämme in China schwächer als erhofft",
-    sum:"Vergleichende Studie neutralisierender Antikörper gegen Vaccine-Stämme und zirkulierende Hantavirus-Epidemiestämme in 48 Patienten und geimpften Personen in China.",
-    result:"Gegen HTNV: Vaccine-Stamm 84FLi induzierte höhere GMT (1:386,08) als Epidemiestamm SX26 (1:223,04) bei Patienten (p&lt;0,001). Gegen SEOV: Geimpfte zeigten niedrigere GMT gegen Vaccine-Stamm L99 (1:97,52) als Epidemiestamm FJ-17 (1:243,71; p&lt;0,001). Impfstoff bietet noch Kreuzschutz, aber Wirksamkeit variiert regional.",
-    transfer:"China, eng begrenzte Übertragbarkeit; aber Befund zur Stamm-Divergenz relevant für Impfstoff-Matching-Strategien."
-  },
   {
     journal:"West J Emerg Med", year:"2026", pmid:"43023744",
     author:"Li C et al.", pubdate:"29.10.2026",
@@ -2312,6 +2303,24 @@ const STUDIES = [
     transfer:"USA-Daten; Sicherheitssignal-Methodik übertragbar, aber Häufigkeitsschätzungen abhängig von Meldesystem."
   },
   {
+    journal:"BMC Pregnancy Childbirth", year:"2026", pmid:"43021105",
+    author:"Muhafi̇z EN et al.", pubdate:"18.08.2026",
+    added:"12.11.2026",
+    title:"Schwangerenberatung zu Impfungen senkt Vaccine Hesitancy um signifikante Quote",
+    sum:"Randomisierte Studie mit 85 schwangeren Frauen in der Türkei zur Wirkung strukturierter Impfbildung auf Impfskepsis und Impfliteralität.",
+    result:"Interventionsgruppe zeigte Reduktion der Impfskepsis und Steigerung der Impfliteralität mit statistisch signifikantem Unterschied (p&lt;0,001) zwischen Gruppen. Effekte waren 3 Wochen nach Intervention noch nachweisbar.",
+    transfer:"Türkei, vergleichbares Gesundheitssystem; Ansatz zur Früherkennung von Impfskepsis in Schwangerschaft."
+  },
+  {
+    journal:"PLoS Negl Trop Dis", year:"2026", pmid:"43013581",
+    author:"Huang X et al.", pubdate:"11.11.2026",
+    added:"11.11.2026",
+    title:"Hantavirus-Impfstoff-Schutz gegen zirkulierende Stämme in China schwächer als erhofft",
+    sum:"Vergleichende Studie neutralisierender Antikörper gegen Vaccine-Stämme und zirkulierende Hantavirus-Epidemiestämme in 48 Patienten und geimpften Personen in China.",
+    result:"Gegen HTNV: Vaccine-Stamm 84FLi induzierte höhere GMT (1:386,08) als Epidemiestamm SX26 (1:223,04) bei Patienten (p&lt;0,001). Gegen SEOV: Geimpfte zeigten niedrigere GMT gegen Vaccine-Stamm L99 (1:97,52) als Epidemiestamm FJ-17 (1:243,71; p&lt;0,001). Impfstoff bietet noch Kreuzschutz, aber Wirksamkeit variiert regional.",
+    transfer:"China, eng begrenzte Übertragbarkeit; aber Befund zur Stamm-Divergenz relevant für Impfstoff-Matching-Strategien."
+  },
+  {
     journal:"Health Policy", year:"2026", pmid:"42815234",
     author:"Staněk R et al.", pubdate:"23.09.2026",
     added:"30.09.2026",
@@ -2321,13 +2330,13 @@ const STUDIES = [
     transfer:"Tschechien, ähnliches Versicherungssystem; Barrierenerkennung übertragbar auf Deutschland."
   },
   {
-    journal:"BMC Pregnancy Childbirth", year:"2026", pmid:"43021105",
-    author:"Muhafi̇z EN et al.", pubdate:"18.08.2026",
-    added:"12.11.2026",
-    title:"Schwangerenberatung zu Impfungen senkt Vaccine Hesitancy um signifikante Quote",
-    sum:"Randomisierte Studie mit 85 schwangeren Frauen in der Türkei zur Wirkung strukturierter Impfbildung auf Impfskepsis und Impfliteralität.",
-    result:"Interventionsgruppe zeigte Reduktion der Impfskepsis und Steigerung der Impfliteralität mit statistisch signifikantem Unterschied (p&lt;0,001) zwischen Gruppen. Effekte waren 3 Wochen nach Intervention noch nachweisbar.",
-    transfer:"Türkei, vergleichbares Gesundheitssystem; Ansatz zur Früherkennung von Impfskepsis in Schwangerschaft."
+    journal:"BMC Infect Dis", year:"2026", pmid:"43004264",
+    author:"van Hagen CCE et al.", pubdate:"12.08.2026",
+    added:"09.11.2026",
+    title:"Langzeitfolgen von COVID-19 ohne Impfung: Müdigkeit und Lebensqualität bis zu 12 Monate nach Infektion",
+    sum:"Niederländische Serosurveillance-Kohort verglich ungeimpfte Personen mit und ohne dokumentierter SARS-CoV-2-Infektion hinsichtlich Gesundheitszustand, körperliches Wohlbefinden und Erschöpfung bis zu 12 Monaten nach Infektion.",
+    result:"Ungeimpfte Personen ≤4 Monate nach Infektion zeigten schlechtere Lebensqualität (OR 1,6; 95%-KI 1,2–2,2), körperliche Gesundheit (OR 1,9; 95%-KI 1,5–2,5) und stärkere Müdigkeit (OR 1,6; 95%-KI 1,3–2,1) als Uninfizierte. Nach 4–12 Monaten verschwanden diese Unterschiede statistisch, was auf niedrige Prävalenz von Long-COVID ohne Impfung hindeutet.",
+    transfer:"Niederländische Serosurveillance-Daten, präzise Impfstatus ohne Register verfügbar"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2342,7 +2351,7 @@ const RADAR_FRISTEN = [["2026-12-31", "2026-12-11", "2027-02-11", "2027-02-14"],
 // === RADAR-BLOCK-ENDE ===
 
 // === ZULASSUNG-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const ZUL_STAND = "14.11.2026";
+const ZUL_STAND = "15.11.2026";
 const ZUL_EIGENE = 7;
 const ZUL_GUTACHTEN = 1;
 const ZUL_ZULASSUNG = 2;
