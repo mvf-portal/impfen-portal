@@ -2281,62 +2281,53 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "14. Nov. 2026, 05:23 Uhr";
+const SNAP_DATE = "15. Nov. 2026, 05:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"JAMA Netw Open", year:"2026", pmid:"43024238",
-    author:"Staras SAS et al.", pubdate:"02.11.2026",
-    added:"13.11.2026",
-    title:"HPV-Impfung bei Kindern: SMS-Erinnerungen erhöhten Quote um 29 Prozent",
-    sum:"Doppelrandomisierte 2-Ebenen-Studie in 30 pädiatrischen Praxen in Florida (Februar 2022–September 2024) testete Effekt von Arzt-Kommunikationstrainings und elternzielgerichteten Textbotschaften auf HPV-Impfung bei 10- bis 12-Jährigen ohne bisherige Impfung.",
-    result:"Bei 7234 Kindern (mittleres Alter 10–12 Jahre): Praxis-Basis-Differenz HPV-Initiierung +28,2 Prozentpunkte (95%-KI 25,3–31,1), Completion +16,1 Prozentpunkte (95%-KI 13,3–18,9). Ärztliches Trainings-Randomisierung zeigte keinen signifikanten Unterschied. Bei SMS vs. kein SMS: Risikoquotient Initiierung 1,17 (95%-KI 1,08–1,26), Completion 1,29 (95%-KI 1,06–1,56).",
-    transfer:"USA, Technologie-Erinnerungssystem; Prinzipien zu Elternerinnerungen übertragbar"
+    journal:"PLoS Negl Trop Dis", year:"2026", pmid:"43013581",
+    author:"Huang X et al.", pubdate:"11.11.2026",
+    added:"11.11.2026",
+    title:"Hantavirus-Impfstoff-Schutz gegen zirkulierende Stämme in China schwächer als erhofft",
+    sum:"Vergleichende Studie neutralisierender Antikörper gegen Vaccine-Stämme und zirkulierende Hantavirus-Epidemiestämme in 48 Patienten und geimpften Personen in China.",
+    result:"Gegen HTNV: Vaccine-Stamm 84FLi induzierte höhere GMT (1:386,08) als Epidemiestamm SX26 (1:223,04) bei Patienten (p&lt;0,001). Gegen SEOV: Geimpfte zeigten niedrigere GMT gegen Vaccine-Stamm L99 (1:97,52) als Epidemiestamm FJ-17 (1:243,71; p&lt;0,001). Impfstoff bietet noch Kreuzschutz, aber Wirksamkeit variiert regional.",
+    transfer:"China, eng begrenzte Übertragbarkeit; aber Befund zur Stamm-Divergenz relevant für Impfstoff-Matching-Strategien."
   },
   {
-    journal:"Euro Surveill", year:"2026", pmid:"43021735",
-    author:"Baccolini V et al.", pubdate:"Nov. 2026",
+    journal:"West J Emerg Med", year:"2026", pmid:"43023744",
+    author:"Li C et al.", pubdate:"29.10.2026",
     added:"13.11.2026",
-    title:"Masernwelle in Italien: 1311 Fälle, Impflücken bei 96,9 Prozent der Erkrankten",
-    sum:"Überwachungsanalyse der Masernfälle und -ausbrüche in Italien von Oktober 2023 bis März 2025 mit Bewertung der Impfabdeckung, Überwachungsleistung und viralen Transmissionsmuster auf nationaler und regionaler Ebene.",
-    result:"Insgesamt 1311 Masernfälle mit 178 Ausbrüchen, nur 3,1 Prozent (38/1230) waren vollständig geimpft. Im Jahr 2024 erste Dosis 94,77 Prozent, zweite Dosis aber nur 84,45 Prozent Abdeckung. 12,1 Prozent importiert/importationsbedingt, 64,1 Prozent unbekannter Ursprung. Ein D8-Variant zeigte übergeordnete nationale Transmission über 12 Monate, Zeichen wieder etablierter endemischer Zirkulation und Verlust des Eliminationsstatus.",
-    transfer:"Süd-Europa, Überwachungsdaten aus Laborbestätigungen, regional heterogen"
+    title:"COVID-19-Ungeimpfte in US-Notfallaufnahmen: Lücken bei Influenza-Impfwissen",
+    sum:"Qualitative Studie mit 48 COVID-19-ungeimpften Patienten aus vier US-Notfallaufnahmen zu Influenza-Impfbereitschaft, Wissen und Barrieren.",
+    result:"Nur 20,8% kannten Zweck und Wirkungsweise der Influenza-Impfung. 29,2% würden Impfung bei Angebot annehmen, 37,5% lehnen ab. Drei Kernthemen der Skepsis: frühere Erfahrungen mit Influenza/Impfstoff, Wissenslücken, mangelndes Vertrauen in Sicherheit und Wirksamkeit.",
+    transfer:"USA mit grundlegend anderem System; aber Befund zur Wissenslücke als Barriere relevant."
   },
   {
-    journal:"Euro Surveill", year:"2026", pmid:"43021731",
-    author:"Hani E et al.", pubdate:"Nov. 2026",
+    journal:"Front Immunol", year:"2026", pmid:"43022213",
+    author:"Liu M et al.", pubdate:"29.10.2026",
     added:"13.11.2026",
-    title:"Masernwelle in England: 2821 Fälle, 38,2 Prozent mit Krankenhausaufenthalt",
-    sum:"Überwachungsanalyse des größten Masernausbruchs in England seit Jahrzehnten (Oktober 2023–September 2024) mit Betrachtung der Epidemiologie, Krankheitslast und Risikofaktoren für erneute Zirkulation.",
-    result:"2821 laborbestätigte Masernfälle, 45,5 Prozent in London, 25,2 Prozent in West Midlands. Inzidenz in London 14,1 pro 100000. 58,6 Prozent unter 10 Jahren, 92,5 Prozent ungeimpft, 63,0 Prozent in den zwei ärmsten Deprivationsquintilen. Von 2788 Fällen mit Krankenhausdaten: 76,3 Prozent mit Notaufnahmebesuch, 38,2 Prozent stationär aufgenommen (Median Verweildauer 2,0 Tage, 7 auf Intensivstation, 1 Todesfall).",
-    transfer:"Grossbritannien, vergleichbare Sozialversicherung und Überwachungssystem"
+    title:"Windpocken-Impfstoffsicherheit in der Pädiatrie: VAERS-Analyse zu Nebenwirkungen",
+    sum:"Disproportionalitätsanalyse von 55.475 Meldungen zu Windpocken-Impfnebenwirkungen bei Kindern 1–12 Jahren im US-VAERS 1995–2026 mit Proportional Reporting Ratio und Reporting Odds Ratio.",
+    result:"Häufigste Nebenwirkungen: Exanthem (ROR 2,09), Infektion (ROR 10,76), Blasendermatitis (ROR 37,28). 53,72% der Fälle heilten komplett. Schwerwiegende Ereignisse in 5,94%, Todesfälle in 0,30% der Meldungen. Profil insgesamt nicht schwer und selbstlimitierend.",
+    transfer:"USA-Daten; Sicherheitssignal-Methodik übertragbar, aber Häufigkeitsschätzungen abhängig von Meldesystem."
   },
   {
-    journal:"Euro Surveill", year:"2026", pmid:"43021729",
-    author:"Ariyarajah A et al.", pubdate:"Nov. 2026",
-    added:"13.11.2026",
-    title:"Masernimpfung älter als 12 Monate: Antikörper 13,7 Prozent höher bei Mädchen",
-    sum:"Retrospektive Kohorte mit 10766 zweifach geimpften Personen aus Ontario/Kanada 2014–2016 analysierte, wie das Alter bei der ersten Masernimpfung (12–15 Monate) die Antikörperkonzentration und Seronegativivät etwa 19 Jahre später beeinflusst.",
-    result:"Ein Monat längeres Alter bei erster Dosis: 13,7 Prozent (95%-KI 7,1–20,8) höhere mittlere IgG-Konzentration bei Mädchen, die nach Eliminierung geboren waren, 9,2 Prozent (95%-KI 6,8–11,6) bei vor Eliminierung Geborenen. Mit niedrigstem Seronegativitätsschwelle (≤120 mIU/mL) über längsten Zeitraum (24 Jahre): 4,1 Prozent (95%-KI 2,7–6,1) Seronegativität bei 15 Monaten vs. 9,6 Prozent (95%-KI 7,4–12,3) bei 12 Monaten Erstimpfung.",
-    transfer:"Kanada, Registerdata ähnlich wie Skandinavien, Effekt transportabel auf europäische Impfpläne"
+    journal:"Health Policy", year:"2026", pmid:"42815234",
+    author:"Staněk R et al.", pubdate:"23.09.2026",
+    added:"30.09.2026",
+    title:"Kostenlosigkeit deutlich kommuniziert erhöht HPV-Impfbereitschaft bei Eltern",
+    sum:"Randomisierte Befragung von 2.983 Eltern in Tschechien zur Wirkung von Information über kostenlose HPV-Impfung für Kinder auf Impfabsicht.",
+    result:"Information über Kostenlosigkeit erhöhte beabsichtigte Impfquote um 15 Prozentpunkte (95%-KI: 6,6–23,3; entspricht 26%-Steigerung), insbesondere bei Eltern, die Vollkosten vermutet hatten. Effekt war 7 Prozentpunkte höher für Söhne als Töchter.",
+    transfer:"Tschechien, ähnliches Versicherungssystem; Barrierenerkennung übertragbar auf Deutschland."
   },
   {
-    journal:"BMC Public Health", year:"2026", pmid:"43021215",
-    author:"Su X et al.", pubdate:"19.10.2026",
+    journal:"BMC Pregnancy Childbirth", year:"2026", pmid:"43021105",
+    author:"Muhafi̇z EN et al.", pubdate:"18.08.2026",
     added:"12.11.2026",
-    title:"Vaccine Hesitancy gegen EV-A71 mit Strukturgleichungsmodell erklärt: Vertrauen und Risikobewusstsein zentral",
-    sum:"Querschnittstudie mit 2068 Eltern von Kindern ≤5 Jahren in Guangzhou untersuchte, wie Wissen, Einstellung, Vertrauen und Risikoperception Impfskepsis gegen Enterovirus-A71 beeinflussen.",
-    result:"EV-A71-Impfskepsis bei 28,95 Prozent der Eltern. Mütter (OR 0,46, 95%-KI 0,28–0,76) und Eltern mit College-Abschluss (OR 0,53, 95%-KI 0,32–0,86) weniger skeptisch. Strukturgleichungsmodell: Impfvertrauen (β = −0,39), Dienstvertrauen (β = −0,17) und Risikoperception (β = −0,17) zeigten direkte negative Effekte auf Hesitancy. Wissen hatte keinen direkten Effekt, sondern wirkte indirekt über diese drei Mediatoren (Gesamteffekt β = −0,45).",
-    transfer:"China, qualitativ-quantitatives Design; Mechanismen zu Vertrauensfaktoren international relevant"
-  },
-  {
-    journal:"Eur J Public Health", year:"2026", pmid:"43024826",
-    author:"Stolz E et al.", pubdate:"09.10.2026",
-    added:"13.11.2026",
-    title:"Impfungleichheit bei COVID-19: Registeranalyse zeigt massive Unterschiede nach Bildung und Einkommen",
-    sum:"Vollpopulationsanalyse mit 7,3 Millionen Österreichern ab 16 Jahren untersuchte soziale Determinanten der COVID-19-Impfquoten mittels Registerdata von Dezember 2020 bis August 2022.",
-    result:"Personen mit niedriger Bildung, niedrigem Einkommen und im Ausland geborene Personen zeigten deutlich niedrigere Impfquoten als hochgebildete und wohlhabendere Personen. Unterschiede reichten von 9–19 Prozentpunkten bei Grundimmunisierung (zweite Dosis) bis 20–29 Prozentpunkten bei Auffrischung (dritte Dosis). Ähnliche oder sogar größere Ungleichheiten als in skandinavischen Ländern.",
-    transfer:"Österreich/Register, vergleichbar mit deutschem Sozialversicherungssystem"
+    title:"Schwangerenberatung zu Impfungen senkt Vaccine Hesitancy um signifikante Quote",
+    sum:"Randomisierte Studie mit 85 schwangeren Frauen in der Türkei zur Wirkung strukturierter Impfbildung auf Impfskepsis und Impfliteralität.",
+    result:"Interventionsgruppe zeigte Reduktion der Impfskepsis und Steigerung der Impfliteralität mit statistisch signifikantem Unterschied (p&lt;0,001) zwischen Gruppen. Effekte waren 3 Wochen nach Intervention noch nachweisbar.",
+    transfer:"Türkei, vergleichbares Gesundheitssystem; Ansatz zur Früherkennung von Impfskepsis in Schwangerschaft."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2361,7 +2352,7 @@ const ZUL_DIGA = 0;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "14.11.2026";
+const NEWS_STAND = "15.11.2026";
 const NEWS = [
   {titel:"13,72 Euro Nutzen je Euro Impfung: OHE-Studie für Pharma Deutschland", datum:"2026-11-10", url:"https://www.monitor-versorgungsforschung.de/news/1372-euro-nutzen-je-euro-impfung-ohe-studie-fuer-pharma-deutschland/"},
   {titel:"Impfkampagne „Zusammen geschützt“ startet: BIÖG und RKI", datum:"2026-10-07", url:"https://www.monitor-versorgungsforschung.de/news/impfkampagne-zusammen-geschuetzt-startet-bioeg-und-rki/"},
