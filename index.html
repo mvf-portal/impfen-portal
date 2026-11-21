@@ -2297,71 +2297,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "20. Nov. 2026, 05:01 Uhr";
+const SNAP_DATE = "21. Nov. 2026, 05:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Eur J Pediatr", year:"2026", pmid:"43055815",
-    author:"Seyhanli D et al.", pubdate:"19.11.2026",
+    journal:"Hum Vaccin Immunother", year:"2026", pmid:"43059099",
+    author:"Shah N et al.", pubdate:"19.11.2026",
+    added:"20.11.2026",
+    title:"Pneumokokken-Impfung: Serotyp 6B schützt auch vor Serotyp 6A durch Kreuzimmunität",
+    sum:"Systematische Übersicht und Meta-Analyse von 43 Studien zu Kreuz-IgG-Antworten gegen Serotyp 6A nach Impfung mit 6B-haltigen Pneumokokken-Konjugat-Impfstoffen, davon 8 mit quantitativen Daten.",
+    result:"6B-Impfstoffe induzieren messbare Kreuzreaktivität gegen 6A. Bei 3+1-Schedules (mit Auffrischung): IgG-GMC 1,63 µg/mL vs. ohne Auffrischung 0,59 µg/mL; Anteil ≥0,35 µg/mL 92,78 % vs. 65,38 %; OPA-GMT 984,6 vs. 169,2. Booster-Dosen erhöhen Kreuzschutz deutlich.",
+    transfer:"Indien (Datenbasis), aber Mechanismus der Kreuzimmunität ist universell; PCV-Strategien sind weltweit anwendbar."
+  },
+  {
+    journal:"PLoS Med", year:"2026", pmid:"43013685",
+    author:"van Zandvoort K et al.", pubdate:"11.11.2026",
+    added:"11.11.2026",
+    title:"Pneumokokken-Impfung in Krisengebieten: Einmalige Dosis schützt Kinder bis zu 3 Jahre",
+    sum:"Modellierungsstudie in einem Vertriebenencamp bei Hargeisa (Somaliland) untersucht, wie wirksam Einzel- und Zweifach-Impfkampagnen mit Pneumokokken-Konjugat-Impfstoffen (PCV) in Krisen-Einstellungen mit unterbrochenen Routineprogrammen sind.",
+    result:"Einmalige PCV-Kampagne mit hoher Abdeckung bei Kindern unter 5 Jahren verhinderte 27 % (95 %-KI: 20–34) der schweren Pneumokokken-Erkrankungen für bis zu 3 Jahre; bei Impfung unter 15 Jahren 38 % (95 %-KI: 29–46). Es sind 108 Impfdosen nötig, um eine schwere Erkrankung zu verhindern. Weltweit würden 30 Millionen Dosen in 5 Jahren erforderlich sein.",
+    transfer:"Somaliland, aber Erkenntnisse zu logistisch machbaren Kampagnen gelten für alle Krisen-Einstellungen."
+  },
+  {
+    journal:"Front Immunol", year:"2026", pmid:"43061033",
+    author:"Li Y et al.", pubdate:"05.11.2026",
+    added:"20.11.2026",
+    title:"Kombinierte Impfung mit Influenza-, Pneumokokken- und Zoster-Impfstoff: Sicherheitsdaten bestätigen Verträglichkeit",
+    sum:"Nachmarkt-Überwachung von 25.697 VAERS-Berichten vergleicht Nebenwirkungen bei gleichzeitiger Gabe von Influenza-Impfstoff, PCV20 und/oder RZV-Impfstoff mit Einzelimpfungen bei Erwachsenen ≥50 Jahren.",
+    result:"Kombinierte Impfung zeigte ernsthafte Nebenwirkungen bei 3,7–5,5 %, vergleichbar oder niedriger als Einzelimpfungen (3,5–6,6 %). Lokale Reaktionen (Erytheme 13,8–16,6 %) waren überwiegend mild, keine Todesfälle berichtet. Kardiovaskuläre Erkrankungen waren zentrale Komorbiditäten.",
+    transfer:"USA (VAERS-Daten), aber Sicherheitsbefunde sind universell übertragbar."
+  },
+  {
+    journal:"Geriatr Psychol Neuropsychiatr Vieil", year:"2026", pmid:"43042679",
+    author:"Corroyer-Simovic B", pubdate:"01.11.2026",
+    added:"17.11.2026",
+    title:"Altersgerechte Impfstrategie in Frankreich: Pneumokokken, RSV und Zoster für ältere Erwachsene",
+    sum:"Die französische Impfempfehlung 2026 definiert Prävention im Alter neu und empfiehlt für Menschen ab 65 Jahren vereinfachte Pneumokokken-Impfung mit PCV21 (eine Dosis für alle), RSV-Impfung ab 75 Jahren, Influenza-Hochdosis-Impfstoffe und Herpes-Zoster-Impfung mit Shingrix®.",
+    result:"PCV21 deckt 83,5 % der invasiven Pneumokokken-Erkrankungen in Frankreich ab; RSV-Impfung reduziert Krankenhausaufnahmen im Winter; Zoster-Impfung verringert nicht nur Neuralgia postherpetika, sondern senkt auch das Schlaganfallrisiko. Koadministration ist sicher und sollte angeboten werden, um Quote zu erhöhen.",
+    transfer:"Frankreich, vergleichbares Versicherungssystem; auch Deutschland führt 2026/2027 ähnliche Empfehlungen ein."
+  },
+  {
+    journal:"Int J Nurs Stud", year:"2026", pmid:"42849113",
+    author:"Cesaro E et al.", pubdate:"02.10.2026",
+    added:"08.10.2026",
+    title:"Warum Pflegekräfte die Grippeimpfung ablehnen: Gering wahrgenom menes Risiko dominiert vor Skepsis",
+    sum:"Querschnittstudie in einem italienischen Universitätskrankenhaus mit 6.079 Gesundheitsberuflern zur Influenza-Saison 2025/2026 erfasst Gründe für Impfablehnung anhand von Rückmeldezetteln.",
+    result:"Impfquote (on-site) 23,1 %; unter 4.565 Ungeimpften gaben 839 (18,4 %) Ablehnungsgründe an. Hauptursache: gering wahrgenommene Impfbedürftigkeit (36,8 %), gefolgt von negativen Erfahrungen (18,0 %). Hesitancy-Motive 33,3 %, Invulnerabilitätsmotive 46,1 %. Jüngere Mitarbeiter berichteten signifikant häufiger Invulnerabilitätsmotive (p &lt; 0,05). Nur 5,5 % mehrere Motive.",
+    transfer:"Italien, aber Strukturen und Besetzung ähnlich deutschem Gesundheitswesen; Skepsis niedriger als Risikowahrnehmung."
+  },
+  {
+    journal:"Trials", year:"2026", pmid:"43058754",
+    author:"Natama HM et al.", pubdate:"27.08.2026",
     added:"19.11.2026",
-    title:"HPV-Impfkenntnis und -akzeptanz bei Kindern mit rheumatischen Erkrankungen",
-    sum:"Querschnittsbefragung von 156 Eltern-Kind-Paaren (9-18 Jahre) mit rheumatologischen Diagnosen und Immunsuppression in Türkei zu HPV-Wissen, Haltung und Impfstatus.",
-    result:"HPV-Impfquote sehr niedrig (3 % bei Kindern und Eltern). Eltern: 48 % je gehört von HPV, 47 % vom Impfstoff. Hauptbarrieren: unzureichendes Wissen (65 % Kinder, 58 % Eltern), Sicherheitsbedenken (38 % bzw. 39 %), fehlende Arztempfehlung (63 % Eltern). Logistische Regression: weibliches Elternteil OR 7,3 (95%-KI 2,2-24,6; p=0,001), Uni-Bildung vs. Primarschule OR 12,9 (95%-KI 1,8-90,4; p=0,010) mit höherer Awareness assoziiert.",
-    transfer:"Türkei - nur für Länder ohne HPV im Impfkalender aussagekräftig; Deutschland: in NIP seit 2007/2018"
-  },
-  {
-    journal:"Hum Vaccin Immunother", year:"2026", pmid:"43050782",
-    author:"Andreoni M et al.", pubdate:"18.11.2026",
-    added:"18.11.2026",
-    title:"RSV-Impfung bei risikobehafteten Erwachsenen 18-59 Jahre: italienische Fachposition",
-    sum:"Fachpositionspapier italienischer und europäischer Experten zur RSV-Impfung bei Erwachsenen mit Komorbiditäten oder Immunsuppression, basierend auf Literaturübersicht zur Krankheitslast.",
-    result:"RSV-Erkrankungsrate bei risikobehafteten Erwachsenen: 37,6 pro 1.000 Personenjahre, 28,4 pro 1.000 Saison. Hospitalisierungsquote 6,5-32,8 %. Drei Impfstoffe zugelassen (Europa ≥18 Jahre, USA Alter-/Risikoabhängig). Panel empfiehlt: RSV-Impfung bei 18-59-Jährigen mit schwerer Immunbeeinträchtigung, Atemwegs-, Herz-, neurologischer oder Nierenerkrankung. Höhere Quote durch Awareness, Professionalisierung, konsistente Policies, bessere Zugänglichkeit.",
-    transfer:"Italien/Europa, vergleichbares Versicherungssystem; zu Deutschland: RSV nicht im Impfkalender, Empfehlung auf Risikopopulationen limitiert"
-  },
-  {
-    journal:"Glob Health Action", year:"2026", pmid:"43049794",
-    author:"Turvey J et al.", pubdate:"18.11.2026",
-    added:"18.11.2026",
-    title:"Routine-Impfung in ländlichem Vanuatu: qualitative Analyse von Verhaltensmustern",
-    sum:"Qualitative Studie mit 14 teilstrukturierten Interviews (Betreuer, Gemeindeleiter, Fachkräfte, Programm-Manager) in zwei Dörfern Vanuatus (Mai/Juni 2024) zu Verhaltens- und Sozialfaktoren der Kinderimpfung gemäß WHO-BeSD-Rahmen.",
-    result:"Betreuer signalisieren starke Unterstützung für Impfung und Motivation. Realität: Gemeinde- und Religionsführer, Geschlechterdynamiken, soziale Netzwerke (sowohl Unterstützung als auch Desinformation) prägen Entscheidung. Vertraute Beziehungen zu Fachkräften und Kommunikationsqualität beeinflussen Erlebnis. Faktoren verschärfen praktische Zugangsbarrieren. Empfehlung: Zuverlässigkeit Outreach, HCW-Kommunikation, Gemeindeleiter + männliche Betreuer + Netzwerk-Einbindung.",
-    transfer:"Vanuatu/Pazifik - qualitativ informativ, aber Kontext zu verschieden für Deutschland"
-  },
-  {
-    journal:"Front Public Health", year:"2026", pmid:"43054303",
-    author:"Silva-Magana AK et al.", pubdate:"04.11.2026",
-    added:"19.11.2026",
-    title:"COVID-19-Impfung bei Jugendlichen: Familie und Zugangsbarrieren",
-    sum:"Querschnittsstudie unter 838 Schülern (15-17 Jahre) in Mexiko zu Faktoren der Impfbereitschaft und -hemmnisse bei COVID-19.",
-    result:"83 % der Jugendlichen waren geimpft. Mütterliche Haltung und Verhalten zeigten stärkeren Einfluss als väterlich, stärker als Sicherheitsbedenken waren Zugangsbarrieren (strukturelle Hemmnisse) und elterliche Ablehnung für Impfhesitanz ausschlaggebend. Alter, Geschlecht und Religion waren nicht signifikant assoziiert.",
-    transfer:"Mexiko - aber familiengestützte Zugänge sind in allen Systemen relevant; Zugangsbarrieren vor Sicherheitsbedenken priorisieren"
-  },
-  {
-    journal:"Front Public Health", year:"2026", pmid:"43054201",
-    author:"Debancho AA et al.", pubdate:"04.11.2026",
-    added:"19.11.2026",
-    title:"Zweite Masernimpfung: Quoten und Einflussfaktoren in Äthiopien",
-    sum:"Querschnittsstudie mit 585 Kindern (15-36 Monate), die erste Masernimpfung erhalten hatten, zu Quote und Determinanten der Zweitleistung.",
-    result:"67,2 % (95%-KI 63-71 %) erhielten zweite Masernimpfung. Signifikant assoziiert: städtischer Wohnort (AOR 3,43), Mutter-/Betreuerbildung College+ (AOR 12,76), Konferenzen für Schwangere (AOR 2,25), Wartezeit ≤15 Min (AOR 4,28), positive Betreuer-Haltung (AOR 6,05). Quote unter WHO-Ziel für Ausrottung.",
-    transfer:"Äthiopien - Bestätigung, dass Mütterbildung, kurze Wartezeiten und Betreuer-Einstellungen zentral sind; nicht auf Deutschland übertragbar"
-  },
-  {
-    journal:"Front Public Health", year:"2026", pmid:"43054057",
-    author:"Ike TJ et al.", pubdate:"04.11.2026",
-    added:"19.11.2026",
-    title:"Impf-Kampagne gegen Hesitanz bei Eltern in Nigeria: randomisierte Pilotstudie",
-    sum:"RCT mit 70 Eltern (Ausfallquote 5 %), deren Kinder nicht/teilweise geimpft waren, zu Machbarkeit und Wirkung einer 3-Minuten-Medienkampagne (ASSURE) gegen Impfhesitanz.",
-    result:"ASSURE zeigte hohe Rekrutierung und Bindung (97 % vs. 92 % Kontrolle). Zufriedenheit Service Satisfaction Scale (SSS): EG 75 %, Kontrolle 26 %. Angst (GAD-7): EG -9,16 (-11,99 bis -6,32) vs. Kontrolle -1,675 (p&lt;0,001). WHO-CVHS-Hesitanz: EG -18,70 (-23,39 bis -14,00) vs. Kontrolle -2,675 (p&lt;0,001).",
-    transfer:"Nigeria - Kampagnen-Design qualitativ, nicht in deutsches System direkt übertragbar"
-  },
-  {
-    journal:"Med J Aust", year:"2026", pmid:"43053545",
-    author:"Chilver MBN et al.", pubdate:"Nov. 2026",
-    added:"19.11.2026",
-    title:"Influenza A(H3N2)-Subklade K: Impfeffektivität in Australien 2025",
-    sum:"Retrospektive Beobachtungsstudie mit Test-Negativ-Design unter 666 bestätigten Influenzafällen (von 3.185 geschwächt) aus sentinel-Hausarztpraxen Australiens 2025 zur Epidemiologie, klinischen Merkmale und Impfeffektivität (VE) gegen Subklade K.",
-    result:"Subklade K erstmals Woche 34, zirkulierte über typische Saison hinaus (Dezember 2025 Peak). 36/98 (37 %) in Kindern 5-17 Jahren. VE gegen Subklade K gesamt 50 % (95%-KI 8,9-73), bei 9 Monaten bis 17 Jahren 76 % (95%-KI 18-93). Kein Oseltamivir-Resistenzmarker bei Subkladen-Viren; 2/3 Antivirale-Rezepte im 48-h-Fenster.",
-    transfer:"Australien - Sentinel-Praxen-Netzwerk funktioniert ähnlich wie Deutsche Sentinelbewertung; VE-Methode übertragbar"
+    title:"Malaria-Impfung in SMC-Kampagnen integrieren: Cluster-randomisierte Studie in Burkina Faso und Mali",
+    sum:"Protokoll einer Phase-IV-Cluster-randomisierten Nichtunterlegenheitsstudie in Boussé (Burkina Faso) und Dioila (Mali) mit 36 Clustern, die untersucht, ob Integration der R21/MM-Malaria-Impfung in Seasonal Malaria Chemoprevention (SMC)-Kampagnen gleichwertig oder besser ist als Routine-EPI-Lieferung.",
+    result:"Primärer Endpunkt: Inzidenz klinischer Malaria bei Kindern 5–36 Monate über 12 Monate. Nichtunterlegenheit definiert mit Marge 0,10. Sekundär: Verträglichkeit, Impfquote, Dropout, Implementierungsbarrieren und Kosten pro vermiedenes Lebensjahr mit Behinderung. Registriert NCT06860178.",
+    transfer:"West Afrika (Burkina Faso, Mali), Lektionen zu Kampagnen-Integration sind für andere Länder mit saisonaler Malaria-Übertragung übertragbar."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2386,7 +2377,7 @@ const ZUL_DIGA = 0;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "20.11.2026";
+const NEWS_STAND = "21.11.2026";
 const NEWS = [
   {titel:"RNA-basierte Medizin – Ansätze, Potenziale und Herausforderungen", datum:"2026-11-16", url:"https://www.monitor-versorgungsforschung.de/news/rna-basierte-medizin-ansaetze-potenziale-und-herausforderungen/"},
   {titel:"13,72 Euro Nutzen je Euro Impfung: OHE-Studie für Pharma Deutschland", datum:"2026-11-10", url:"https://www.monitor-versorgungsforschung.de/news/1372-euro-nutzen-je-euro-impfung-ohe-studie-fuer-pharma-deutschland/"},
