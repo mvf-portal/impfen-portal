@@ -2449,62 +2449,53 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "27. Nov. 2026, 05:01 Uhr";
+const SNAP_DATE = "28. Nov. 2026, 05:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Prim Health Care Res Dev", year:"2026", pmid:"43095763",
-    author:"Gómez-Bravo R et al.", pubdate:"26.11.2026",
+    journal:"Front Public Health", year:"2026", pmid:"43100942",
+    author:"Chen Y et al.", pubdate:"12.11.2026",
+    added:"27.11.2026",
+    title:"Validierung einer Influenza-Impfskepsis-Skala: Stärke und Risiko als Schlüsselfaktoren bei Eltern",
+    sum:"Validierungsstudie einer chinesischen Influenza-Impfskepsis-Skala (VHS-inf-CN) bei 390 Eltern von Schulkindern mit Bezug zu Impfquoten in der Saison 2024/2025.",
+    result:"Impfquote: 21,03%. Impfskepsis-Quote: 17,43%. Höhere Bildung (aOR 3,76) und höheres Einkommen (aOR 5,93) waren paradox mit Impfskepsis assoziiert. Fehlende Kinderimpfung signifikant mit elterlicher Skepsis verbunden (aOR 2,68). VHS-inf-CN zeigte gute Reliabilität (Cronbachs α 0,86) und zwei-Faktoren-Struktur (Vertrauen, Risiko). Skala-Score korrelierte mit Impfstatus (OR 2,28).",
+    transfer:"China; Validiertes Messinstrument übertragbar für deutschsprachige Adaptation"
+  },
+  {
+    journal:"Front Immunol", year:"2026", pmid:"43100875",
+    author:"Kostinova A et al.", pubdate:"12.11.2026",
+    added:"27.11.2026",
+    title:"Influenza-Impfantwort unter biologischer Asthma-Therapie: H3N2 normal, B-Stämme schwächer",
+    sum:"Prospektive Beobachtungsstudie von 147 Asthma-Patienten (126 mit biologischer Therapie, 21 Kontrollen) zur Hämagglutinin-Inhibitions-Titern vor/nach Grippol-Quadrivalent-Impfung in der Saison 2023–2024.",
+    result:"Adjustierte geometrische Mittel-Verhältnisse (GMR, bilogisch/Kontrolle): H1N1 0,61 (p=0,113), H3N2 1,08 (p=0,779), B/Austria 0,46 (p=0,032), B/Phuket 0,59 (p=0,073). B/Austria zeigte nominal niedrigere adjustierte Titer, aber nach zusätzlicher Alters-/Geschlechtsanpassung nicht signifikant. Confidence Intervals für alle Stämme außer B/Austria schlossen 1,0 ein; alle Befunde explorativ.",
+    transfer:"Russland; biologische Therapie beeinträchtigt Impfantwort moderat, nicht kritisch"
+  },
+  {
+    journal:"Health Educ Res", year:"2026", pmid:"43097521",
+    author:"Rodrigues SM et al.", pubdate:"09.10.2026",
     added:"26.11.2026",
-    title:"Impfregistersysteme in der Primärversorgung – Lücke zwischen Datenerfassung und elektronischen Akten",
-    sum:"Deskriptive Studie zu Aufbau und Funktionen von Impfinformationssystemen (IIS) und Meldewesen für unerwünschte Ereignisse in 28 europäischen Ländern während COVID-19-Impfkampagne.",
-    result:"In 27 Ländern existierten nationale IIS, 27 führten Online-Registrierung durch, 18 boten öffentliche Daten an. Integration zwischen IIS und elektronischen Krankenakten gelang in 18 Ländern; nur 17 publikzierten Meldedaten zu unerwünschten Ereignissen. Heterogene Datenqualität, begrenzte IIS–EHR-Integration.",
-    transfer:"28 europäische Länder, direkter Vergleich von Systemen; Deutschland fehlt Impfregister"
+    title:"Was senkt Impfskepsis: Strukturierte Bildung und Gemeindemediation wirksamer als digitale Kampagnen allein",
+    sum:"Scoping Review von 75 Quellen (2015–2025) zu Interventionen gegen Impfskepsis in fünf Kategorien: Kommunikation/Desinformation, Bildung, praktische Umsetzung, personalisierte Ansätze und systemische Maßnahmen.",
+    result:"Häufig effektiv: strukturierte Bildung, kulturell angepasste Strategien, qualifizierte klinische Kommunikation, digitale Technologien, segmentierte Botschaften, Gemeindemediation und nutzerzentrierte Ansätze. Systemische Interventionen betonten Transparenz und Mobilisierung. Heterogenität in Studiendesign und Outcome-Messungen begrenzt direkte Vergleiche. Favorisierte Mischung: Empathische Kommunikation + Fortbildung + kulturelle Anpassung + Organisationsunterstützung.",
+    transfer:"Internationale Evidenz; methodische Heterogenität; keine universelle Rangfolge"
   },
   {
-    journal:"Hum Vaccin Immunother", year:"2026", pmid:"43094333",
-    author:"Yang W et al.", pubdate:"25.11.2026",
-    added:"26.11.2026",
-    title:"Sicherheitsbedenken zur HPV-Impfung reduzieren Impfbereitschaft bei Studentinnen",
-    sum:"Gewichtete Querschnittsstudie zu 37.329 Studentinnen in China: Zusammenhang zwischen Sorgen über HPV-Impfstoffsicherheit und selbstberichteter Impfquote.",
-    result:"19,7 % der Studentinnen waren geimpft. Sehr besorgte Studentinnen hatten ein aPR von 0,60 (95%-KI 0,54–0,67) versus nicht besorgten; besorgte aPR 0,55 (0,50–0,60). Die Assoziation war robust in sensitiven Analysen und zeigte kein log-lineares Muster (p&lt;0,001).",
-    transfer:"China, kulturelle Unterschiede; Mechanismus der Vaccine Hesitancy übertragbar"
+    journal:"Int J Infect Dis", year:"2026", pmid:"42801991",
+    author:"Einarsdottir S et al.", pubdate:"27.09.2026",
+    added:"27.09.2026",
+    title:"Häufige Atemwegsinfektionen nach CAR-T-Therapie: Lymphopenie unter 0,5×10⁹/L als Risikoschwelle",
+    sum:"Retrospektive Analyse von 563 kommerziellen CAR-T-Empfängern (2018–2024) zur Inzidenz, Timing und Immunkorrelaten von Atemwegsvirusinfektionen (RVI) nach CD19- oder BCMA-gerichteter Therapie.",
+    result:"446 RVI-Episoden bei 259 Patienten (46%); erwartet 1,15 RVIs pro Patient in 2 Jahren, schwere (Grad ≥3): 0,25. SARS-CoV-2 (41%) und Rhinovirus (27%) dominant; 18% entwickelten LRTI, 10 infektionsbedingte Todesfälle. ALC &lt;0,5×10⁹/L unabhängig mit erhöhtem Risiko für wiederkehrende und schwere RVI assoziiert. CD19⁺ B-Zellmangel und Mantelzell-Lymphom unabhängig mit schwerem Verlauf verbunden.",
+    transfer:"USA (MSK); Immunrekonstitutionsmarker universell relevant für Versorgung"
   },
   {
-    journal:"Viruses", year:"2026", pmid:"43093844",
-    author:"Filimone EE et al.", pubdate:"04.11.2026",
-    added:"26.11.2026",
-    title:"Rotavirus-Impfquoten und räumliche Muster von Impfausfällen in Mosambik",
-    sum:"Analyse von Impfausfällen (fehlende zweite Dosis Rotarix) in 2.572 Kindern (12–35 Monate) aus Mosambik-DHS 2022–2023 mit räumlicher Clusteranalyse und multilevel logistischer Regression.",
-    result:"Impfabbruchrate 14,7 % (95%-KI 12,8–16,8 %). Hot Spots in Nord- und Zentralmosambik. Höhere Ausfallquoten bei ländlichem Wohnort (aOR), fehlenden Schwangerschaftsvorsorgebesuchen, Fehlens des Impfausweises und wahrgenommener Entfernung zur Klinik.",
-    transfer:"Mosambik, Subsahara-Afrika; Barrieren teils übertragbar auf ressourcenlimitierte Systeme"
-  },
-  {
-    journal:"BMC Public Health", year:"2026", pmid:"43086750",
-    author:"Bian W et al.", pubdate:"03.11.2026",
-    added:"25.11.2026",
-    title:"Vertrauen in HPV-Impfstoffsicherheit vorhersagt Impfwilligkeit bei chinesischen Studentinnen",
-    sum:"Querschnittsstudie zu 2.215 ungeimpften weiblichen Studierenden aus 24 chinesischen Universitäten: Zusammenhang zwischen Vertrauen in Wirksamkeit/Sicherheit und Impfwilligkeit.",
-    result:"36,9 % hatten hohe Impfwilligkeit. Im vollständig angepassten Modell: sehr hohes Vertrauen in Wirksamkeit aOR 5,40 (95%-KI 3,25–8,97), Sicherheit inländischer Impfstoffe aOR 3,31 (1,93–5,67), importierter aOR 5,02 (2,74–9,20). Assoziationen konsistent nach Ausschluss Unentschlossener.",
-    transfer:"China, Vertrauensmechanismen überregional relevant, aber kulturspezifische Implementierung"
-  },
-  {
-    journal:"Med Sci (Basel)", year:"2026", pmid:"43091343",
-    author:"Andrei M et al.", pubdate:"24.10.2026",
-    added:"26.11.2026",
-    title:"HPV-Impfbereitschaft vor Aufklärung in rumänischer Arbeitnehmerstudie",
-    sum:"Querschnittsstudie zu 1.747 weiblichen Arbeitnehmerinnen vor Gesundheitsaufklärungs­gesprächen: Impfbereitschaft, Bewusstsein und Barrieren für HPV-Impfung.",
-    result:"81,0 % kannten HPV-Impfstoff, aber nur 26,1 % hatten Impfbereitschaft, 47,7 % waren unentschlossen, 5,2 % bereits geimpft. Angst vor Nebenwirkungen war die häufigste Barriere (49,4 %). Jüngeres Alter, Bewusstsein und vertraute Informationsquelle waren mit Impfbereitschaft assoziiert.",
-    transfer:"Rumänien, osteuropäischer Kontext, Barrieren auf Versorgungsebene dokumentiert"
-  },
-  {
-    journal:"BMC Public Health", year:"2026", pmid:"43086781",
-    author:"Hegyes G et al.", pubdate:"03.09.2026",
-    added:"25.11.2026",
-    title:"Influenza-Impfquoten bei Erwachsenen mit Atemwegserkrankungen in Ungarn",
-    sum:"Untersuchung von Faktoren für die Influenza-Impfquote bei ungarischen Erwachsenen mit selbstberichteten Atemwegserkrankungen anhand von Daten der Europäischen Gesundheitsbefragung 2009–2019.",
-    result:"Bei Personen mit Atemwegserkrankungen lag die Impfquote bei 24 %, bei solchen ohne bei 12 %. Alter ≥65 Jahre (aOR 5,02), fehlender ärztlicher Kontakt im letzten Jahr (aOR 0,45), Mangel an Facharztbesuchen (aOR 0,48) und kardiovaskuläre/zerebrovaskuläre Komorbiditäten (aOR 1,55) waren signifikant assoziiert. Die Quote blieb über alle Jahre niedrig und konstant.",
-    transfer:"Ungarn, europäische Versicherungssysteme, Routineimpfdaten"
+    journal:"BMC Public Health", year:"2026", pmid:"43099428",
+    author:"Pitt A et al.", pubdate:"05.09.2026",
+    added:"27.11.2026",
+    title:"Warum Jugendliche Impfungen ablehnen: Qualitative Studie zu Einstellungen und Entscheidungsfaktoren",
+    sum:"Qualitative Themenanalyse mit 30 britischen Jugendlichen (12–17 Jahre) zum Verständnis ihrer Einstellungen zu Impfungen; Fünf Themen identifiziert: Verständnis von Impfungen, Angst und Komfort, Autonomie, Informationsquellen und Identität.",
+    result:"Die meisten Teilnehmenden befürworteten Impfungen, aber eine Minderheit hatte keine Adoleszenten-Impfungen erhalten. Impfentscheidungen wurden durch wahrgenommene Krankheitsrisiken und Nadelangst beeinflusst. Jüngere Teilnehmende übernahmen eher kollektive Familienhaltung; ältere berücksichtigten Langzeitnutzen besser. Soziale Medien waren keine Hauptinformationsquelle. Die meisten wünschten sich stärkere Beteiligung an Impfentscheidungen und bessere Angstbewältigung.",
+    transfer:"England, vergleichbares Schulsystem; Impfquoten HPV 72,9% Mädchen/67,7% Jungen unter WHO-Ziel"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2529,7 +2520,7 @@ const ZUL_DIGA = 0;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "27.11.2026";
+const NEWS_STAND = "28.11.2026";
 const NEWS = [
   {titel:"RNA-basierte Medizin – Ansätze, Potenziale und Herausforderungen", datum:"2026-11-16", url:"https://www.monitor-versorgungsforschung.de/news/rna-basierte-medizin-ansaetze-potenziale-und-herausforderungen/"},
   {titel:"13,72 Euro Nutzen je Euro Impfung: OHE-Studie für Pharma Deutschland", datum:"2026-11-10", url:"https://www.monitor-versorgungsforschung.de/news/1372-euro-nutzen-je-euro-impfung-ohe-studie-fuer-pharma-deutschland/"},
@@ -2539,6 +2530,7 @@ const NEWS = [
 // Fremde Pressemeldungen zum Thema — taeglich von scripts/newsfeed.py
 // === PRESSE-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
 const PRESSE = [
+  {titel:"Analyse zum Tag der Krebsvorsorge: Nur noch halb so viel Gebärmutterhalskrebs bei jungen Frauen nach Einführung der HPV-Impfung", datum:"2026-11-27", url:"https://www.presseportal.de/pm/8697/6399155", quelle:"presseportal.de"},
   {titel:"Mikroplastik auch im Hausstaub", datum:"2026-11-24", url:"http://idw-online.de/de/news881444", quelle:"idw"},
 ];
 // === PRESSE-BLOCK-ENDE ===
